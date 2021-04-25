@@ -4,7 +4,6 @@
 mv Brewfile Brewfile_OLD
 # Generate updated Brewfile
 {
-  brew update && brew upgrade
   brew bundle dump
   mv Brewfile_OLD ~/.Trash
 } || {
@@ -16,7 +15,6 @@ mv Brewfile Brewfile_OLD
 mv Atomfile Atomfile_OLD
 # Generate updated Atomfile
 {
-  apm upgrade
   apm list --installed --bare > Atomfile
   mv Atomfile_OLD ~/.Trash
 } || {
