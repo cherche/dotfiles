@@ -1,0 +1,12 @@
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	required = true
+	process = git-lfs filter-process
+[user]
+	name = Ryan Nguyen
+	email = contactryannguyen@gmail.com
+[core]
+	excludesfile = /Users/Ryan/.gitignore
+[credential]
+	helper = osxkeychain
