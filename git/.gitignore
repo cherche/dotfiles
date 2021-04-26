@@ -1,8 +1,36 @@
+# General
 .DS_Store
-.DS_Store?
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+# The other one won't work for whatever reason
+# so we use the hacky "Icon?" which also excludes Icona, etc.
+# Luckily, we don't usually have files with such names
+# but if I one day do, this will be a heck of a bug to fix!
+Icon?
+
+# Thumbnails
 ._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
 .Spotlight-V100
+.TemporaryItems
 .Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# ??
 ehthumbs.db
 Thumbs.db
 *.log
