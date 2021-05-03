@@ -152,7 +152,7 @@ module.exports = {
   //   `project#1.0.1`
   // plugins: ["verminal", "hyperterm-tabs"],
   plugins: [
-    'hypercwd',
+    //'hypercwd',
     'hyperterm-paste',
     //'hyper-quit',
     'hyperterm-close-on-left',
