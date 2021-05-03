@@ -2,5 +2,5 @@
 
 ./packages.sh
 git add .
-git commit -m "Updated"
+git commit -m "[Auto] Updated packages"
 git push
