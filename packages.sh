@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # Back up current Brewfile
 mv Brewfile Brewfile_OLD
