@@ -96,3 +96,4 @@ mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 mas "Rakuten Canada Button", id: 1485926199
 mas "Userscripts", id: 1463298887
+mas "Vimari", id: 1480933944
