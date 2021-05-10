@@ -1,2 +1,1 @@
-alias trash="rmtrash"
 alias cleanupds="find . -type f -name '*.DS_Store' -ls -delete"
