@@ -11,9 +11,15 @@ mv Brewfile Brewfile_OLD
   mv Brewfile_OLD Brewfile
 }
 
-# Back up current Atomfile
+mv npmfile npmfile_OLD
+{
+	npm list --global --parseable --depth=0 | sed '1d' | awk '{gsub(/\/.*\//,"",$1); print}' > npmfile
+  mv npmfile_OLD ~/.Trash
+} || {
+  mv npmfile_OLD npmfile
+}
+
 mv Atomfile Atomfile_OLD
-# Generate updated Atomfile
 {
   apm list --installed --bare > Atomfile
   mv Atomfile_OLD ~/.Trash
