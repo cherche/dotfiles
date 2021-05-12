@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Based on ~/.macos from Mathias Bynens. https://mths.be/macos
 

@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 ln -sv ~/dotfiles/system/.alias ~
 ln -sv ~/dotfiles/system/.env ~
