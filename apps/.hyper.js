@@ -151,6 +151,8 @@ module.exports = {
     'hyperterm-paste',
     'hyper-drop-file',
     'hyperterm-close-on-left',
+     //'hyper-material-theme',
+    //'hyper-one-dark',
     'hyper-ayu',
     //'verminal',
   ],

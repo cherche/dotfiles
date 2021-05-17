@@ -105,3 +105,4 @@ fi
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 source $HOME/.alias
 source $HOME/.env
+. $(brew --prefix)/etc/profile.d/z.sh
