@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-# Link our general dotfiles
-bash './link.sh'
+# Link our general system dotfiles
+bash './links.sh'
 
 # Install Homebrew if not yet installed
 if [[ $(command -v brew) == "" ]]; then
