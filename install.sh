@@ -15,5 +15,8 @@ brew bundle
 # Install Atom packages from Atomfile
 apm install --packages-file Atomfile
 
+# Install npm packages from npmfile
+xargs npm install --global < npmfile
+
 # Link supplementary dotfiles associated with Mac apps
 bash './apps.sh'

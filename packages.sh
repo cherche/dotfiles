@@ -13,7 +13,7 @@ mv Brewfile Brewfile_OLD
 
 mv npmfile npmfile_OLD
 {
-	npm list --global --parseable --depth=0 | sed '1d' | awk '{gsub(/\/.*\//,"",$1); print}' > npmfile
+  npm list --global --parseable --depth=0 | sed '1d' | awk '{gsub(/\/.*\//,"",$1); print}' > npmfile
   mv npmfile_OLD ~/.Trash
 } || {
   mv npmfile_OLD npmfile
