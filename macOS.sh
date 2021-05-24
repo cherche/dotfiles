@@ -40,6 +40,9 @@ defaults write NSGlobalDomain AppleShowAllExtensions -bool true
 # Keep folders on top when sorting by name
 defaults write com.apple.finder _FXSortFoldersFirst -bool true
 
+# Make Dock icons of hidden applications translucent
+defaults write com.apple.dock showhidden -bool true
+
 for app in "Dock" \
 	"Finder"; do
 	killall "${app}" &> /dev/null
