@@ -106,3 +106,18 @@ fi
 source $HOME/.alias
 source $HOME/.env
 . $(brew --prefix)/etc/profile.d/z.sh
+
+# Make crontab read/write ~/.crontab instead of some mystery file
+if test -z $CRONTABCMD; then
+  # allows to source zshrc twice
+  export CRONTABCMD=$(which crontab)
+  crontab()
+  {
+    if [[ $@ == "-e" ]]; then
+      vim ~/.crontab && $CRONTABCMD ~/.crontab
+    else
+      $CRONTABCMD $@
+    fi
+  }
+  $CRONTABCMD ~/.crontab
+fi

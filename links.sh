@@ -7,3 +7,4 @@ ln -sv ~/dotfiles/runcom/.inputrc ~
 ln -sv ~/dotfiles/runcom/.tmux.conf ~
 ln -sv ~/dotfiles/git/.gitconfig ~
 ln -sv ~/dotfiles/git/.gitignore ~
+ln -sv ~/dotfiles/.crontab ~
