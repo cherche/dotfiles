@@ -6,11 +6,11 @@ auto-dark-mode@0.6.0
 busy-signal@2.0.1
 color-picker@2.3.0
 google-java-format@0.0.4
-intentions@2.0.0
+intentions@2.1.1
 language-latex@1.2.0
 language-markdown@0.37.0
 language-pug-jade@0.2.1
-linter@3.3.1
+linter@3.4.0
 linter-js-standard@7.0.0
 linter-ui-default@3.3.1
 no-title-bar@1.11.9
