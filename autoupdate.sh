@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-PATH="/usr/local/bin:/usr/bin:/bin"
+PATH="/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin"
 
 ./packages.sh
 git add .
