@@ -5,6 +5,8 @@ alt - h : yabai -m window --focus west
 alt - j : yabai -m window --focus south
 alt - k : yabai -m window --focus north
 alt - l : yabai -m window --focus east
+# focus window that was previously focused
+alt - tab : yabai -m window --focus recent
 
 # Moving windows
 shift + alt - h : yabai -m window --warp west
@@ -13,9 +15,13 @@ shift + alt - k : yabai -m window --warp north
 shift + alt - l : yabai -m window --warp east
 
 # send window to desktop and follow focus
-shift + cmd - h : yabai -m window --space prev; skhd -k "ctrl + 0x7b"
-shift + cmd - l : yabai -m window --space next; skhd -k "ctrl + 0x7b"
+ctrl + shift + alt - h : yabai -m window --space prev; skhd -k "ctrl + 0x7b"
+ctrl + shift + alt - l : yabai -m window --space next; skhd -k "ctrl + 0x7b"
 # shift + cmd - 2 : yabai -m window --space  2; yabai -m space --focus 2
+
+# send window to display
+shift + cmd - h : yabai -m window --display prev
+shift + cmd - l : yabai -m window --display next
 
 # Resize windows
 ctrl + alt - h : yabai -m window --resize left:-50:0; \
@@ -47,7 +53,8 @@ shift + alt - y : yabai -m space --mirror y-axis
 # float / unfloat window and center on screen
 #shift + alt - t : yabai -m window --toggle float;\
 #                  yabai -m window --grid 4:4:1:1:2:2
-shift + alt - space : yabai -m window --toggle float
+shift + alt - space : yabai -m window --toggle float;\
+                      yabai -m window --grid 16:30:1:1:28:14
 
 # Make window native fullscreen
 alt - d        : yabai -m window --toggle zoom-fullscreen
