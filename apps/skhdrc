@@ -1,4 +1,4 @@
-alt - return : open -a Terminal
+alt - return : open -a Terminal ~
 
 # Navigation
 alt - h : yabai -m window --focus west
