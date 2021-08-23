@@ -72,12 +72,6 @@ plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
 
-# Hop into tmux by default (https://unix.stackexchange.com/a/113768)
-if command -v tmux &> /dev/null && [ -n "$PS1" ] && [[ ! "$TERM" =~ screen ]] && [[ ! "$TERM" =~ tmux ]] && [ -z "$TMUX" ]; then
-  tmux new-session -A -s main
-fi
-# verify tmux installed, verify interactive shell, ignore tmux (no nesting)
-
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
@@ -103,21 +97,5 @@ fi
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-source $HOME/.alias
-source $HOME/.env
-. $(brew --prefix)/etc/profile.d/z.sh
 
-# Make crontab read/write ~/.crontab instead of some mystery file
-if test -z $CRONTABCMD; then
-  # allows to source zshrc twice
-  export CRONTABCMD=$(which crontab)
-  crontab()
-  {
-    if [[ $@ == "-e" ]]; then
-      vim ~/.crontab && $CRONTABCMD ~/.crontab
-    else
-      $CRONTABCMD $@
-    fi
-  }
-  $CRONTABCMD ~/.crontab
-fi
+source .bashrc
