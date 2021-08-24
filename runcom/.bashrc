@@ -8,9 +8,7 @@ fi
 # explanation: verify tmux installed, verify interactive shell, ignore tmux (no nesting)
 
 # Start z in every session to track frecent directories
-if command -v z; then
-  . $(brew --prefix)/etc/profile.d/z.sh
-fi
+. $(brew --prefix)/etc/profile.d/z.sh
 
 # Make crontab read/write ~/.crontab instead of some mystery file
 if test -z $CRONTABCMD; then
