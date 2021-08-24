@@ -6,6 +6,8 @@ passthrough < alt + shift - t ; default
 # ===== General ==========
 
 alt - return : open -a Terminal ~
+alt + shift - return : open -a Finder ~
+alt - m : open -a Spotify
 
 # ===== Navigation ==========
 
