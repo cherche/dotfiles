@@ -30,25 +30,25 @@ alt - n : yabai -m display --focus next
 # ===== Window Placement ==========
 
 # move windows within space
-shift + ctrl + alt - h : yabai -m window --warp west
-shift + ctrl + alt - j : yabai -m window --warp south
-shift + ctrl + alt - k : yabai -m window --warp north
-shift + ctrl + alt - l : yabai -m window --warp east
+shift + alt - h : yabai -m window --warp west
+shift + alt - j : yabai -m window --warp south
+shift + alt - k : yabai -m window --warp north
+shift + alt - l : yabai -m window --warp east
 
 # move windows between spaces (and follow focus)
-shift + ctrl + fn - h : yabai -m window --space prev; yabai -m space --focus prev
-shift + ctrl + fn - l : yabai -m window --space next; yabai -m space --focus next
+shift + fn - h : yabai -m window --space prev; yabai -m space --focus prev
+shift + fn - l : yabai -m window --space next; yabai -m space --focus next
 # shift + cmd - 2 : yabai -m window --space  2; yabai -m space --focus 2
 
 # move windows between displays (and follow focus)
-shift + ctrl + alt - p : yabai -m window --display prev; yabai -m display --focus prev
-shift + ctrl + alt - n : yabai -m window --display next; yabai -m display --focus next
+shift + alt - p : yabai -m window --display prev; yabai -m display --focus prev
+shift + alt - n : yabai -m window --display next; yabai -m display --focus next
 
 # set insertion point for focused container
-ctrl + alt - h : yabai -m window --insert west
-ctrl + alt - j : yabai -m window --insert south
-ctrl + alt - k : yabai -m window --insert north
-ctrl + alt - l : yabai -m window --insert east
+shift + ctrl + alt - h : yabai -m window --insert west
+shift + ctrl + alt - j : yabai -m window --insert south
+shift + ctrl + alt - k : yabai -m window --insert north
+shift + ctrl + alt - l : yabai -m window --insert east
 
 # rotate windows clockwise and anticlockwise
 alt - r        : yabai -m space --rotate 270
@@ -67,13 +67,13 @@ shift + alt - 1 : yabai -m window --grid 16:30:1:1:28:14
 # ===== Window Sizing ==========
 
 # resize windows
-shift + alt - h : yabai -m window --resize left:-50:0; \
+ctrl + alt - h : yabai -m window --resize left:-50:0; \
                   yabai -m window --resize right:-50:0
-shift + alt - j : yabai -m window --resize bottom:0:50; \
+ctrl + alt - j : yabai -m window --resize bottom:0:50; \
                   yabai -m window --resize top:0:50
-shift + alt - k : yabai -m window --resize top:0:-50; \
+ctrl + alt - k : yabai -m window --resize top:0:-50; \
                   yabai -m window --resize bottom:0:-50
-shift + alt - l : yabai -m window --resize right:50:0; \
+ctrl + alt - l : yabai -m window --resize right:50:0; \
                   yabai -m window --resize left:50:0
 
 # equalize size of windows
