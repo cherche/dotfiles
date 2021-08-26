@@ -6,4 +6,4 @@
 # │    └────────────────  Hour     (0..23)
 # └─────────────────────  Minute   (0..59)
 #
-0 10 * * 2,5 cd ~/dotfiles && ./autoupdate.sh
+0 10 * * 2,5 cd ~/dotfiles && ./scripts/autoupdate.sh
