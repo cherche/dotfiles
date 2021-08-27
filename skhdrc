@@ -55,8 +55,8 @@ alt - r        : yabai -m space --rotate 270
 shift + alt - r : yabai -m space --rotate 90
 
 # rotate on X and Y Axis
-shift + alt - 0x1B : yabai -m space --mirror x-axis
-shift + alt - 0x2A : yabai -m space --mirror y-axis
+shift + alt - x : yabai -m space --mirror x-axis
+shift + alt - y : yabai -m space --mirror y-axis
 
 # centre floated window (medium)
 shift + alt - 2 : yabai -m window --grid 6:6:1:1:4:4
