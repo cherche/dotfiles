@@ -114,9 +114,8 @@ shift + alt - 0 : yabai -m space --balance
 
 # ===== Window Modes ==========
 
-# float / unfloat window and centre on screen (large)
-shift + alt - space : yabai -m window --toggle float; \
-                      yabai -m window --grid 16:30:1:1:28:14
+# float / unfloat window
+shift + alt - space : yabai -m window --toggle float
 
 # make window native fullscreen
 alt - f         : yabai -m window --toggle zoom-fullscreen
