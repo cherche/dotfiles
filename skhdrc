@@ -22,6 +22,11 @@ alt - tab : yabai -m window --focus recent
 # shift focus between spaces
 fn - h : yabai -m space --focus prev
 fn - l : yabai -m space --focus next
+fn - 1 : yabai -m space --focus 1
+fn - 2 : yabai -m space --focus 2
+fn - 3 : yabai -m space --focus 3
+fn - 4 : yabai -m space --focus 4
+fn - 5 : yabai -m space --focus 5
 
 # shift focus between dsplays
 alt - p : yabai -m display --focus prev
@@ -44,7 +49,11 @@ shift + cmd - l : yabai -m window --warp east
 # move windows between spaces (and follow focus)
 shift + fn - h : yabai -m window --space prev; yabai -m space --focus prev
 shift + fn - l : yabai -m window --space next; yabai -m space --focus next
-# shift + cmd - 2 : yabai -m window --space  2; yabai -m space --focus 2
+shift + fn - 1 : yabai -m window --space 1; yabai -m space --focus 1
+shift + fn - 2 : yabai -m window --space 2; yabai -m space --focus 2
+shift + fn - 3 : yabai -m window --space 3; yabai -m space --focus 3
+shift + fn - 4 : yabai -m window --space 4; yabai -m space --focus 4
+shift + fn - 5 : yabai -m window --space 5; yabai -m space --focus 5
 
 # move windows between displays (and follow focus)
 shift + alt - p : yabai -m window --display prev; yabai -m display --focus prev
