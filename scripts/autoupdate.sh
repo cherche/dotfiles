@@ -2,7 +2,7 @@
 
 PATH="/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin"
 
-./packages.sh
+./scripts/packages.sh
 git add .
 git commit -m "[Auto] Update dotfiles"
 git push
