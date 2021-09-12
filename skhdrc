@@ -8,6 +8,7 @@ passthrough < alt + shift - t ; default
 alt - return : open -a Terminal ~
 alt + shift - return : open -a Finder ~
 alt - m : open -a Spotify
+cmd + shift - space : open -a Launchpad
 
 # ===== Navigation ==========
 
