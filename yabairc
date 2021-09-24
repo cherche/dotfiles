@@ -38,7 +38,7 @@ yabai -m rule --add label="Safari" app="^Safari$" title="^(General|(Tab|Password
 yabai -m rule --add label="Software Update" title="Software Update" manage=off
 yabai -m rule --add label="System Preferences" app="^Préférences Système$" title=".*" manage=off
 
-yabai -m rule --add label="Calibre" app="^Calibre$" manage=off
+yabai -m rule --add label="Calibre" app="^calibre" manage=off
 yabai -m rule --add label="Colorpicker" app="^Colorpicker$" manage=off
 yabai -m rule --add label="Discord" app="^Discord$" manage=off
 yabai -m rule --add label="KeePassXC" app="^KeePassXC$" manage=off
@@ -47,4 +47,4 @@ yabai -m rule --add label="Slack" app="^Slack$" manage=off
 yabai -m rule --add label="Spotify" app="Spotify" manage=off
 yabai -m rule --add label="Steam" app="^Steam$" manage=off
 yabai -m rule --add label="Teams" app="^Microsoft Teams$" manage=off
-yabai -m rule --add label="Zoom" app="^zoom.us" manage=off
+yabai -m rule --add label="Zoom" app="zoom.us" manage=off
