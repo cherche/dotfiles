@@ -47,4 +47,5 @@ yabai -m rule --add label="Slack" app="^Slack$" manage=off
 yabai -m rule --add label="Spotify" app="Spotify" manage=off
 yabai -m rule --add label="Steam" app="^Steam$" manage=off
 yabai -m rule --add label="Teams" app="^Microsoft Teams$" manage=off
+yabai -m rule --add label="Thunderbird" app="^Thunderbird$" manage=off
 yabai -m rule --add label="Zoom" app="zoom.us" manage=off
