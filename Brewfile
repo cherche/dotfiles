@@ -58,8 +58,9 @@ brew "cherche/custom/spicetify-cli"
 brew "koekeishiya/formulae/skhd"
 brew "xorpse/formulae/yabai", args: ["HEAD"]
 brew "zegervdv/zathura/girara", args: ["HEAD"]
-brew "zegervdv/zathura/zathura", args: ["HEAD"]
+brew "zegervdv/zathura/zathura", args: ["HEAD", "with-synctex"]
 brew "zegervdv/zathura/zathura-cb"
+brew "zegervdv/zathura/zathura-djvu"
 brew "zegervdv/zathura/zathura-pdf-mupdf"
 brew "zegervdv/zathura/zathura-pdf-poppler"
 cask "adobe-acrobat-reader"
