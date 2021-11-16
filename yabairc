@@ -1,7 +1,6 @@
-yabai -m config layout                       bsp
+yabai -m config layout                      bsp
 
-# For whatever reason the top padding isn't respected until it's really big
-yabai -m config top_padding                 28
+yabai -m config top_padding                 6
 yabai -m config bottom_padding              6
 yabai -m config left_padding                8
 yabai -m config right_padding               8
