@@ -56,7 +56,7 @@ brew "youtube-dl"
 brew "z"
 brew "cherche/custom/spicetify-cli"
 brew "koekeishiya/formulae/skhd"
-brew "xorpse/formulae/yabai", args: ["HEAD"]
+brew "koekeishiya/formulae/yabai", args: ["HEAD"], link: false
 brew "zegervdv/zathura/girara", args: ["HEAD"]
 brew "zegervdv/zathura/zathura", args: ["HEAD", "with-synctex"]
 brew "zegervdv/zathura/zathura-cb"
