@@ -6,3 +6,4 @@ ln -sv ~/dotfiles/zathurarc ~/.config/zathura/
 ln -sv ~/dotfiles/alacritty.yml ~/.config/alacritty/
 ln -sv ~/dotfiles/skhdrc ~/.config/skhd/
 ln -sv ~/dotfiles/yabairc ~/.config/yabai/
+ln -sv ~/dotfiles/vimrc ~/.vim/
