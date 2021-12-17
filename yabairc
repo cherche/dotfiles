@@ -47,3 +47,5 @@ yabai -m rule --add label="Steam" app="^Steam$" manage=off
 yabai -m rule --add label="Teams" app="^Microsoft Teams$" manage=off
 yabai -m rule --add label="Thunderbird" app="^Thunderbird$" manage=off
 yabai -m rule --add label="Zoom" app="zoom.us" manage=off
+
+yabai -m rule --add label="Zathura" app="zathura" opacity=1.0
