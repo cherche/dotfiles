@@ -52,8 +52,10 @@ fn + cmd - 4 : yabai -m space --move 4
 fn + cmd - 5 : yabai -m space --move 5
 
 # shift focus between displays
-alt - p : yabai -m display --focus prev
-alt - n : yabai -m display --focus next
+fn - p : yabai -m display --focus prev
+fn - n : yabai -m display --focus next
+# It might be more consistent to bind this to recent space ... but I would never use that
+fn - x : yabai -m display --focus recent
 
 # ===== Window Placement ==========
 
