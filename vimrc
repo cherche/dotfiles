@@ -22,8 +22,8 @@ let g:UltiSnipsSnippetDirectories=["UltiSnips"]
 
 call plug#end()
 
-setlocal spell
-set spelllang=en_us
-inoremap <C-l> <c-g>u<Esc>[s1z=`]a<c-g>u
+" setlocal spell
+" set spelllang=en_us
+" inoremap <C-l> <c-g>u<Esc>[s1z=`]a<c-g>u
 
 set encoding=utf-8
