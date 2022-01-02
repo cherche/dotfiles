@@ -40,7 +40,8 @@ yabai -m rule --add label="Calibre" app="^calibre$" manage=off
 yabai -m rule --add label="Colorpicker" app="^Colorpicker$" manage=off
 yabai -m rule --add label="Discord" app="^Discord$" manage=off
 yabai -m rule --add label="KeePassXC" app="^KeePassXC$" manage=off
-yabai -m rule --add label="Minecraft Launcher" app="^$Minecraft Launcher" manage=off
+yabai -m rule --add label="Minecraft Launcher" app="^Minecraft Launcher$" manage=off
+yabai -m rule --add label="Minecraft" app="^java$" title="^Minecraft" manage=off
 yabai -m rule --add label="Numi" app="^Numi$" manage=off
 yabai -m rule --add label="Slack" app="^Slack$" manage=off
 yabai -m rule --add label="Spotify" app="Spotify" manage=off
