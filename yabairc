@@ -39,10 +39,11 @@ yabai -m rule --add label="System Preferences" app="^Préférences Système$" ti
 yabai -m rule --add label="Calibre" app="^calibre$" manage=off
 yabai -m rule --add label="Colorpicker" app="^Colorpicker$" manage=off
 yabai -m rule --add label="Discord" app="^Discord$" manage=off
-yabai -m rule --add label="KeePassXC" app="^KeePassXC$" manage=off
+yabai -m rule --add label="KeePassXC" app="^KeePassXC$" manage=off opacity=1.0
 yabai -m rule --add label="Minecraft Launcher" app="^Minecraft Launcher$" manage=off
 yabai -m rule --add label="Minecraft" app="^java$" title="^Minecraft" manage=off
 yabai -m rule --add label="Numi" app="^Numi$" manage=off
+yabai -m rule --add label="PyCharm" app="^PyCharm$" manage=off
 yabai -m rule --add label="Slack" app="^Slack$" manage=off
 yabai -m rule --add label="Spotify" app="Spotify" manage=off
 yabai -m rule --add label="Steam" app="^Steam$" manage=off
@@ -50,4 +51,7 @@ yabai -m rule --add label="Teams" app="^Microsoft Teams$" manage=off
 yabai -m rule --add label="Thunderbird" app="^Thunderbird$" manage=off
 yabai -m rule --add label="Zoom" app="zoom.us" manage=off
 
+yabai -m rule --add label="Acrobat Reader" app="Acrobat Reader" opacity=1.0
+yabai -m rule --add label="Aperçu" app="Aperçu" opacity=1.0
+yabai -m rule --add label="DjView" app="DjView" opacity=1.0
 yabai -m rule --add label="Zathura" app="zathura" opacity=1.0
