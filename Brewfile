@@ -7,7 +7,7 @@ tap "homebrew/services"
 tap "khanhas/tap"
 tap "koekeishiya/formulae"
 tap "zegervdv/zathura"
-brew "python@3.9", link: false
+brew "python@3.9"
 brew "pkg-config"
 brew "bat"
 brew "brew-cask-completion"
@@ -34,7 +34,7 @@ brew "imagemagick"
 brew "jack", restart_service: true
 brew "oniguruma"
 brew "jq"
-brew "python@3.10", link: true
+brew "python@3.10"
 brew "mas"
 brew "mercurial"
 brew "micro"
