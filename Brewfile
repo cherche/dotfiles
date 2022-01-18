@@ -31,7 +31,7 @@ brew "haskell-stack"
 brew "highlight"
 brew "htop"
 brew "imagemagick"
-brew "jack", restart_service: true
+brew "jack"
 brew "oniguruma"
 brew "jq"
 brew "python@3.10"
