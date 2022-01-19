@@ -5,8 +5,15 @@ passthrough < alt + shift - t ; default
 
 # ===== General ==========
 
-alt - return : open -a Terminal ~
-alt + shift - return : open -a Finder ~
+# try to focus a Terminal window in this space
+# if none exists, open a new one
+# the idea is to prevent accidental opening of many terminal windows
+alt - return : yabai -m query --windows --space | \
+  jq '[.[] | select(.app == "Terminal") | .id][0]' \
+  | xargs -I{} yabai -m window --focus {} \
+  || open -a Terminal ~
+alt + shift - return : open -a Terminal ~
+alt + ctrl - return : open -a Finder ~
 alt - m : open -a Spotify
 alt - 1 : open -a KeePassXC
 cmd + shift - space : open -a Launchpad
