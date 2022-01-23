@@ -9,10 +9,10 @@ passthrough < alt + shift - t ; default
 # if none exists, open a new one
 # the idea is to prevent accidental opening of many terminal windows
 alt - return : yabai -m query --windows --space | \
-  jq '[.[] | select(.app == "Terminal") | .id][0]' \
+  jq '[.[] | select(.app == "Alacritty") | .id][0]' \
   | xargs -I{} yabai -m window --focus {} \
-  || open -a Terminal ~
-alt + shift - return : open -a Terminal ~
+  || open -n /Applications/Alacritty.app
+alt + shift - return : open -n /Applications/Alacritty.app
 alt + ctrl - return : open -a Finder ~
 alt - m : open -a Spotify
 alt - 1 : open -a KeePassXC
