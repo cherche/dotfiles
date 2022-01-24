@@ -1,0 +1,46 @@
+#!/bin/bash
+
+usage() { echo "Usage: $0 -o <backup dir> -i <sources file> -e <exclude file>" 1>&2; exit 1; }
+
+# Get arguments
+while getopts ":h:o:i:e:" opt; do
+  case "$opt" in
+    h)
+      usage
+      ;;
+    o)
+      BACKUP_PATH="$OPTARG"
+      ;;
+    i)
+      CONFIG_PATH="$OPTARG"
+      ;;
+    e)
+      EXCLUDE_PATH="$OPTARG"
+      ;;
+  esac
+done
+
+# If missing any arguments, show usage
+if [ -z "$BACKUP_PATH" ] || [ -z "$CONFIG_PATH" ] || [ -z "$EXCLUDE_PATH" ]
+then
+  usage
+fi
+
+# Read the config file to find and back up each path
+cat $CONFIG_PATH | while read in_path; do
+  # Cut off any trailing slashes
+  # Ex: /Users/Ryan/_Home/ -> /Users/Ryan/_Home
+  in_path_trimmed="${in_path%"${in_path##*[!/]}"}"
+  # Get the directory name and re-add a single trailing slash
+  # Ex: /Users/Ryan/_Home -> _Home -> _Home/
+  dir_name="${in_path_trimmed##*/}/"
+
+  # And now we have a path to the output!
+  # Ex: /path/to/backup + _Home/ -> /path/to/backup/_Home/
+  out_path="${BACKUP_PATH}/${dir_name}"
+  echo $out_path
+
+  # And now we can back up the directory
+  rsync -av --delete --exclude-from="$EXCLUDE_PATH" "$in_path" "$out_path"
+  # (Quotes are necessary in case of special characters)
+done
