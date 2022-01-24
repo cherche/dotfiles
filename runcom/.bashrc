@@ -1,5 +1,5 @@
-source $HOME/.alias
-source $HOME/.env
+source $HOME/.config/zsh/alias.sh
+source $HOME/.config/zsh/env.sh
 
 # Hop into tmux by default (https://unix.stackexchange.com/a/113768)
 if command -v tmux &> /dev/null && [ -n "$PS1" ] && [[ ! "$TERM" =~ screen ]] && [[ ! "$TERM" =~ tmux ]] && [ -z "$TMUX" ]; then

@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 
 # Link our general system dotfiles
-bash './links.sh'
+bash './scripts/links.sh'
 
 # Install Homebrew if not yet installed
 if [[ $(command -v brew) == "" ]]; then
-    echo "Installing Hombrew"
+    echo "Installing Homebrew"
     /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 fi
 
@@ -17,6 +17,3 @@ apm install --packages-file Atomfile
 
 # Install npm packages from npmfile
 xargs npm install --global < npmfile
-
-# Link supplementary dotfiles associated with Mac apps
-bash './apps.sh'
