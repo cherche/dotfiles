@@ -25,7 +25,8 @@ set backspace=indent,eol,start
 """""
 
 syntax on
-colorscheme monokai
+"colorscheme monokai
+colorscheme onedark
 " Make whitespace invisibles less annoying
 hi SpecialKey cterm=NONE ctermfg=239 ctermbg=none
 set number
