@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#/usr/bin/env bash
 
 ln -svf ~/dotfiles/shell/alias.sh ~/.config/zsh/
 ln -svf ~/dotfiles/shell/env.sh ~/.config/zsh/
@@ -14,6 +14,7 @@ ln -svf ~/dotfiles/.hyper.js ~
 ln -svf ~/dotfiles/spicetify-config.ini ~/.config/spicetify/config-xpui.ini
 ln -svf ~/dotfiles/zathurarc ~/.config/zathura/
 ln -svf ~/dotfiles/alacritty.yml ~/.config/alacritty/
+ln -svf ~/dotfiles/init.sage ~/.sage/
 ln -svf ~/dotfiles/skhdrc ~/.config/skhd/
 ln -svf ~/dotfiles/yabairc ~/.config/yabai/
 ln -svf ~/dotfiles/vimrc ~/.vim/
