@@ -18,6 +18,11 @@ alt - m : open -a Spotify
 alt - 1 : open -a KeePassXC
 cmd + shift - space : open -a Launchpad
 
+# Toggle opacity
+alt - o : [ $(yabai -m config window_opacity) = "on" ] \
+          && yabai -m config window_opacity off \
+          || yabai -m config window_opacity on
+
 # ===== Navigation ==========
 
 # shift focus within space
