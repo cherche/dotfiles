@@ -14,6 +14,7 @@ ln -svf ~/dotfiles/.hyper.js ~
 ln -svf ~/dotfiles/spicetify-config.ini ~/.config/spicetify/config-xpui.ini
 ln -svf ~/dotfiles/zathurarc ~/.config/zathura/
 ln -svf ~/dotfiles/alacritty.yml ~/.config/alacritty/
+ln -svf ~/dotfiles/inkscape-preferences.xml "$HOME/Library/Application Support/org.inkscape.Inkscape/config/inkscape/preferences.xml"
 ln -svf ~/dotfiles/init.sage ~/.sage/
 ln -svf ~/dotfiles/skhdrc ~/.config/skhd/
 ln -svf ~/dotfiles/yabairc ~/.config/yabai/
