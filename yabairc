@@ -2,8 +2,8 @@ yabai -m config layout                      bsp
 
 yabai -m config top_padding                 4
 yabai -m config bottom_padding              4
-yabai -m config left_padding                8
-yabai -m config right_padding               8
+yabai -m config left_padding                6
+yabai -m config right_padding               6
 yabai -m config window_gap                  4
 
 yabai -m config mouse_follows_focus         on
@@ -15,7 +15,7 @@ yabai -m config window_opacity              on
 yabai -m config window_shadow               float
 
 yabai -m config active_window_opacity       1.0
-yabai -m config normal_window_opacity       0.7
+yabai -m config normal_window_opacity       0.8
 
 yabai -m config auto_balance                off
 
@@ -41,6 +41,7 @@ yabai -m rule --add label="Calibre" app="^calibre$" manage=off
 yabai -m rule --add label="Colorpicker" app="^Colorpicker$" manage=off
 yabai -m rule --add label="Discord" app="^Discord$" manage=off
 yabai -m rule --add label="Firefox Downloads" app="^Firefox$" title="^Ouverture de" manage=off
+yabai -m rule --add label="Inkscape" app="Inkscape" manage=off
 yabai -m rule --add label="KeePassXC" app="^KeePassXC$" manage=off opacity=1.0
 yabai -m rule --add label="Minecraft Launcher" app="^Minecraft Launcher$" manage=off
 yabai -m rule --add label="Minecraft" app="^java$" title="^Minecraft" manage=off
