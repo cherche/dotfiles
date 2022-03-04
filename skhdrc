@@ -17,6 +17,9 @@ alt + ctrl - return : open -a Finder ~
 alt - m : open -a Spotify
 alt - 1 : open -a KeePassXC
 cmd + shift - space : open -a Launchpad
+# Convenient shortcuts for Focusing menu bar and dock
+fn - w : skhd -k "ctrl - f2"
+fn - s : skhd -k "ctrl - f3"
 
 # Toggle opacity
 alt - o : [ $(yabai -m config window_opacity) = "on" ] \
