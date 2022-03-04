@@ -125,8 +125,8 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="219.572"
-         height="219.572" />
+         width="829.878"
+         height="829.878" />
       <eventcontext
          id="3dbox"
          style="stroke:none;stroke-linejoin:round;"
@@ -162,11 +162,11 @@
          end="0"
          start="0"
          usecurrent="1"
-         rx="90.4052"
-         ry="90.4052" />
+         rx="88.899"
+         ry="88.899" />
       <eventcontext
          id="star"
-         magnitude="5"
+         magnitude="3"
          style="fill:yellow;"
          usecurrent="1"
          proportion="0.5" />
@@ -174,7 +174,9 @@
          id="spiral"
          style="fill:none;stroke:black"
          expansion="1"
-         usecurrent="0" />
+         usecurrent="0"
+         revolution="4.58712"
+         t0="0.318571" />
     </group>
     <group
        id="freehand"
@@ -342,8 +344,8 @@
        live_outline="1"
        live_objects="1"
        show_helperpath="0"
-       x="53.3235"
-       y="-33.3221"
+       x="174.502"
+       y="529.347"
        edit_clipping_paths="0"
        edit_masks="0" />
     <eventcontext
@@ -568,7 +570,7 @@
     <group
        id="preferences"
        state="1"
-       page="50" />
+       page="47" />
     <group
        id="gradienteditor" />
     <group
@@ -601,7 +603,7 @@
     <group
        id="open"
        enable_preview="1"
-       path="" />
+       path="/Users/ryan/work/Artwork/Playlist Covers/Administrative/" />
     <group
        id="import"
        enable_preview="1"
@@ -814,7 +816,7 @@
        value="2" />
     <group
        id="transform"
-       stroke="1"
+       stroke="0"
        rectcorners="1"
        pattern="1"
        gradient="1" />
@@ -948,7 +950,7 @@
      org.inkscape.input.gdkpixbuf.png.link="link" />
   <group
      id="desktop"
-     style="fill:#2b0000;font-size:21.33333333px;text-anchor:middle;text-align:center;line-height:1;stroke-width:7">
+     style="fill:#162d50;font-size:21.33333333px;text-anchor:middle;text-align:center;line-height:1;stroke-width:15;stroke:#162d50">
     <group
        width="1428"
        height="840"
