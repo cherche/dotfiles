@@ -69,3 +69,4 @@ yabai -m rule --add label="Acrobat Reader" app="Acrobat Reader" opacity=1.0
 yabai -m rule --add label="Aperçu" app="Aperçu" opacity=1.0
 yabai -m rule --add label="DjView" app="DjView" opacity=1.0
 yabai -m rule --add label="Zathura" app="zathura" opacity=1.0
+#yabai -m rule --add app="^Alacritty$" border=off
