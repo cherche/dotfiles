@@ -34,7 +34,7 @@ brew "imagemagick"
 brew "jack"
 brew "oniguruma"
 brew "jq"
-brew "python@3.10"
+brew "python@3.10", link: true
 brew "mas"
 brew "mercurial"
 brew "micro"
