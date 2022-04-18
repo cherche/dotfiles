@@ -29,7 +29,7 @@ alt - o : [ $(yabai -m config window_opacity) = "on" ] \
 # ===== Navigation ==========
 
 # shift focus within space
-alt - x : ~/dotfiles/macros/focus-recent-improved.sh
+alt - x : ~/dotfiles/skhd/macros/focus-recent-improved.sh
 # This old implementation only focuses the most recent managed window :(
 #alt - x : yabai -m window --focus recent
 alt - h : yabai -m window --focus west
@@ -38,12 +38,12 @@ alt - k : yabai -m window --focus north
 alt - l : yabai -m window --focus east
 alt - z : yabai -m window --focus stack.prev
 alt - c : yabai -m window --focus stack.next
-alt - space : ~/dotfiles/macros/toggle-float-focus.sh
+alt - space : ~/dotfiles/skhd/macros/toggle-float-focus.sh
 
 # cycle all windows on space by coordinate
 #alt - tab : yabai -m window --focus "$(yabai -m query --windows --space | jq -re "[sort_by(.id, .frame) | reverse | .[] | select(.role == \"AXWindow\" and .subrole == \"AXStandardWindow\") | .id] | nth(index($(yabai -m query --windows --window | jq -re ".id")) - 1)")"
-alt - tab : ~/dotfiles/macros/cycle-forward.sh
-shift + alt - tab : ~/dotfiles/macros/cycle-backward.sh
+alt - tab : ~/dotfiles/skhd/macros/cycle-forward.sh
+shift + alt - tab : ~/dotfiles/skhd/macros/cycle-backward.sh
 
 # shift focus between spaces
 fn - h : yabai -m space --focus prev
