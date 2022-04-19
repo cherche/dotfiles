@@ -1,4 +1,4 @@
-tap "cherche/custom", "git@github.com:cherche/homebrew-custom.git"
+tap "cherche/custom", "git@github.com:cherche/homebrew-custom"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-versions"
