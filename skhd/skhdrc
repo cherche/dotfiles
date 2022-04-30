@@ -65,6 +65,10 @@ fn - 2 : yabai -m space --focus 2
 fn - 3 : yabai -m space --focus 3
 fn - 4 : yabai -m space --focus 4
 fn - 5 : yabai -m space --focus 5
+fn - 6 : yabai -m space --focus 6
+fn - 7 : yabai -m space --focus 7
+fn - 8 : yabai -m space --focus 8
+fn - 9 : yabai -m space --focus 9
 
 # swap spaces. I know it doesn't fit under navigation but my categories literally have no other place to put this
 fn + alt - h : yabai -m space --swap prev
@@ -74,6 +78,10 @@ fn + alt - 2 : yabai -m space --swap 2
 fn + alt - 3 : yabai -m space --swap 3
 fn + alt - 4 : yabai -m space --swap 4
 fn + alt - 5 : yabai -m space --swap 5
+fn + alt - 6 : yabai -m space --swap 6
+fn + alt - 7 : yabai -m space --swap 7
+fn + alt - 8 : yabai -m space --swap 8
+fn + alt - 9 : yabai -m space --swap 9
 
 # move spaces
 fn + cmd - 1 : yabai -m space --move 1
@@ -81,6 +89,10 @@ fn + cmd - 2 : yabai -m space --move 2
 fn + cmd - 3 : yabai -m space --move 3
 fn + cmd - 4 : yabai -m space --move 4
 fn + cmd - 5 : yabai -m space --move 5
+fn + cmd - 6 : yabai -m space --move 6
+fn + cmd - 7 : yabai -m space --move 7
+fn + cmd - 8 : yabai -m space --move 8
+fn + cmd - 9 : yabai -m space --move 9
 
 # shift focus between displays
 alt - p : yabai -m display --focus prev
@@ -110,6 +122,10 @@ shift + fn - 2 : yabai -m window --space 2 && yabai -m space --focus 2
 shift + fn - 3 : yabai -m window --space 3 && yabai -m space --focus 3
 shift + fn - 4 : yabai -m window --space 4 && yabai -m space --focus 4
 shift + fn - 5 : yabai -m window --space 5 && yabai -m space --focus 5
+shift + fn - 6 : yabai -m window --space 6 && yabai -m space --focus 6
+shift + fn - 7 : yabai -m window --space 7 && yabai -m space --focus 7
+shift + fn - 8 : yabai -m window --space 8 && yabai -m space --focus 8
+shift + fn - 9 : yabai -m window --space 9 && yabai -m space --focus 9
 
 # move windows between displays (and follow focus)
 shift + alt - p : yabai -m window --display prev && yabai -m display --focus prev
