@@ -31,6 +31,11 @@ alt - b : [ $(yabai -m config window_border) = "on" ] \
           && yabai -m config window_border off \
           || yabai -m config window_border on
 
+# Toggle window gaps
+alt - g : [ $(yabai -m config window_gap) = "4" ] \
+          && yabai -m config window_gap 0 \
+          || yabai -m config window_gap 4
+
 # ===== Navigation ==========
 
 # shift focus within space
