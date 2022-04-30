@@ -3,6 +3,11 @@
 alt + shift - t ; passthrough
 passthrough < alt + shift - t ; default
 
+# vim-style insert mode and normal mode
+# also visually indicates mode using colour
+alt - i : ~/dotfiles/skhd/macros/insert-mode.sh
+passthrough < alt - i : ~/dotfiles/skhd/macros/normal-mode.sh
+
 # ===== General ==========
 
 # try to focus a Terminal window in this space
