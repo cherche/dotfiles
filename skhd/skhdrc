@@ -48,8 +48,8 @@ alt - h : yabai -m window --focus west
 alt - j : yabai -m window --focus south
 alt - k : yabai -m window --focus north
 alt - l : yabai -m window --focus east
-alt - z : yabai -m window --focus stack.prev
-alt - c : yabai -m window --focus stack.next
+alt - z : yabai -m window --focus stack.prev || ~/dotfiles/skhd/macros/e.sh
+alt - c : yabai -m window --focus stack.next || ~/dotfiles/skhd/macros/e.sh
 alt - space : ~/dotfiles/skhd/macros/toggle-float-focus.sh
 
 # cycle all windows on space by coordinate
@@ -58,47 +58,47 @@ alt - tab : ~/dotfiles/skhd/macros/cycle-forward.sh
 shift + alt - tab : ~/dotfiles/skhd/macros/cycle-backward.sh
 
 # shift focus between spaces
-fn - h : yabai -m space --focus prev
-fn - l : yabai -m space --focus next
-fn - 1 : yabai -m space --focus 1
-fn - 2 : yabai -m space --focus 2
-fn - 3 : yabai -m space --focus 3
-fn - 4 : yabai -m space --focus 4
-fn - 5 : yabai -m space --focus 5
-fn - 6 : yabai -m space --focus 6
-fn - 7 : yabai -m space --focus 7
-fn - 8 : yabai -m space --focus 8
-fn - 9 : yabai -m space --focus 9
+fn - h : yabai -m space --focus prev || ~/dotfiles/skhd/macros/e.sh
+fn - l : yabai -m space --focus next || ~/dotfiles/skhd/macros/e.sh
+fn - 1 : yabai -m space --focus 1    || ~/dotfiles/skhd/macros/e.sh
+fn - 2 : yabai -m space --focus 2    || ~/dotfiles/skhd/macros/e.sh
+fn - 3 : yabai -m space --focus 3    || ~/dotfiles/skhd/macros/e.sh
+fn - 4 : yabai -m space --focus 4    || ~/dotfiles/skhd/macros/e.sh
+fn - 5 : yabai -m space --focus 5    || ~/dotfiles/skhd/macros/e.sh
+fn - 6 : yabai -m space --focus 6    || ~/dotfiles/skhd/macros/e.sh
+fn - 7 : yabai -m space --focus 7    || ~/dotfiles/skhd/macros/e.sh
+fn - 8 : yabai -m space --focus 8    || ~/dotfiles/skhd/macros/e.sh
+fn - 9 : yabai -m space --focus 9    || ~/dotfiles/skhd/macros/e.sh
 
 # swap spaces. I know it doesn't fit under navigation but my categories literally have no other place to put this
-fn + alt - h : yabai -m space --swap prev
-fn + alt - l : yabai -m space --swap next
-fn + alt - 1 : yabai -m space --swap 1
-fn + alt - 2 : yabai -m space --swap 2
-fn + alt - 3 : yabai -m space --swap 3
-fn + alt - 4 : yabai -m space --swap 4
-fn + alt - 5 : yabai -m space --swap 5
-fn + alt - 6 : yabai -m space --swap 6
-fn + alt - 7 : yabai -m space --swap 7
-fn + alt - 8 : yabai -m space --swap 8
-fn + alt - 9 : yabai -m space --swap 9
+fn + alt - h : yabai -m space --swap prev && ~/dotfiles/skhd/macros/s.sh || ~/dotfiles/skhd/macros/e.sh
+fn + alt - l : yabai -m space --swap next && ~/dotfiles/skhd/macros/s.sh || ~/dotfiles/skhd/macros/e.sh
+fn + alt - 1 : yabai -m space --swap 1    && ~/dotfiles/skhd/macros/s.sh || ~/dotfiles/skhd/macros/e.sh
+fn + alt - 2 : yabai -m space --swap 2    && ~/dotfiles/skhd/macros/s.sh || ~/dotfiles/skhd/macros/e.sh
+fn + alt - 3 : yabai -m space --swap 3    && ~/dotfiles/skhd/macros/s.sh || ~/dotfiles/skhd/macros/e.sh
+fn + alt - 4 : yabai -m space --swap 4    && ~/dotfiles/skhd/macros/s.sh || ~/dotfiles/skhd/macros/e.sh
+fn + alt - 5 : yabai -m space --swap 5    && ~/dotfiles/skhd/macros/s.sh || ~/dotfiles/skhd/macros/e.sh
+fn + alt - 6 : yabai -m space --swap 6    && ~/dotfiles/skhd/macros/s.sh || ~/dotfiles/skhd/macros/e.sh
+fn + alt - 7 : yabai -m space --swap 7    && ~/dotfiles/skhd/macros/s.sh || ~/dotfiles/skhd/macros/e.sh
+fn + alt - 8 : yabai -m space --swap 8    && ~/dotfiles/skhd/macros/s.sh || ~/dotfiles/skhd/macros/e.sh
+fn + alt - 9 : yabai -m space --swap 9    && ~/dotfiles/skhd/macros/s.sh || ~/dotfiles/skhd/macros/e.sh
 
 # move spaces
-fn + cmd - 1 : yabai -m space --move 1
-fn + cmd - 2 : yabai -m space --move 2
-fn + cmd - 3 : yabai -m space --move 3
-fn + cmd - 4 : yabai -m space --move 4
-fn + cmd - 5 : yabai -m space --move 5
-fn + cmd - 6 : yabai -m space --move 6
-fn + cmd - 7 : yabai -m space --move 7
-fn + cmd - 8 : yabai -m space --move 8
-fn + cmd - 9 : yabai -m space --move 9
+fn + cmd - 1 : yabai -m space --move 1 && ~/dotfiles/skhd/macros/s.sh || ~/dotfiles/skhd/macros/e.sh
+fn + cmd - 2 : yabai -m space --move 2 && ~/dotfiles/skhd/macros/s.sh || ~/dotfiles/skhd/macros/e.sh
+fn + cmd - 3 : yabai -m space --move 3 && ~/dotfiles/skhd/macros/s.sh || ~/dotfiles/skhd/macros/e.sh
+fn + cmd - 4 : yabai -m space --move 4 && ~/dotfiles/skhd/macros/s.sh || ~/dotfiles/skhd/macros/e.sh
+fn + cmd - 5 : yabai -m space --move 5 && ~/dotfiles/skhd/macros/s.sh || ~/dotfiles/skhd/macros/e.sh
+fn + cmd - 6 : yabai -m space --move 6 && ~/dotfiles/skhd/macros/s.sh || ~/dotfiles/skhd/macros/e.sh
+fn + cmd - 7 : yabai -m space --move 7 && ~/dotfiles/skhd/macros/s.sh || ~/dotfiles/skhd/macros/e.sh
+fn + cmd - 8 : yabai -m space --move 8 && ~/dotfiles/skhd/macros/s.sh || ~/dotfiles/skhd/macros/e.sh
+fn + cmd - 9 : yabai -m space --move 9 && ~/dotfiles/skhd/macros/s.sh || ~/dotfiles/skhd/macros/e.sh
 
 # shift focus between displays
-alt - p : yabai -m display --focus prev
-alt - n : yabai -m display --focus next
+alt - p : yabai -m display --focus prev || ~/dotfiles/skhd/macros/e.sh
+alt - n : yabai -m display --focus next || ~/dotfiles/skhd/macros/e.sh
 # It might be more consistent to bind this to recent space ... but I would never use that
-fn - x : yabai -m display --focus recent
+fn - x : yabai -m display --focus recent || ~/dotfiles/skhd/macros/e.sh
 
 # ===== Window Placement ==========
 
@@ -115,21 +115,21 @@ shift + cmd - k : yabai -m window --warp north
 shift + cmd - l : yabai -m window --warp east
 
 # move windows between spaces (and follow focus)
-shift + fn - h : yabai -m window --space prev && yabai -m space --focus prev
-shift + fn - l : yabai -m window --space next && yabai -m space --focus next
-shift + fn - 1 : yabai -m window --space 1 && yabai -m space --focus 1
-shift + fn - 2 : yabai -m window --space 2 && yabai -m space --focus 2
-shift + fn - 3 : yabai -m window --space 3 && yabai -m space --focus 3
-shift + fn - 4 : yabai -m window --space 4 && yabai -m space --focus 4
-shift + fn - 5 : yabai -m window --space 5 && yabai -m space --focus 5
-shift + fn - 6 : yabai -m window --space 6 && yabai -m space --focus 6
-shift + fn - 7 : yabai -m window --space 7 && yabai -m space --focus 7
-shift + fn - 8 : yabai -m window --space 8 && yabai -m space --focus 8
-shift + fn - 9 : yabai -m window --space 9 && yabai -m space --focus 9
+shift + fn - h : yabai -m window --space prev && yabai -m space --focus prev || ~/dotfiles/skhd/macros/e.sh
+shift + fn - l : yabai -m window --space next && yabai -m space --focus next || ~/dotfiles/skhd/macros/e.sh
+shift + fn - 1 : yabai -m window --space 1 && yabai -m space --focus 1 || ~/dotfiles/skhd/macros/e.sh
+shift + fn - 2 : yabai -m window --space 2 && yabai -m space --focus 2 || ~/dotfiles/skhd/macros/e.sh
+shift + fn - 3 : yabai -m window --space 3 && yabai -m space --focus 3 || ~/dotfiles/skhd/macros/e.sh
+shift + fn - 4 : yabai -m window --space 4 && yabai -m space --focus 4 || ~/dotfiles/skhd/macros/e.sh
+shift + fn - 5 : yabai -m window --space 5 && yabai -m space --focus 5 || ~/dotfiles/skhd/macros/e.sh
+shift + fn - 6 : yabai -m window --space 6 && yabai -m space --focus 6 || ~/dotfiles/skhd/macros/e.sh
+shift + fn - 7 : yabai -m window --space 7 && yabai -m space --focus 7 || ~/dotfiles/skhd/macros/e.sh
+shift + fn - 8 : yabai -m window --space 8 && yabai -m space --focus 8 || ~/dotfiles/skhd/macros/e.sh
+shift + fn - 9 : yabai -m window --space 9 && yabai -m space --focus 9 || ~/dotfiles/skhd/macros/e.sh
 
 # move windows between displays (and follow focus)
-shift + alt - p : yabai -m window --display prev && yabai -m display --focus prev
-shift + alt - n : yabai -m window --display next && yabai -m display --focus next
+shift + alt - p : yabai -m window --display prev && yabai -m display --focus prev || ~/dotfiles/skhd/macros/e.sh
+shift + alt - n : yabai -m window --display next && yabai -m display --focus next || ~/dotfiles/skhd/macros/e.sh
 
 # set insertion point for focused container
 shift + ctrl + alt - h : yabai -m window --insert west
