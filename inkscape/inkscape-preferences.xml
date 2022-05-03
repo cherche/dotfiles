@@ -125,8 +125,8 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="829.878"
-         height="829.878" />
+         width="1276.4"
+         height="1431.9" />
       <eventcontext
          id="3dbox"
          style="stroke:none;stroke-linejoin:round;"
@@ -162,8 +162,8 @@
          end="0"
          start="0"
          usecurrent="1"
-         rx="88.899"
-         ry="88.899" />
+         rx="335.996"
+         ry="335.996" />
       <eventcontext
          id="star"
          magnitude="3"
@@ -175,8 +175,8 @@
          style="fill:none;stroke:black"
          expansion="1"
          usecurrent="0"
-         revolution="4.58712"
-         t0="0.318571" />
+         revolution="3"
+         t0="0" />
     </group>
     <group
        id="freehand"
@@ -524,7 +524,7 @@
   </group>
   <group
      id="colorselector"
-     page="2" />
+     page="1" />
   <group
      id="embedded">
     <group
@@ -570,7 +570,7 @@
     <group
        id="preferences"
        state="1"
-       page="47" />
+       page="7" />
     <group
        id="gradienteditor" />
     <group
@@ -603,7 +603,7 @@
     <group
        id="open"
        enable_preview="1"
-       path="/Users/ryan/work/Artwork/Playlist Covers/Administrative/" />
+       path="/Users/ryan/home/Themes/Wallpapers/" />
     <group
        id="import"
        enable_preview="1"
@@ -950,7 +950,7 @@
      org.inkscape.input.gdkpixbuf.png.link="link" />
   <group
      id="desktop"
-     style="fill:#162d50;font-size:21.33333333px;text-anchor:middle;text-align:center;line-height:1;stroke-width:15;stroke:#162d50">
+     style="fill:#7b6530;font-size:21.33333333px;text-anchor:middle;text-align:center;line-height:1;stroke-width:10;stroke:#512f5e">
     <group
        width="1428"
        height="840"
