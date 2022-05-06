@@ -54,6 +54,7 @@ yabai -m rule --add label="Calibre" app="^calibre$" manage=off
 yabai -m rule --add label="Colorpicker" app="^Colorpicker$" manage=off
 yabai -m rule --add label="Discord" app="^Discord$" manage=off
 yabai -m rule --add label="Firefox Downloads" app="^Firefox$" title="^Ouverture de" manage=off
+yabai -m rule --add label="Firefox About" app="^Firefox$" title="^$" manage=off
 #yabai -m rule --add label="Firefox Library" app="^Firefox$" title="^Bibliothèque$" manage=off
 yabai -m rule --add label="Inkscape" app="Inkscape" manage=off
 yabai -m rule --add label="KeePassXC" app="^KeePassXC$" manage=off opacity=1.0
