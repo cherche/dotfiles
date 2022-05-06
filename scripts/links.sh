@@ -16,6 +16,7 @@ ln -svf ~/dotfiles/spicetify/spicetify-config.ini ~/.config/spicetify/config-xpu
 ln -svf ~/dotfiles/zathura/zathurarc ~/.config/zathura/
 ln -svf ~/dotfiles/alacritty/alacritty.yml ~/.config/alacritty/
 ln -svf ~/dotfiles/inkscape/inkscape-preferences.xml "$HOME/Library/Application Support/org.inkscape.Inkscape/config/inkscape/preferences.xml"
+ln -svf ~/dotfiles/mpv/mpv.conf ~/.config/mpv/
 ln -svf ~/dotfiles/sage/init.sage ~/.sage/
 ln -svf ~/dotfiles/skhd/skhdrc ~/.config/skhd/
 ln -svf ~/dotfiles/yabai/yabairc ~/.config/yabai/
