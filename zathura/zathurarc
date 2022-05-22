@@ -1,3 +1,6 @@
+set scroll-step 10
 set selection-clipboard clipboard
+set window-title-basename true
+
 set recolor-darkcolor \#f8e5db
 set recolor-lightcolor \#121212
