@@ -12,7 +12,7 @@ ln -svf ~/dotfiles/git/.gitignore ~
 ln -svf ~/dotfiles/.crontab ~
 
 ln -svf ~/dotfiles/hyper/.hyper.js ~
-ln -svf ~/dotfiles/spicetify/spicetify-config.ini ~/.config/spicetify/config-xpui.ini
+ln -svf ~/dotfiles/spicetify/config-xpui.ini ~/.config/spicetify/
 ln -svf ~/dotfiles/zathura/zathurarc ~/.config/zathura/
 ln -svf ~/dotfiles/alacritty/alacritty.yml ~/.config/alacritty/
 ln -svf ~/dotfiles/inkscape/inkscape-preferences.xml "$HOME/Library/Application Support/org.inkscape.Inkscape/config/inkscape/preferences.xml"
