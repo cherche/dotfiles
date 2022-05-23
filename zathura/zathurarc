@@ -1,4 +1,4 @@
-set scroll-step 10
+# set scroll-step 10 # I would keep this except is also affects keyboard scroll :(((
 set selection-clipboard clipboard
 set window-title-basename true
 
