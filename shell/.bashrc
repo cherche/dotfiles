@@ -24,3 +24,5 @@ if test -z $CRONTABCMD; then
   }
   $CRONTABCMD ~/.crontab
 fi
+
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash
