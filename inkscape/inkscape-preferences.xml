@@ -125,8 +125,8 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="4824.19"
-         height="5411.91" />
+         width="378.676171163355"
+         height="246.010754954197" />
       <eventcontext
          id="3dbox"
          style="stroke:none;stroke-linejoin:round;"
@@ -162,11 +162,11 @@
          end="0"
          start="0"
          usecurrent="1"
-         rx="4.85939"
-         ry="4.85939" />
+         rx="52.808585395367"
+         ry="52.808585395367" />
       <eventcontext
          id="star"
-         magnitude="3"
+         magnitude="5"
          style="fill:yellow;"
          usecurrent="1"
          proportion="0.5" />
@@ -200,19 +200,21 @@
     <eventcontext
        id="calligraphic"
        style="fill:black;fill-opacity:1;fill-rule:nonzero;stroke:none;"
-       mass="1"
-       angle="90"
-       width="15.118"
-       thinning="0"
-       flatness="0"
-       cap_rounding="1"
+       mass="8"
+       angle="45"
+       width="5.002"
+       thinning="-47"
+       flatness="16"
+       cap_rounding="0.1"
        usecurrent="1"
        tracebackground="0"
-       usepressure="0"
-       usetilt="0"
+       usepressure="1"
+       usetilt="1"
        keep_selected="1"
        abs_width="0"
-       unit="px">
+       unit="px"
+       wiggle="25"
+       tremor="0">
       <group
          id="preset">
         <group
@@ -344,8 +346,8 @@
        live_outline="1"
        live_objects="1"
        show_helperpath="0"
-       x="174.502"
-       y="529.347"
+       x="120.10044621033"
+       y="639.458068620489"
        edit_clipping_paths="0"
        edit_masks="0" />
     <eventcontext
@@ -377,7 +379,8 @@
        mean="0" />
     <eventcontext
        id="gradient"
-       selcue="1" />
+       selcue="1"
+       newgradient="2" />
     <eventcontext
        id="mesh"
        selcue="1" />
@@ -404,6 +407,13 @@
        id="paintbucket"
        style="fill:#a0a0a0;stroke:none;"
        usecurrent="1" />
+    <eventcontext
+       id="marker"
+       selcue="1"
+       gradientdrag="1" />
+    <group
+       id="geometric"
+       mode="drag" />
   </group>
   <group
      id="palette">
@@ -524,7 +534,8 @@
   </group>
   <group
      id="colorselector"
-     page="1" />
+     page="1"
+     switcher="1" />
   <group
      id="embedded">
     <group
@@ -571,7 +582,7 @@
     <group
        id="preferences"
        state="1"
-       page="7" />
+       page="29" />
     <group
        id="gradienteditor" />
     <group
@@ -580,13 +591,17 @@
        id="export"
        default=""
        append_extension="1"
-       path="">
+       path=""
+       defaultopts="1">
       <group
          id="exportarea"
          value="page" />
       <group
          id="defaultxdpi"
          value="96" />
+      <group
+         id="batchexportarea"
+         value="layer" />
     </group>
     <group
        id="save_as"
@@ -604,7 +619,7 @@
     <group
        id="open"
        enable_preview="1"
-       path="/Users/ryan/home/Themes/Wallpapers/" />
+       path="/Users/ryan/work/Artwork/Playlist Covers/Administrative" />
     <group
        id="import"
        enable_preview="1"
@@ -619,7 +634,8 @@
        id="debug"
        redirect="0" />
     <group
-       id="clonetiler" />
+       id="clonetiler"
+       dotrace="0" />
     <group
        id="gridtiler" />
     <group
@@ -664,6 +680,7 @@
   </group>
   <group
      id="options"
+     rotationlock="1"
      onimport="0">
     <group
        id="renderingcache"
@@ -843,7 +860,8 @@
     <group
        id="maskobject"
        topmost="1"
-       remove="1" />
+       remove="1"
+       grouping="0" />
     <group
        id="blurquality"
        value="0" />
@@ -932,27 +950,34 @@
        partialdynamic="0" />
     <group
        id="boot"
-       theme="colorful"
+       theme="custom"
        enabled="1">
       <group
          id="shown"
          ver1.1="1"
          ver1.1.1="1"
-         ver1.1.2="1" />
+         ver1.1.2="1"
+         ver1.2="1" />
     </group>
     <group
        id="rendering" />
     <group
        id="font"
        unitType="2" />
+    <group
+       id="kbshortcuts"
+       shortcutfile="default.xml" />
   </group>
   <group
      id="extensions"
+     org.inkscape.output.png.inkscape.png_bitdepth="99"
+     org.inkscape.output.png.inkscape.png_compression="6"
+     org.inkscape.output.png.inkscape.png_antialias="2"
      org.inkscape.input.gdkpixbuf.png.link="link"
      org.inkscape.output.pdf.cairorenderer.PDFversion="PDF-1.5" />
   <group
      id="desktop"
-     style="fill:#ff0000;font-size:24px;text-anchor:middle;text-align:center;line-height:1;stroke-width:4;-inkscape-font-specification:'Gill Sans';font-family:'Gill Sans';stroke:#e6e6e6">
+     style="fill:#1f3d6d;font-size:24px;text-anchor:middle;text-align:center;line-height:1;stroke-width:4;-inkscape-font-specification:'Gill Sans';font-family:'Gill Sans'">
     <group
        width="1428"
        height="840"
@@ -980,11 +1005,20 @@
      id="toolbox"
      icononly="1"
      secondary="1"
+     simplesnap="1"
      small="1">
     <group
        id="tools"
        icononly="1"
-       small="0" />
+       small="0"
+       iconsize="16"
+       width="32">
+      <group
+         id="buttons" />
+    </group>
+    <group
+       id="controlbars"
+       iconsize="16" />
   </group>
   <group
      id="iconpreview"
@@ -1060,21 +1094,22 @@
   <group
      id="theme"
      defaultPreferDarkTheme="0"
-     defaultGtkTheme="Adwaita"
      defaultIconTheme="Adwaita"
+     defaultGtkTheme="Adwaita"
+     narrowSpinButton="1"
+     preferDarkTheme="1"
+     darkTheme="1"
      symbolicIcons="1"
-     preferDarkTheme="0"
-     darkTheme="0"
-     gtkTheme="Adwaita"
-     iconTheme="multicolor"
-     symbolicDefaultBaseColors="0"
+     symbolicDefaultBaseColors="1"
      symbolicDefaultHighColors="0"
+     gtkTheme="HighContrastInverse"
+     iconTheme="multicolor"
      menuIcons_canvas="0"
      menuIcons_layers="0"
      menuIcons_objects="0">
     <group
        id="multicolor"
-       symbolicBaseColor="255"
+       symbolicBaseColor="3958107135"
        symbolicSuccessColor="10029823"
        symbolicWarningColor="4279865599"
        symbolicErrorColor="10086143" />
@@ -1082,4 +1117,12 @@
   <group
      id="live_effects"
      flattening="0" />
+  <group
+     id="statusbar">
+    <group
+       id="visibility" />
+  </group>
+  <group
+     id="gradient-edit"
+     stoplist="1" />
 </inkscape>
