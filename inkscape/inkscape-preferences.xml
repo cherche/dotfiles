@@ -125,8 +125,10 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="378.676171163355"
-         height="246.010754954197" />
+         width="142.940707469549"
+         height="42.0413796732738"
+         rx="0"
+         ry="0" />
       <eventcontext
          id="3dbox"
          style="stroke:none;stroke-linejoin:round;"
@@ -162,8 +164,8 @@
          end="0"
          start="0"
          usecurrent="1"
-         rx="52.808585395367"
-         ry="52.808585395367" />
+         rx="14.269317266509"
+         ry="14.2693172665093" />
       <eventcontext
          id="star"
          magnitude="5"
@@ -200,10 +202,10 @@
     <eventcontext
        id="calligraphic"
        style="fill:black;fill-opacity:1;fill-rule:nonzero;stroke:none;"
-       mass="8"
+       mass="13"
        angle="45"
-       width="5.002"
-       thinning="-47"
+       width="11.001"
+       thinning="-40"
        flatness="16"
        cap_rounding="0.1"
        usecurrent="1"
@@ -346,8 +348,8 @@
        live_outline="1"
        live_objects="1"
        show_helperpath="0"
-       x="120.10044621033"
-       y="639.458068620489"
+       x="129.622110240969"
+       y="501.932122835437"
        edit_clipping_paths="0"
        edit_masks="0" />
     <eventcontext
@@ -564,7 +566,7 @@
        rotateCounterClockwise="0" />
     <group
        id="align"
-       align-to="0" />
+       align-to="4" />
     <group
        id="xml"
        h="500"
@@ -582,7 +584,7 @@
     <group
        id="preferences"
        state="1"
-       page="29" />
+       page="1" />
     <group
        id="gradienteditor" />
     <group
@@ -623,10 +625,10 @@
     <group
        id="import"
        enable_preview="1"
-       path=""
+       path="/Users/ryan/Downloads/"
        ask="1"
        ask_svg="1"
-       link="link"
+       link="embed"
        scale="auto"
        import_mode_svg="include"
        forcexdpi="0" />
@@ -637,7 +639,8 @@
        id="clonetiler"
        dotrace="0" />
     <group
-       id="gridtiler" />
+       id="gridtiler"
+       SpacingType="20" />
     <group
        id="extension-error"
        show-on-startup="0" />
@@ -669,6 +672,9 @@
        id="colorpickerwindow" />
     <group
        id="undo-history" />
+    <group
+       id="livepatheffect"
+       dialogmode="0" />
   </group>
   <group
      id="printing">
@@ -967,6 +973,9 @@
     <group
        id="kbshortcuts"
        shortcutfile="default.xml" />
+    <group
+       id="snapping"
+       snap-global-toggle="0" />
   </group>
   <group
      id="extensions"
@@ -974,10 +983,11 @@
      org.inkscape.output.png.inkscape.png_compression="6"
      org.inkscape.output.png.inkscape.png_antialias="2"
      org.inkscape.input.gdkpixbuf.png.link="link"
-     org.inkscape.output.pdf.cairorenderer.PDFversion="PDF-1.5" />
+     org.inkscape.output.pdf.cairorenderer.PDFversion="PDF-1.5"
+     org.inkscape.input.svg.scale="auto" />
   <group
      id="desktop"
-     style="fill:#1f3d6d;font-size:24px;text-anchor:middle;text-align:center;line-height:1;stroke-width:4;-inkscape-font-specification:'Gill Sans';font-family:'Gill Sans'">
+     style="fill:#0044aa;font-size:24px;text-anchor:middle;text-align:center;line-height:1;stroke-width:4;-inkscape-font-specification:'Gill Sans';font-family:'Gill Sans'">
     <group
        width="1428"
        height="840"
