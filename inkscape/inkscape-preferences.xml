@@ -348,8 +348,8 @@
        live_outline="1"
        live_objects="1"
        show_helperpath="0"
-       x="129.622110240969"
-       y="501.932122835437"
+       x="339.236822204133"
+       y="225.190641344389"
        edit_clipping_paths="0"
        edit_masks="0" />
     <eventcontext
@@ -382,7 +382,7 @@
     <eventcontext
        id="gradient"
        selcue="1"
-       newgradient="2" />
+       newgradient="1" />
     <eventcontext
        id="mesh"
        selcue="1" />
@@ -621,7 +621,7 @@
     <group
        id="open"
        enable_preview="1"
-       path="/Users/ryan/work/Artwork/Playlist Covers/Administrative" />
+       path="/Users/ryan/work/Artwork/Playlist Covers/Series Could-Valentine" />
     <group
        id="import"
        enable_preview="1"
@@ -992,7 +992,7 @@
        width="1428"
        height="840"
        x="6"
-       y="25"
+       y="28"
        maximized="0"
        fullscreen="0"
        id="geometry" />
