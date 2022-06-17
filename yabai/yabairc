@@ -17,7 +17,7 @@ yabai -m config right_padding               6
 yabai -m config window_gap                  4
 
 yabai -m config mouse_follows_focus         on
-yabai -m config focus_follows_mouse         off
+yabai -m config focus_follows_mouse         autofocus
 
 yabai -m config window_placement            second_child
 yabai -m config window_topmost              off
@@ -27,7 +27,7 @@ yabai -m config window_shadow               float
 yabai -m config active_window_opacity       1.0
 yabai -m config normal_window_opacity       0.85
 
-yabai -m config auto_balance                off
+yabai -m config auto_balance                on
 
 # autofocus when window disappears
 yabai -m signal --add event=window_destroyed action="yabai -m query --windows --window &> /dev/null || yabai -m window --focus mouse"
@@ -36,42 +36,48 @@ yabai -m signal --add event=application_terminated action="yabai -m query --wind
 
 # ===== Rules ==================================
 
+# Sticky
+yabai -m rule --add label="System Preferences" app="^Préférences Système$" sticky=on
+yabai -m rule --add label="KeePassXC" app="^KeePassXC$" sticky=on
+yabai -m rule --add label="Spotify" app="Spotify" sticky=on
+
+# Opaque (hard to multitask when you can't read)
+yabai -m rule --add label="Acrobat Reader" app="Acrobat Reader" opacity=1.0
+yabai -m rule --add label="Aperçu" app="Aperçu" opacity=1.0
+yabai -m rule --add label="DjView" app="DjView" opacity=1.0
+yabai -m rule --add label="Zathura" app="zathura" opacity=1.0
+
+# Annoying Small Windows
+yabai -m rule --add label="Finder" app="^Finder$" title="Copier|^Infos sur" manage=off
+#yabai -m rule --add label="Finder" app="^Finder$" title="(Co(py|nnect)|Move|Info|Pref)" manage=off
+#yabai -m rule --add label="Finder" app="^Finder$" title="(Copier|Move|Info|Pref)" manage=off
+yabai -m rule --add label="Software Update" title="Software Update" manage=off
 yabai -m rule --add label="About This Mac" app="Informations système" manage=off
+
+yabai -m rule --add label="Firefox Downloads" app="^Firefox$" title="^Ouverture de" manage=off
+yabai -m rule --add label="Firefox About" app="^Firefox$" title="^$" manage=off
+yabai -m rule --add label="Firefox Library" app="^Firefox$" title="^Bibliothèque$" manage=off
+yabai -m rule --add label="Inkscape Launch" app="^Inkscape$" title="^Inkscape 1." manage=off border=off
+yabai -m rule --add label="Inkscape Auxiliary" app="^Inkscape$" title!="- Inkscape$" manage=off
+yabai -m rule --add label="Transmission" app="^Transmission$" title!="^Transmission$" manage=off
+
+# Float
 yabai -m rule --add label="Activity Monitor" app="^Moniteur d’activité$" manage=off
 yabai -m rule --add label="App Store" app="^App Store$" manage=off
 yabai -m rule --add label="Calculator" app="^Calculatrice$" manage=off
 yabai -m rule --add label="Contacts" app="^Contacts$" manage=off
 yabai -m rule --add label="Dictionary" app="^Dictionnaire$" manage=off
-#yabai -m rule --add label="Finder" app="^Finder$" title="(Co(py|nnect)|Move|Info|Pref)" manage=off
-#yabai -m rule --add label="Finder" app="^Finder$" title="(Copier|Move|Info|Pref)" manage=off
-yabai -m rule --add label="Finder" app="^Finder$" title="Copier|^Infos sur" manage=off
 yabai -m rule --add label="Messages" app="^Messages$" manage=off
 #yabai -m rule --add label="Safari" app="^Safari$" title="^(General|(Tab|Password|Website|Extension)s|AutoFill|Se(arch|curity)|Privacy|Advance)$" manage=off
-yabai -m rule --add label="Software Update" title="Software Update" manage=off
-yabai -m rule --add label="System Preferences" app="^Préférences Système$" manage=off
 
 yabai -m rule --add label="Calibre" app="^calibre$" manage=off
-yabai -m rule --add label="Colorpicker" app="^Colorpicker$" manage=off
 yabai -m rule --add label="Discord" app="^Discord$" manage=off
-yabai -m rule --add label="Firefox Downloads" app="^Firefox$" title="^Ouverture de" manage=off
-yabai -m rule --add label="Firefox About" app="^Firefox$" title="^$" manage=off
-#yabai -m rule --add label="Firefox Library" app="^Firefox$" title="^Bibliothèque$" manage=off
-yabai -m rule --add label="Inkscape" app="Inkscape" manage=off
-yabai -m rule --add label="KeePassXC" app="^KeePassXC$" manage=off opacity=1.0
 yabai -m rule --add label="Minecraft Launcher" app="^Minecraft Launcher$" manage=off
 yabai -m rule --add label="Minecraft" app="^java$" title="^Minecraft" manage=off
 yabai -m rule --add label="Numi" app="^Numi$" manage=off
 # yabai -m rule --add label="PyCharm" app="^PyCharm$" manage=off
-yabai -m rule --add label="Slack" app="^Slack$" manage=off
-yabai -m rule --add label="Spotify" app="Spotify" manage=off
 yabai -m rule --add label="Steam" app="^Steam$" manage=off
 yabai -m rule --add label="Teams" app="^Microsoft Teams$" manage=off
 yabai -m rule --add label="Thunderbird" app="^Thunderbird$" manage=off
-yabai -m rule --add label="Transmission" app="^Transmission$" title!="^Transmission$" manage=off
 yabai -m rule --add label="Zoom" app="zoom.us" manage=off
 
-yabai -m rule --add label="Acrobat Reader" app="Acrobat Reader" opacity=1.0
-yabai -m rule --add label="Aperçu" app="Aperçu" opacity=1.0
-yabai -m rule --add label="DjView" app="DjView" opacity=1.0
-yabai -m rule --add label="Zathura" app="zathura" opacity=1.0
-#yabai -m rule --add app="^Alacritty$" border=off
