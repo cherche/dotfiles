@@ -38,6 +38,11 @@ alt - b : [ $(yabai -m config window_border) = "on" ] \
 
 # Toggle window gaps and padding
 alt - g : ~/dotfiles/skhd/macros/toggle-gaps.sh
+
+# Cycle window focus_follows_mouse
+alt - q : ~/dotfiles/skhd/macros/cycle-focus-forward.sh && ~/dotfiles/skhd/macros/s.sh
+shift + alt - q : ~/dotfiles/skhd/macros/cycle-focus-backward.sh && ~/dotfiles/skhd/macros/s.sh
+
 # ===== Navigation ==========
 
 # shift focus within space
