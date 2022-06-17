@@ -125,8 +125,8 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="142.940707469549"
-         height="42.0413796732738"
+         width="180.744691383184"
+         height="309.168537770673"
          rx="0"
          ry="0" />
       <eventcontext
@@ -577,14 +577,15 @@
        id="spellcheck"
        w="200"
        h="250"
-       ignorenumbers="1" />
+       ignorenumbers="1"
+       ignoreallcaps="1" />
     <group
        id="documentoptions"
        state="1" />
     <group
        id="preferences"
        state="1"
-       page="1" />
+       page="29" />
     <group
        id="gradienteditor" />
     <group
@@ -744,7 +745,7 @@
        uri="" />
     <group
        id="savewindowgeometry"
-       value="1" />
+       value="0" />
     <group
        id="defaultoffsetwidth"
        value="2px" />
@@ -759,8 +760,8 @@
        value="1.414213562" />
     <group
        id="zoomcorrection"
-       value="1.0"
-       unit="mm" />
+       value="1.324"
+       unit="cm" />
     <group
        id="keyscroll"
        value="15" />
@@ -819,7 +820,7 @@
        value="1" />
     <group
        id="defaultwindowsize"
-       value="0" />
+       value="-1" />
     <group
        id="arenatilescachesize"
        value="8192" />
@@ -976,6 +977,9 @@
     <group
        id="snapping"
        snap-global-toggle="0" />
+    <group
+       id="notebooklabels"
+       value="1" />
   </group>
   <group
      id="extensions"
@@ -1024,7 +1028,8 @@
        iconsize="16"
        width="32">
       <group
-         id="buttons" />
+         id="buttons"
+         showRect="1" />
     </group>
     <group
        id="controlbars"
@@ -1100,7 +1105,7 @@
   </group>
   <group
      id="ui"
-     language="" />
+     language="en" />
   <group
      id="theme"
      defaultPreferDarkTheme="0"
@@ -1112,17 +1117,20 @@
      symbolicIcons="1"
      symbolicDefaultBaseColors="1"
      symbolicDefaultHighColors="0"
-     gtkTheme="HighContrastInverse"
      iconTheme="multicolor"
      menuIcons_canvas="0"
      menuIcons_layers="0"
-     menuIcons_objects="0">
+     menuIcons_objects="0"
+     gtkTheme="HighContrastInverse">
     <group
        id="multicolor"
        symbolicBaseColor="3958107135"
-       symbolicSuccessColor="10029823"
+       symbolicSuccessColor="180295167"
        symbolicWarningColor="4279865599"
        symbolicErrorColor="10086143" />
+    <group
+       id="hicolor"
+       symbolicBaseColor="4092850687" />
   </group>
   <group
      id="live_effects"
