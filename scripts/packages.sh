@@ -19,10 +19,3 @@ mv npmfile npmfile_OLD
   mv npmfile_OLD npmfile
 }
 
-mv Atomfile Atomfile_OLD
-{
-  apm list --installed --bare > Atomfile
-  mv Atomfile_OLD ~/.Trash
-} || {
-  mv Atomfile_OLD Atomfile
-}

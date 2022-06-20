@@ -12,8 +12,5 @@ fi
 # Install Homebrew packages from Brewfile
 brew bundle
 
-# Install Atom packages from Atomfile
-apm install --packages-file Atomfile
-
 # Install npm packages from npmfile
 xargs npm install --global < npmfile
