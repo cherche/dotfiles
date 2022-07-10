@@ -1,3 +1,5 @@
+# Fig pre block. Keep at the top of this file.
+[[ -f "$HOME/.fig/shell/bashrc.pre.bash" ]] && . "$HOME/.fig/shell/bashrc.pre.bash"
 source $HOME/.config/zsh/alias.sh
 source $HOME/.config/zsh/env.sh
 
@@ -26,3 +28,6 @@ if test -z $CRONTABCMD; then
 fi
 
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
+
+# Fig post block. Keep at the bottom of this file.
+[[ -f "$HOME/.fig/shell/bashrc.post.bash" ]] && . "$HOME/.fig/shell/bashrc.post.bash"

@@ -54,6 +54,9 @@ yabai -m rule --add label="Finder" app="^Finder$" title="Copier|^Infos sur" mana
 yabai -m rule --add label="Software Update" title="Software Update" manage=off
 yabai -m rule --add label="About This Mac" app="Informations système" manage=off
 
+# Fig's terminal integration is also a window! We don't need it to have a border.
+yabai -m rule --add label="Fig" app="^fig$" manage=off border=off
+
 yabai -m rule --add label="Firefox Downloads" app="^Firefox$" title="^Ouverture de" manage=off
 yabai -m rule --add label="Firefox About" app="^Firefox$" title="^$" manage=off
 yabai -m rule --add label="Firefox Library" app="^Firefox$" title="^Bibliothèque$" manage=off
