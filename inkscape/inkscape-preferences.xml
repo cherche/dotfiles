@@ -125,8 +125,8 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="180.744691383184"
-         height="309.168537770673"
+         width="721.789659529348"
+         height="472.076558841621"
          rx="0"
          ry="0" />
       <eventcontext
@@ -585,7 +585,7 @@
     <group
        id="preferences"
        state="1"
-       page="29" />
+       page="48" />
     <group
        id="gradienteditor" />
     <group
@@ -626,10 +626,10 @@
     <group
        id="import"
        enable_preview="1"
-       path="/Users/ryan/Downloads/"
+       path="/Users/ryan/Desktop/"
        ask="1"
        ask_svg="1"
-       link="embed"
+       link="link"
        scale="auto"
        import_mode_svg="include"
        forcexdpi="0" />
@@ -991,7 +991,7 @@
      org.inkscape.input.svg.scale="auto" />
   <group
      id="desktop"
-     style="fill:#0044aa;font-size:24px;text-anchor:middle;text-align:center;line-height:1;stroke-width:4;-inkscape-font-specification:'Gill Sans';font-family:'Gill Sans'">
+     style="fill:#000000;font-size:32px;text-anchor:middle;text-align:center;line-height:1;stroke-width:4;-inkscape-font-specification:avenir;font-family:avenir">
     <group
        width="1428"
        height="840"
