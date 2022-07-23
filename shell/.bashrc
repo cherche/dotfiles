@@ -1,8 +1,3 @@
-# Fig pre block. Keep at the top of this file.
-[[ -f "$HOME/.fig/shell/bashrc.pre.bash" ]] && . "$HOME/.fig/shell/bashrc.pre.bash"
-source $HOME/.config/zsh/alias.sh
-source $HOME/.config/zsh/env.sh
-
 # Hop into tmux by default (https://unix.stackexchange.com/a/113768)
 #if command -v tmux &> /dev/null && [ -n "$PS1" ] && [[ ! "$TERM" =~ screen ]] && [[ ! "$TERM" =~ tmux ]] && [ -z "$TMUX" ]; then
 #  tmux new-session -A -s main
@@ -29,5 +24,3 @@ fi
 
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
 
-# Fig post block. Keep at the bottom of this file.
-[[ -f "$HOME/.fig/shell/bashrc.post.bash" ]] && . "$HOME/.fig/shell/bashrc.post.bash"

@@ -622,7 +622,7 @@
     <group
        id="open"
        enable_preview="1"
-       path="/Users/ryan/work/Artwork/Playlist Covers/Series Could-Valentine" />
+       path="/Users/ryan/work/Artwork/Playlist Covers/Administrative" />
     <group
        id="import"
        enable_preview="1"
@@ -957,14 +957,15 @@
        partialdynamic="0" />
     <group
        id="boot"
-       theme="custom"
+       theme="colorful"
        enabled="1">
       <group
          id="shown"
          ver1.1="1"
          ver1.1.1="1"
          ver1.1.2="1"
-         ver1.2="1" />
+         ver1.2="1"
+         ver1.2.1="1" />
     </group>
     <group
        id="rendering" />
@@ -993,9 +994,9 @@
      id="desktop"
      style="fill:#000000;font-size:32px;text-anchor:middle;text-align:center;line-height:1;stroke-width:4;-inkscape-font-specification:avenir;font-family:avenir">
     <group
-       width="1428"
-       height="840"
-       x="6"
+       width="712"
+       height="404"
+       x="722"
        y="28"
        maximized="0"
        fullscreen="0"
@@ -1115,17 +1116,17 @@
      preferDarkTheme="1"
      darkTheme="1"
      symbolicIcons="1"
-     symbolicDefaultBaseColors="1"
+     symbolicDefaultBaseColors="0"
      symbolicDefaultHighColors="0"
      iconTheme="multicolor"
      menuIcons_canvas="0"
      menuIcons_layers="0"
      menuIcons_objects="0"
-     gtkTheme="HighContrastInverse">
+     gtkTheme="Adwaita">
     <group
        id="multicolor"
        symbolicBaseColor="3958107135"
-       symbolicSuccessColor="180295167"
+       symbolicSuccessColor="10029823"
        symbolicWarningColor="4279865599"
        symbolicErrorColor="10086143" />
     <group
