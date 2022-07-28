@@ -19,8 +19,11 @@ alt - return : yabai -m query --windows --space | \
   || open -n /Applications/Alacritty.app
 alt + shift - return : open -n /Applications/Alacritty.app
 alt + ctrl - return : open -a Finder ~
+# TODO: Make all these shortcuts toggle window visibility (hide/unhide)
+# so minimal hand movement is needed to quickly flash the window
 alt - m : open -a Spotify
 alt - 1 : open -a KeePassXC
+alt - 2 : open -a Music
 cmd + shift - space : open -a Launchpad
 # Convenient shortcuts for Focusing menu bar and dock
 fn - w : skhd -k "ctrl - f2"
