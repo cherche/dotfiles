@@ -1,0 +1,27 @@
+#!/bin/bash
+
+wd=$(pwd)
+
+cd "$HOME/home/Calibre Library"
+# At a glance, it seems that it would be better to search at depth 3
+# But if we did, we could not differentiate books of the same name and author
+# without reading the metadata
+BOOK_DIR=$(find . -type d -mindepth 2 -maxdepth 2 | fzf)
+
+if [ ! -z "$BOOK_DIR" ]
+then
+  # This is just convenient to make the BOOK_FILE search more readable
+  shopt -s expand_aliases
+  alias f='find "$BOOK_DIR" -name'
+  BOOK_FILE=$(f *cbr | f *.djvu | f *.pdf)
+
+  if [ ! -z "$BOOK_FILE" ]
+  then
+    # Some neat trick to keep running process while leaving no output in term
+    zathura "$BOOK_FILE" &>/dev/null &
+  else
+    echo 'Error: No .cbr, .djvu, or .pdf found. Exiting.'
+  fi
+fi
+
+cd "$wd"
