@@ -24,3 +24,5 @@ fi
 
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
 
+source $HOME/dotfiles/shell/alias.sh
+source $HOME/dotfiles/shell/env.sh
