@@ -6,7 +6,7 @@ cd "$HOME/home/Calibre Library"
 # At a glance, it seems that it would be better to search at depth 3
 # But if we did, we could not differentiate books of the same name and author
 # without reading the metadata
-BOOK_DIR=$(find . -type d -mindepth 2 -maxdepth 2 | fzf)
+BOOK_DIR=$(find * -type d -mindepth 1 -maxdepth 1 | fzf --reverse --height=45% --border --info=inline)
 
 if [ ! -z "$BOOK_DIR" ]
 then
