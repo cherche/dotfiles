@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 from typing import List, Tuple, TextIO
 import re
 
@@ -20,8 +22,8 @@ class Bookmark:
         """Return a string representation of this Bookmark."""
         return ('({level}, "{title}", {page})').format(
             level=self.level,
-            title = self.title,
-            page = self.page
+            title=self.title,
+            page=self.page
         )
 
 def create_pdftk_entry(entry: Bookmark) -> str:
