@@ -1,27 +1,60 @@
 #!/bin/bash
 
+# INTERFACE
+#
+# Open the fzf interactive finder with the book folders within (my) Calibre Library
+# If a selection is made, it will be opened in zathura. If multiple file formats
+# are found, one is selecting based on the following preference: .cbr > .djvu > .pdf.
+# If none of the above formats are available, an error message will be printed.
+# If no selection is made, the program fails silently.
+
+# Constants
+library="$HOME/home/Calibre Library"
+
 wd=$(pwd)
+# cd'ing into the Library results in clean find output with no extra work.
+cd "$library"
+# Refer to the directory structure of a Calibre Library:
+# Calibre Library
+#   Author McWriterpants
+#     Book 1
+#     Book 2
+#   F. Scott Fitzgerald
+#     The Great Gatsby
+# TODO: Read metadata.opf to correctly print book titles and authors.
+# A potential issue though: there may be books with the same title!
+book_dir=$(find * -type d -mindepth 1 -maxdepth 1 | fzf --reverse --height=45% --border --info=inline)
+# And now we can cd back to where we started ASAP
+cd "$wd"
 
-cd "$HOME/home/Calibre Library"
-# At a glance, it seems that it would be better to search at depth 3
-# But if we did, we could not differentiate books of the same name and author
-# without reading the metadata
-BOOK_DIR=$(find * -type d -mindepth 1 -maxdepth 1 | fzf --reverse --height=45% --border --info=inline)
-
-if [ ! -z "$BOOK_DIR" ]
+if [ -z "$book_dir" ]
 then
-  # This is just convenient to make the BOOK_FILE search more readable
-  shopt -s expand_aliases
-  alias f='find "$BOOK_DIR" -name'
-  BOOK_FILE=$(f *cbr | f *.djvu | f *.pdf)
-
-  if [ ! -z "$BOOK_FILE" ]
-  then
-    # Some neat trick to keep running process while leaving no output in term
-    zathura "$BOOK_FILE" &>/dev/null &
-  else
-    echo 'Error: No .cbr, .djvu, or .pdf found. Exiting.'
-  fi
+  echo 'Error: No book selected. Exiting.'
+  exit 1
 fi
 
-cd "$wd"
+f() {
+  # Pipe to grep to return non-0 exit code when nothing is found!
+  find "$library/$book_dir" -name $1 | grep "."
+}
+# It seems slow to search sequentially when they could be done all at once? Don't know.
+# TODO: Move this file format preference. Maybe a list which feeds into a while loop?
+book_file=$((f *.cbr || f *.djvu || f *.pdf) | head -n1)
+
+if [ -z "$book_file" ]
+then
+  echo "Error: No compatible file formats found for $book_dir. Exiting."
+  exit 1
+fi
+
+# TODO: Allow customization of what to do with book file, e.g.,
+# opener1() {
+#   zathura "$1" &> /dev/null &
+# }
+# opener2() {
+#   open "$1" -a DjView
+# }
+# Bonus points if each file format is associated to an "opener".
+echo "Opening $book_dir."
+# Some neat trick to keep running process while leaving no output in term
+zathura "$book_file" &>/dev/null &
