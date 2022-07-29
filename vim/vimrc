@@ -25,6 +25,7 @@ set mouse=a
 " Appearance
 """""
 
+set cursorline
 syntax on
 "colorscheme monokai
 colorscheme onedark
