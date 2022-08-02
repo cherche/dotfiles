@@ -23,7 +23,7 @@ cd "$library"
 #     The Great Gatsby
 # TODO: Read metadata.opf to correctly print book titles and authors.
 # A potential issue though: there may be books with the same title!
-book_dir=$(find * -type d -mindepth 1 -maxdepth 1 | fzf --reverse --height=45% --border --info=inline)
+book_dir=$(find * -type d -mindepth 1 -maxdepth 1 | fzf --reverse --height=45% --border --info=inline --query "$*")
 # And now we can cd back to where we started ASAP
 cd "$wd"
 
