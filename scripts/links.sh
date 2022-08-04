@@ -25,3 +25,5 @@ ln -svf ~/dotfiles/mpv/scripts/ ~/.config/mpv/
 
 ln -svf ~/dotfiles/vim/vimrc ~/.vim/
 ln -svf ~/dotfiles/vim/after/ ~/.vim/
+
+ln -svf ~/dotfiles/launchd/org.n8n.ta.plist ~/Library/LaunchAgents/
