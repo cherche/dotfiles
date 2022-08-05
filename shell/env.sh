@@ -15,3 +15,5 @@ export EDITOR=vim
 
 # Tell grep to highlight matches
 export GREP_OPTIONS='--color=auto'
+
+export N8N_CONFIG_FILES="$HOME/dotfiles/n8n/config.json"

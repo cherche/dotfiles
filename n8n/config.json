@@ -1,0 +1,17 @@
+{
+    "executions": {
+        "process": "main",
+        "saveDataOnSuccess": "none"
+    },
+    "generic": {
+        "timezone": "America/Toronto"
+    },
+    "log": {
+        "level": "info",
+        "output": "console,file",
+        "file": {
+            "location": "/Users/ryan/.n8n/logs/n8n.log",
+            "maxcount": 50
+        }
+    }
+}
