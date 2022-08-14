@@ -16,6 +16,7 @@ window:
     x: 3
     y: 3
   decorations: None
+  opacity: 0.8
 
 font:
   size: 13.0
