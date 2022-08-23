@@ -6,4 +6,5 @@ postcss-cli
 postcss
 pug-cli
 standard
+typescript
 update
