@@ -56,5 +56,14 @@ fi
 # }
 # Bonus points if each file format is associated to an "opener".
 echo "Opening $book_dir."
+
+# Set recolor depending on whether it's day or night
+style=$(defaults read -g AppleInterfaceStyle 2>/dev/null)
+if [ "$style" = 'Dark' ]
+then
+  sed -E -i '.backup' 's|(set recolor +)false|\1true|' "$HOME/.config/zathura/zathurarc"
+else
+  sed -E -i '.backup' 's|(set recolor +)true|\1false|' "$HOME/.config/zathura/zathurarc"
+fi
 # Some neat trick to keep running process while leaving no output in term
 zathura "$book_file" &>/dev/null &
