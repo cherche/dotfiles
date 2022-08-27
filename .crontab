@@ -7,3 +7,4 @@
 # └─────────────────────  Minute   (0..59)
 #
 0 10 * * 2,5 cd ~/dotfiles && ./scripts/autoupdate.sh
+0 19 1,15 * * cd ~/dotfiles && ./scripts/map-dl.sh
