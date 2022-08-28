@@ -11,7 +11,7 @@
 # Constants
 library="$HOME/home/Calibre Library"
 
-wd=$(pwd)
+wd="$(pwd)"
 # cd'ing into the Library results in clean find output with no extra work.
 cd "$library"
 # Refer to the directory structure of a Calibre Library:
@@ -58,12 +58,15 @@ fi
 echo "Opening $book_dir."
 
 # Set recolor depending on whether it's day or night
-style=$(defaults read -g AppleInterfaceStyle 2>/dev/null)
-if [ "$style" = 'Dark' ]
-then
-  sed -E -i '.backup' 's|(set recolor +)false|\1true|' "$HOME/.config/zathura/zathurarc"
-else
-  sed -E -i '.backup' 's|(set recolor +)true|\1false|' "$HOME/.config/zathura/zathurarc"
-fi
+bzathura() {
+  style=$(defaults read -g AppleInterfaceStyle 2>/dev/null)
+  if [ "$style" = 'Dark' ]
+  then
+    sed -E -i '.backup' 's|(set recolor +)false|\1true|' "$HOME/.config/zathura/zathurarc"
+  else
+    sed -E -i '.backup' 's|(set recolor +)true|\1false|' "$HOME/.config/zathura/zathurarc"
+  fi
+  zathura "$1"
+}
 # Some neat trick to keep running process while leaving no output in term
-zathura "$book_file" &>/dev/null &
+bzathura "$book_file" &>/dev/null &

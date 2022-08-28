@@ -123,6 +123,21 @@ if test -z $CRONTABCMD; then
   $CRONTABCMD ~/.crontab
 fi
 
+# Set recolor depending on whether it's day or night
+if test -z $ZATHURACMD; then
+  export ZATHURACMD=$(which zathura)
+  zathura() {
+    style=$(defaults read -g AppleInterfaceStyle 2>/dev/null)
+    if [ "$style" = 'Dark' ]
+    then
+      sed -E -i '.backup' 's|(set recolor +)false|\1true|' "$HOME/.config/zathura/zathurarc"
+    else
+      sed -E -i '.backup' 's|(set recolor +)true|\1false|' "$HOME/.config/zathura/zathurarc"
+    fi
+    $ZATHURACMD $@
+  }
+fi
+
 if type brew &>/dev/null; then
   FPATH=$(brew --prefix)/share/zsh-completions:$FPATH
 
