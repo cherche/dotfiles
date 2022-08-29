@@ -39,7 +39,7 @@ f() {
 }
 # It seems slow to search sequentially when they could be done all at once? Don't know.
 # TODO: Move this file format preference. Maybe a list which feeds into a while loop?
-book_file=$((f '*.cbr' || f '*.djvu' || f '*.pdf') | head -n1))
+book_file=$((f '*.cbr' || f '*.djvu' || f '*.pdf') | head -n1)
 
 if [ -z "$book_file" ]; then
   echo "Error: No compatible file formats found for $book_dir. Exiting."
