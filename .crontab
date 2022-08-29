@@ -8,3 +8,4 @@
 #
 0 10 * * 2,5 cd ~/dotfiles && ./scripts/autoupdate.sh
 0 19 1,15 * * cd ~/dotfiles && ./scripts/map-dl.sh
+35 8-22 * * * cd ~/dotfiles && ./scripts/n8n.sh
