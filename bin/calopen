@@ -27,22 +27,21 @@ book_dir=$(find * -type d -mindepth 1 -maxdepth 1 | fzf --reverse --height=45% -
 # And now we can cd back to where we started ASAP
 cd "$wd"
 
-if [ -z "$book_dir" ]
-then
+if [ -z "$book_dir" ]; then
   echo 'Error: No book selected. Exiting.'
   exit 1
 fi
 
 f() {
+  # (The subshell is for `cd``, because `find`` only looks within the working dir.)
   # Pipe to grep to return non-0 exit code when nothing is found!
-  find "$library/$book_dir" -name $1 | grep "."
+  ( cd "$library"; find "$library/$book_dir" -name "$1" | grep '.' )
 }
 # It seems slow to search sequentially when they could be done all at once? Don't know.
 # TODO: Move this file format preference. Maybe a list which feeds into a while loop?
-book_file=$((f *.cbr || f *.djvu || f *.pdf) | head -n1)
+book_file=$((f '*.cbr' || f '*.djvu' || f '*.pdf') | head -n1))
 
-if [ -z "$book_file" ]
-then
+if [ -z "$book_file" ]; then
   echo "Error: No compatible file formats found for $book_dir. Exiting."
   exit 1
 fi
