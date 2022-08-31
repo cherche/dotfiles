@@ -11,6 +11,9 @@ alias refinder="killall Finder"
 
 alias bh="python3 ~/dotfiles/bin/bookmark-helper.py"
 
+# zathura, but with automatic switching between light/dark themes
+alias zathura="bzathura"
+
 # fh - repeat history
 fh() {
     eval $( ([ -n "$ZSH_NAME" ] && fc -l 1 || history) | fzf +s --tac | sed -E 's/ *[0-9]*\*? *//' | sed -E 's/\\/\\\\/g')

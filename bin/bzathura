@@ -1,0 +1,18 @@
+#!/bin/bash
+
+# Need to set PATH for sed and defaults
+PATH=/usr/bin
+
+zathura() {
+  /opt/homebrew/bin/zathura "$@"
+}
+
+# Set recolor depending on whether it's day or night
+style=$(defaults read -g AppleInterfaceStyle 2>/dev/null)
+if [ "$style" = 'Dark' ]; then
+  sed -E -i '.backup' 's|(set recolor +)false|\1true|' "$HOME/.config/zathura/zathurarc"
+else
+  sed -E -i '.backup' 's|(set recolor +)true|\1false|' "$HOME/.config/zathura/zathurarc"
+fi
+
+zathura "$@"

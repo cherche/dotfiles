@@ -57,15 +57,8 @@ fi
 echo "Opening $book_dir."
 
 # Set recolor depending on whether it's day or night
-bzathura() {
-  style=$(defaults read -g AppleInterfaceStyle 2>/dev/null)
-  if [ "$style" = 'Dark' ]
-  then
-    sed -E -i '.backup' 's|(set recolor +)false|\1true|' "$HOME/.config/zathura/zathurarc"
-  else
-    sed -E -i '.backup' 's|(set recolor +)true|\1false|' "$HOME/.config/zathura/zathurarc"
-  fi
-  zathura "$1"
+zathura() {
+  $HOME/dotfiles/bin/bzathura "$@"
 }
 # Some neat trick to keep running process while leaving no output in term
-bzathura "$book_file" &>/dev/null &
+zathura "$book_file" &>/dev/null &
