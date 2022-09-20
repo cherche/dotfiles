@@ -73,6 +73,7 @@ yabai -m rule --add label="Calendrier" app="^Calendrier$" manage=off
 yabai -m rule --add label="Contacts" app="^Contacts$" manage=off
 yabai -m rule --add label="Dictionary" app="^Dictionnaire$" manage=off
 yabai -m rule --add label="FaceTime" app="^FaceTime$" manage=off
+yabai -m rule --add label="IntelliJ IDEA" app="IntelliJ IDEA" manage=off
 yabai -m rule --add label="Localiser" app="^Localiser$" manage=off
 yabai -m rule --add label="Messages" app="^Messages$" manage=off
 #yabai -m rule --add label="Safari" app="^Safari$" title="^(General|(Tab|Password|Website|Extension)s|AutoFill|Se(arch|curity)|Privacy|Advance)$" manage=off
