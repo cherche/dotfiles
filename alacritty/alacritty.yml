@@ -15,7 +15,7 @@ window:
   padding:
     x: 3
     y: 3
-  decorations: None
+  decorations: buttonless
   opacity: 0.8
 
 font:
