@@ -29,6 +29,9 @@ cmd + shift - space : open -a Launchpad
 fn - w : skhd -k "ctrl - f2"
 fn - s : skhd -k "ctrl - f3"
 
+alt - 9 : ~/dotfiles/skhd/macros/cycle-audio.sh input
+alt - 0 : ~/dotfiles/skhd/macros/cycle-audio.sh output
+
 # Toggle opacity
 alt - o : [ $(yabai -m config window_opacity) = "on" ] \
           && yabai -m config window_opacity off \
