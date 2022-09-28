@@ -130,3 +130,12 @@ typings/
 # *.eps
 #*.pdf
 ## Generated if empty string is given at "Please type another file name for output:"
+
+# IntelliJ IDEA
+.idea/
+
+# Gradle
+gradle/
+.gradle/
+gradlew
+gradlew.bat
