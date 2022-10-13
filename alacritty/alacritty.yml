@@ -31,7 +31,6 @@ font:
   bold_italic:
     family: Fira Mono
     style: Bold Italic
-  use_thin_strokes: true
 
 # Colors (Tomorrow Night Bright)
 colors:
