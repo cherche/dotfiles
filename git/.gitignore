@@ -131,10 +131,24 @@ typings/
 #*.pdf
 ## Generated if empty string is given at "Please type another file name for output:"
 
-# IntelliJ IDEA
+## Java
+
+# Compiled class file
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# IntelliJ IDEA files
 .idea/
 
-# Gradle
+# Gradle files
 gradle/
 .gradle/
 gradlew
