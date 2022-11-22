@@ -86,6 +86,7 @@ yabai -m rule --add label="Discord" app="^Discord$" manage=off
 yabai -m rule --add label="Minecraft Launcher" app="^Minecraft Launcher$" manage=off
 yabai -m rule --add label="Minecraft" app="^java$" title="^Minecraft" manage=off
 yabai -m rule --add label="Numi" app="^Numi$" manage=off
+yabai -m rule --add label="Prism Launcher" app="^Prism Launcher$" manage=off
 # yabai -m rule --add label="PyCharm" app="^PyCharm$" manage=off
 yabai -m rule --add label="Steam" app="^Steam$" manage=off
 yabai -m rule --add label="Teams" app="^Microsoft Teams$" manage=off

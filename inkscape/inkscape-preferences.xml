@@ -125,8 +125,8 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="721.789659529348"
-         height="472.076558841621"
+         width="1080.00001889764"
+         height="300.000005249344"
          rx="0"
          ry="0" />
       <eventcontext
@@ -566,7 +566,8 @@
        rotateCounterClockwise="0" />
     <group
        id="align"
-       align-to="4" />
+       align-to="4"
+       objects-align-to="page" />
     <group
        id="xml"
        h="500"
@@ -626,7 +627,7 @@
     <group
        id="import"
        enable_preview="1"
-       path="/Users/ryan/Desktop/"
+       path="/Users/ryan/Downloads/"
        ask="1"
        ask_svg="1"
        link="link"
@@ -676,6 +677,11 @@
     <group
        id="livepatheffect"
        dialogmode="0" />
+    <group
+       id="objects" />
+    <group
+       id="layerProp"
+       addLayerPosition="1" />
   </group>
   <group
      id="printing">
@@ -989,15 +995,16 @@
      org.inkscape.output.png.inkscape.png_antialias="2"
      org.inkscape.input.gdkpixbuf.png.link="link"
      org.inkscape.output.pdf.cairorenderer.PDFversion="PDF-1.5"
-     org.inkscape.input.svg.scale="auto" />
+     org.inkscape.input.svg.scale="auto"
+     org.inkscape.input.gdkpixbuf.jpg.link="link" />
   <group
      id="desktop"
-     style="fill:#000000;font-size:32px;text-anchor:middle;text-align:center;line-height:1;stroke-width:4;-inkscape-font-specification:avenir;font-family:avenir">
+     style="fill:#800000;font-size:96px;text-anchor:middle;text-align:center;line-height:1;stroke-width:10;-inkscape-font-specification:'Gill Sans';font-family:'Gill Sans'">
     <group
-       width="712"
-       height="404"
-       x="722"
-       y="28"
+       width="1424"
+       height="836"
+       x="8"
+       y="30"
        maximized="0"
        fullscreen="0"
        id="geometry" />
