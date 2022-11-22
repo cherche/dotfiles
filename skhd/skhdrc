@@ -25,6 +25,9 @@ alt - m : open -a Spotify
 alt - 1 : open -a KeePassXC
 alt - 2 : open -a Music
 cmd + shift - space : open -a Launchpad
+# yabai quick-restart
+ctrl + alt + cmd - r : launchctl kickstart -k "gui/${UID}/homebrew.mxcl.yabai"
+
 # Convenient shortcuts for Focusing menu bar and dock
 fn - w : skhd -k "ctrl - f2"
 fn - s : skhd -k "ctrl - f3"
