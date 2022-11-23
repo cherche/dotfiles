@@ -26,7 +26,9 @@ alt - 1 : open -a KeePassXC
 alt - 2 : open -a Music
 cmd + shift - space : open -a Launchpad
 # yabai quick-restart
-ctrl + alt + cmd - r : launchctl kickstart -k "gui/${UID}/homebrew.mxcl.yabai"
+ctrl + alt + cmd - y : launchctl kickstart -k "gui/${UID}/homebrew.mxcl.yabai"
+# finder quick restart (why does quick look keep breaking??)
+ctrl + alt + cmd - r : killall Finder
 
 # Convenient shortcuts for Focusing menu bar and dock
 fn - w : skhd -k "ctrl - f2"
