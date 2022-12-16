@@ -14,7 +14,7 @@ brew "brew-cask-completion"
 brew "ghc"
 brew "cabal-install"
 brew "cmake"
-brew "dbus"
+brew "dbus", restart_service: true
 brew "diff-so-fancy"
 brew "python@3.10"
 brew "libogg"
