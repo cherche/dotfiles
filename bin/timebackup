@@ -62,6 +62,12 @@ while [[ $# -gt 0 ]]; do
   esac
 done
 
+# Exit if missing vital arguments
+if [ -z "$src" ] || [ -z "$dest_parent" ]; then
+  echo "--src and --dest-parent options are mandatory"
+  exit 1
+fi
+
 # Remove trailing slashes
 dest_parent=$(echo "$dest_parent" | sed -e 's|\(.*\)/$|\1|')
 

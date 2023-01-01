@@ -68,9 +68,9 @@ while [[ $# -gt 0 ]]; do
   esac
 done
 
-# If missing vital arguments, show usage
+# Exit if missing vital arguments
 if [ -z "$src" ] || [ -z "$dest" ]; then
-  echo "src and dest directories are mandatory"
+  echo "--src and --dest options are mandatory"
   exit 1
 fi
 
