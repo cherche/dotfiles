@@ -1,46 +1,101 @@
 #!/bin/bash
+# Adapted from Alberto Alcolea's backup script:
+# https://github.com/albertoalcolea/dotfiles/blob/master/bin/bin/backup
 
-usage() { echo "Usage: $(basename $0) -o <backup dir> -s <sources file> -e <exclude file>" 1>&2; exit 1; }
+set -eo pipefail
 
-# Get arguments
-while getopts ":h:o:s:e:" opt; do
-  case "$opt" in
-    h)
-      usage
+opts=("-a" "--stats" "-h" "--hard-links")
+usage=$(cat <<-END
+Usage:
+  backup [options]
+Create full and incremental backups with rsync.
+Options:
+      --src=PATH          specify a source path
+      --dest=PATH         specify a destination path
+      --link-dest=PATH    specify a link destination path (for the rsync --link-dest option)
+  -f, --filter=FILE       add a filter file in rsync format (+ include, - exclude, etc.)
+  -b, --full-backup       force a full backup instead of an incremental backup
+  -n, --dry-run           perform a trial run without actually copying files
+  -v, --verbose           run rsync in verbose mode
+  -h, --help              show this help
+END
+)
+
+# Args
+while [[ $# -gt 0 ]]; do
+  case "$1" in
+    --src)
+      src="$2"
+      shift
+      shift
       ;;
-    o)
-      backup_path="$OPTARG"
+    --dest)
+      dest="$2"
+      shift
+      shift
       ;;
-    s)
-      sources_path="$OPTARG"
+    --link-dest)
+      link_dest="$2"
+      shift
+      shift
       ;;
-    e)
-      exclude_path="$OPTARG"
+    -f|--filter)
+      filter="$2"
+      shift
+      shift
+      ;;
+    -b|--full-backup)
+      do_full_backup="true"
+      shift
+      ;;
+    -n|--dry-run)
+      opts+=("-n")  # rsync dry-run option
+      shift
+      ;;
+    -v|--verbose)
+      use_verbose_mode="true"
+      opts+=("-v")  # rsync verbose flag
+      shift
+      ;;
+    -h|--help)
+      echo "$usage"
+      exit 0
+      ;;
+    *) # Unknown option
+      echo "Unknown option: $1"
+      exit 1
       ;;
   esac
 done
 
-# If missing any arguments, show usage
-if [ -z "$backup_path" ] || [ -z "$sources_path" ] || [ -z "$exclude_path" ]
-then
-  usage
+# If missing vital arguments, show usage
+if [ -z "$src" ] || [ -z "$dest" ]; then
+  echo "src and dest directories are mandatory"
+  exit 1
 fi
 
-# Read the config file to find and back up each path
-cat $sources_path | while read in_path; do
-  # Cut off any trailing slashes
-  # Ex: /Users/Ryan/_Home/ -> /Users/Ryan/_Home
-  in_path_trimmed="${in_path%"${in_path##*[!/]}"}"
-  # Get the directory name and re-add a single trailing slash
-  # Ex: /Users/Ryan/_Home -> _Home -> _Home/
-  dir_name="${in_path_trimmed##*/}/"
+# Remove trailing slashes
+src=$(echo "$src" | sed -e 's|\(.*\)/$|\1|')
+dest=$(echo "$dest" | sed -e 's|\(.*\)/$|\1|')
+link_dest=$(echo "$link_dest" | sed -e 's|\(.*\)/$|\1|')
 
-  # And now we have a path to the output!
-  # Ex: /path/to/backup + _Home/ -> /path/to/backup/_Home/
-  out_path="$backup_path/$dir_name"
-  echo $out_path
+# Add filter file
+if [ -f "$filter" ]; then
+  opts+=(--filter="merge $filter")
+fi
 
-  # And now we can back up the directory
-  rsync -av --delete --exclude-from="$exclude_path" "$in_path" "$out_path"
-  # (Quotes are necessary in case of special characters)
-done
+# Creating full or incremental backup
+if [ "$do_full_backup" == "true" ]; then
+  echo "Creating full backup ..."
+else
+  if [ -z "$link_dest" ]; then
+    echo "No previous backup found. Creating initial backup ..."
+  else
+    opts+=("--link-dest=$link_dest")
+    echo "Basing incremental backup on $link_dest"
+  fi
+fi
+
+# Print command
+echo Executing: rsync "${opts[@]}" "$src/" "$dest/"
+rsync "${opts[@]}" "$src/" "$dest/"

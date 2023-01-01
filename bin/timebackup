@@ -1,0 +1,105 @@
+#!/bin/bash
+# Adapted from Alberto Alcolea's backup script:
+# https://github.com/albertoalcolea/dotfiles/blob/master/bin/bin/backup
+
+set -eo pipefail
+
+usage=$(cat <<-END
+Usage:
+  backup [options]
+Create full and incremental backups with rsync.
+Options:
+      --src=PATH            specify a source path
+      --dest-parent=PATH    specify a path to the parent of the timestamped destination directories
+  -f, --filter=FILE         add a filter file in rsync format (+ include, - exclude, etc.)
+  -b, --full-backup         force a full backup instead of an incremental backup
+  -n, --dry-run             perform a trial run without actually copying files
+  -v, --verbose             run rsync in verbose mode
+  -h, --help                show this help
+END
+)
+
+opts=()
+
+# Args
+while [[ $# -gt 0 ]]; do
+  case "$1" in
+    --src)
+      opts+=("--src $2")
+      shift
+      shift
+      ;;
+    --dest-parent)
+      dest_parent="$2"
+      shift
+      shift
+      ;;
+    -f|--filter)
+      opts+=("-f $2")
+      shift
+      shift
+      ;;
+    -b|--full-backup)
+      opts+=("-b")
+      shift
+      ;;
+    -n|--dry-run)
+      opts+=("-n")  # backup dry-run option
+      shift
+      ;;
+    -v|--verbose)
+      opts+=("-v")  # backup verbose flag
+      shift
+      ;;
+    -h|--help)
+      echo "$usage"
+      exit 0
+      ;;
+    *) # Unknown option
+      echo "Unknown option: $1"
+      exit 1
+      ;;
+  esac
+done
+
+# Remove trailing slashes
+dest_parent=$(echo "$dest_parent" | sed -e 's|\(.*\)/$|\1|')
+
+# Get current backup name
+now=$(date +%Y-%m-%dT%H.%M.%S)
+echo "The current time is $now"
+
+# Backups are stored as follows:
+# dest_parent/
+#     2022-12-30T10.41.58/
+#     2022-12-31T22.38.47/
+
+
+# Get most recent backup name
+last="$(find -E $dest_parent -regex '.*[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{2}\.[0-9]{2}\.[0-9]{2}' | sort --unique --reverse | head -n 1)"
+
+# The next bits address the following three cases:
+# 1. There is a prior backup at the current time.
+# 2. There is a prior backup and it does not match the current time.
+# 3. There is no prior backup.
+
+if [ ! -z "$last" ]; then
+  last="$(basename $last)"
+  if [ "$last" = "$now" ]; then
+    echo "Backup already exists at current time! Aborting ..."
+    exit 0
+  else
+    # Base this backup on the last one via rsync hard links (--link-dest)
+    link_dest="$dest_parent/$last"
+    opts+=("--link-dest $link_dest")
+  fi
+else
+  echo "No prior backup found. Creating initial backup ..."
+fi
+
+dest="$dest_parent/$now"
+
+# Pass all these options into the more general backup script
+
+echo Executing backup ${opts[@]} --dest "$dest"
+backup ${opts[@]} --dest "$dest"
