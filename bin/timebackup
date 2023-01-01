@@ -25,6 +25,7 @@ opts=()
 while [[ $# -gt 0 ]]; do
   case "$1" in
     --src)
+      src="$1"
       opts+=("--src $2")
       shift
       shift
