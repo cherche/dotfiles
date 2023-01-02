@@ -89,7 +89,7 @@ if [ "$do_full_backup" == "true" ]; then
   echo "Creating full backup ..."
 else
   if [ -z "$link_dest" ]; then
-    echo "No previous backup found. Creating initial backup ..."
+    echo "No previous backup found at $link_dest. Creating initial backup ..."
   else
     opts+=("--link-dest=$link_dest")
     echo "Basing incremental backup on $link_dest"
