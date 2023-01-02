@@ -6,7 +6,7 @@ set -eo pipefail
 
 usage=$(cat <<-END
 Usage:
-  backup [options]
+  timebackup [options]
 Create full and incremental backups with rsync.
 Options:
       --src=PATH            specify a source path
