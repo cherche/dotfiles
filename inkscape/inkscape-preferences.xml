@@ -125,8 +125,8 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="815.999976931595"
-         height="1055.99997693159"
+         width="366.101684570354"
+         height="372.203409830732"
          rx="0"
          ry="0" />
       <eventcontext
@@ -536,7 +536,7 @@
   </group>
   <group
      id="colorselector"
-     page="1"
+     page="2"
      switcher="1" />
   <group
      id="embedded">
@@ -550,7 +550,8 @@
        panel_border="0" />
   </group>
   <group
-     id="dialogs">
+     id="dialogs"
+     traceliveUpdate="1">
     <group
        id="toolbox" />
     <group
@@ -567,7 +568,7 @@
     <group
        id="align"
        align-to="4"
-       objects-align-to="page" />
+       objects-align-to="biggest" />
     <group
        id="xml"
        h="500"
@@ -586,7 +587,7 @@
     <group
        id="preferences"
        state="1"
-       page="48" />
+       page="46" />
     <group
        id="gradienteditor" />
     <group
@@ -606,6 +607,9 @@
       <group
          id="batchexportarea"
          value="layer" />
+      <group
+         id="defaultdpi"
+         value="34.1333351135254" />
     </group>
     <group
        id="save_as"
@@ -619,7 +623,7 @@
        default="org.inkscape.output.pdf.cairorenderer"
        append_extension="1"
        enable_preview="1"
-       path="/Users/ryan/Desktop" />
+       path="/Users/ryan/school/Innis Residence Council 2022/Lobby Table" />
     <group
        id="open"
        enable_preview="1"
@@ -632,7 +636,7 @@
        ask_svg="1"
        link="link"
        scale="auto"
-       import_mode_svg="include"
+       import_mode_svg="link"
        forcexdpi="0" />
     <group
        id="debug"
@@ -963,7 +967,7 @@
        partialdynamic="0" />
     <group
        id="boot"
-       theme="colorful"
+       theme="custom"
        enabled="0">
       <group
          id="shown"
@@ -984,7 +988,35 @@
        shortcutfile="default.xml" />
     <group
        id="snapping"
-       snap-global-toggle="0" />
+       snap-global-toggle="0"
+       snap-bbox="1"
+       snap-bbox-edge="1"
+       snap-bbox-corner="1"
+       snap-bbox-edge-midpoint="0"
+       snap-bbox-center="0"
+       simple-snap-bbox="1"
+       snap-node-category="1"
+       snap-path="1"
+       snap-path-intersection="0"
+       snap-node-cusp="1"
+       snap-node-smooth="1"
+       snap-line-midpoint="1"
+       snap-line-tangential="0"
+       snap-line-perpendicular="0"
+       simple-snap-nodes="1"
+       snap-alignment="0"
+       snap-alignment-self="0"
+       snap-distribution="0"
+       simple-snap-alignment="0"
+       snap-others="1"
+       snap-object-midpoint="0"
+       snap-rotation-center="0"
+       snap-text-baseline="1"
+       snap-path-mask="1"
+       snap-path-clip="1"
+       snap-page-border="1"
+       snap-grid="1"
+       snap-guide="1" />
     <group
        id="notebooklabels"
        value="1" />
@@ -1009,10 +1041,12 @@
      org.inkscape.effect.filter.Feather.blur="3.20456869009585"
      org.inkscape.effect.filter.CrossBlur.fade="0"
      org.inkscape.effect.filter.CrossBlur.bright="0"
-     org.inkscape.effect.filter.CrossBlur.__live_effect__="0" />
+     org.inkscape.effect.filter.CrossBlur.__live_effect__="0"
+     org.inkscape.input.svg.import_mode_svg="link"
+     org.inkscape.output.pdf.cairorenderer.textToPath="paths" />
   <group
      id="desktop"
-     style="fill:#000000;font-size:21.33333333px;text-anchor:end;text-align:end;line-height:1;stroke-width:10;-inkscape-font-specification:'Helvetica Neue';font-family:'Helvetica Neue'">
+     style="fill:#000000;font-size:25.33333333px;text-anchor:end;text-align:end;line-height:1;stroke-width:10;-inkscape-font-specification:'Helvetica Neue';font-family:'Helvetica Neue'">
     <group
        width="1424"
        height="836"
@@ -1040,7 +1074,7 @@
      id="toolbox"
      icononly="1"
      secondary="1"
-     simplesnap="1"
+     simplesnap="0"
      small="1">
     <group
        id="tools"
@@ -1050,7 +1084,9 @@
        width="32">
       <group
          id="buttons"
-         showRect="1" />
+         showRect="1"
+         showArc="1"
+         showMeasure="1" />
     </group>
     <group
        id="controlbars"
@@ -1133,20 +1169,22 @@
      defaultIconTheme="Adwaita"
      defaultGtkTheme="Adwaita"
      narrowSpinButton="1"
-     preferDarkTheme="1"
+     preferDarkTheme="0"
      darkTheme="1"
      symbolicIcons="1"
-     symbolicDefaultBaseColors="0"
-     symbolicDefaultHighColors="0"
-     iconTheme="multicolor"
+     symbolicDefaultBaseColors="1"
+     symbolicDefaultHighColors="1"
      menuIcons_canvas="0"
      menuIcons_layers="0"
      menuIcons_objects="0"
-     gtkTheme="Adwaita">
+     gtkTheme="HighContrastInverse"
+     fontscale="100"
+     contrast="10"
+     iconTheme="multicolor">
     <group
        id="multicolor"
        symbolicBaseColor="3958107135"
-       symbolicSuccessColor="10029823"
+       symbolicSuccessColor="180295167"
        symbolicWarningColor="4279865599"
        symbolicErrorColor="10086143" />
     <group
