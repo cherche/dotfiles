@@ -321,7 +321,7 @@
        id="lpetool"
        mode="drag"
        style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;"
-       unit="in"
+       unit="px"
        show_bbox="1" />
     <eventcontext
        id="text"
@@ -627,7 +627,7 @@
     <group
        id="open"
        enable_preview="1"
-       path="/Users/ryan/Desktop/Lobby Table/" />
+       path="/Users/ryan/school/Innis Residence Council 2022/Lobby Table/" />
     <group
        id="import"
        enable_preview="1"
