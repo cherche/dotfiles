@@ -11,6 +11,7 @@ alias refinder="killall Finder"
 
 alias bh="python3 ~/dotfiles/bin/bookmark-helper.py"
 
+alias firefox="/Applications/Firefox.app/Contents/MacOS/firefox"
 # zathura, but with automatic switching between light/dark themes
 alias zathura="bzathura"
 
