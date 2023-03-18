@@ -24,8 +24,10 @@ alt + ctrl - return : open -a Finder ~
 alt - m : open -a Spotify
 alt - 1 : open -a KeePassXC
 alt - 2 : open -a Music
+# alt - ,
 alt - 0x2B : alacritty -e vim ~/dotfiles/yabai/yabairc
-alt + shift - 0x2C : alacritty -e vim -c "set syntax=bash" ~/dotfiles/skhd/skhdrc
+# alt - / (same key as ? but minus the shift)
+alt - 0x2C : alacritty -e vim -c "set syntax=bash" ~/dotfiles/skhd/skhdrc
 cmd + shift - space : open -a Launchpad
 # yabai quick-restart
 ctrl + alt + cmd - y : launchctl kickstart -k "gui/${UID}/homebrew.mxcl.yabai"
