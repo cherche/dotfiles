@@ -81,9 +81,9 @@ echo "The current time is $now"
 #     2022-12-30T10.41.58/
 #     2022-12-31T22.38.47/
 
-
 # Get most recent backup name
-last="$(find -E $dest_parent -regex '.*[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{2}\.[0-9]{2}\.[0-9]{2}' | sort --unique --reverse | head -n 1)"
+last="$(find -E $dest_parent -maxdepth 1 -mindepth 1 -regex '.*[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{2}\.[0-9]{2}\.[0-9]{2}' | sort --unique --reverse | head -n 1)"
+echo "The most recent backup was on $last"
 
 # The next bits address the following three cases:
 # 1. There is a prior backup at the current time.
