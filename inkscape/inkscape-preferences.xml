@@ -125,8 +125,8 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="366.101684570354"
-         height="372.203409830732"
+         width="493.285427584894"
+         height="537.549659608821"
          rx="0"
          ry="0" />
       <eventcontext
@@ -197,7 +197,7 @@
          selcue="1"
          style="stroke-width:1px;"
          usecurrent="0"
-         freehand-mode="0" />
+         freehand-mode="1" />
     </group>
     <eventcontext
        id="calligraphic"
@@ -321,7 +321,7 @@
        id="lpetool"
        mode="drag"
        style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;"
-       unit="px"
+       unit="in"
        show_bbox="1" />
     <eventcontext
        id="text"
@@ -332,7 +332,7 @@
        use_svg2="1"
        style="line-height:1.25;font-family:sans-serif;font-size:16px"
        selcue="1"
-       align_mode="2" />
+       align_mode="1" />
     <eventcontext
        id="nodes"
        selcue="1"
@@ -536,7 +536,7 @@
   </group>
   <group
      id="colorselector"
-     page="2"
+     page="0"
      switcher="1" />
   <group
      id="embedded">
@@ -1046,7 +1046,7 @@
      org.inkscape.output.pdf.cairorenderer.textToPath="paths" />
   <group
      id="desktop"
-     style="fill:#000000;font-size:25.33333333px;text-anchor:end;text-align:end;line-height:1;stroke-width:10;-inkscape-font-specification:'Helvetica Neue';font-family:'Helvetica Neue'">
+     style="fill:#808080;font-size:13.33333333px;text-anchor:middle;text-align:center;line-height:1;stroke-width:0.96;-inkscape-font-specification:Avenir;font-family:Avenir;fill-opacity:0">
     <group
        width="1424"
        height="836"
