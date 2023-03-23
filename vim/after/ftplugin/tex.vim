@@ -11,16 +11,31 @@ catch
   let t:main=t:self
 endtry
 
+" borrowed/stolen from https://stackoverflow.com/a/9121083
+function! InsertStatuslineColor(mode)
+  if a:mode == 'i'
+    hi statusline guibg=Black ctermfg=0 guifg=Cyan ctermbg=6
+  elseif a:mode == 'r'
+    hi statusline guibg=Black ctermfg=5 guifg=Purple ctermbg=0
+  else
+    hi statusline guibg=DarkRed ctermfg=1 guifg=Black ctermbg=0
+  endif
+endfunction
+
+au InsertEnter * call InsertStatuslineColor(v:insertmode)
+au InsertLeave * hi statusline guibg=White ctermfg=15 guifg=DarkGrey ctermbg=8
+
+hi statusline guibg=White ctermfg=15 guifg=DarkGrey ctermbg=8
 set laststatus=2
 set statusline=
-set statusline+=%4*\ %<%F%*            "full path
-set statusline+=%2*%m%*                "modified flag
-set statusline+=\ &\ 
-set statusline+=%{t:main}.tex
-set statusline+=%1*%=%5l%*             "current line
+set statusline+=%0*\ %<%F%*            "full path
+set statusline+=%0*%m%*                "modified flag
+set statusline+=%1*%=%*                "spacer
+set statusline+=%1*(%{t:main}.tex)%*   "main tex file (doc to be autocompiled)
+set statusline+=%1*%5l%*               "current line
 set statusline+=%2*/%L%*               "total lines
 set statusline+=%1*%4v\ %*             "virtual column number
-set statusline+=%2*0x%04B\ %*          "character under cursor
+"set statusline+=%2*0x%04B\ %*          "character under cursor
 
 
 function Open_main_pdf()
