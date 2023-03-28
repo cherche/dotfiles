@@ -1,4 +1,3 @@
-tap "cherche/custom", "git@github.com:cherche/homebrew-custom"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-versions"
@@ -115,6 +114,7 @@ cask "transmission"
 cask "vlc"
 cask "vscodium"
 cask "zoom"
+mas "Be Focused", id: 973134470
 mas "ColorSlurp", id: 1287239339
 mas "GarageBand", id: 682658836
 mas "iMovie", id: 408981434
