@@ -5,7 +5,7 @@ yabai -m signal --add event=dock_did_restart action="sudo yabai --load-sa"
 
 yabai -m config window_border               on
 yabai -m config window_border_width         2
-yabai -m config window_border_blur          on
+yabai -m config window_border_blur          off
 yabai -m config active_window_border_color '0xfff6c177'
 yabai -m config normal_window_border_color '0xff808080'
 yabai -m config insert_feedback_color      '0xffaf87ff'
@@ -68,6 +68,7 @@ yabai -m rule --add label="Inkscape Auxiliary" app="^Inkscape$" title!="- Inksca
 yabai -m rule --add label="Transmission" app="^Transmission$" title!="^Transmission$" manage=off
 
 # Float
+yabai -m rule --add label="Arc" app="Arc" manage=off border=off
 yabai -m rule --add label="Activity Monitor" app="^Moniteur d’activité$" manage=off
 yabai -m rule --add label="App Store" app="^App Store$" manage=off
 yabai -m rule --add label="Calculator" app="^Calculatrice$" manage=off
