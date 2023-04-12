@@ -1,13 +1,13 @@
 "autocmd BufWritePost * !pdflatex <afile>
-let t:autocompile=0
-
+"
+let t:autocompile=get(t:, 'autocompile', 0)
+"%:r to ensure we *don't* capture the extension
 let t:self=expand('%:rF')
 
 try
   "main.txt should contain a file name and no extension
   let t:main=readfile(glob('./main.txt'))[0]
 catch
-  "%:r to ensure we *don't* capture the extension
   let t:main=t:self
 endtry
 
@@ -31,6 +31,7 @@ set statusline=
 set statusline+=%0*\ %<%F%*            "full path
 set statusline+=%0*%m%*                "modified flag
 set statusline+=%1*%=%*                "spacer
+set statusline+=%1*%{t:autocompile}\ %* "autocompile indicator
 set statusline+=%1*(%{t:main}.tex)%*   "main tex file (doc to be autocompiled)
 set statusline+=%1*%5l%*               "current line
 set statusline+=%2*/%L%*               "total lines
@@ -42,7 +43,11 @@ function Open_main_pdf()
   execute '!open ' . t:main . '.pdf'
 endfunction
 
-noremap <F2> :if t:autocompile \| let t:autocompile=0 \| else \| let t:autocompile=1 \| endif<CR><CR>
+noremap <F2> :if t:autocompile \| let t:autocompile=0 \| else \| let t:autocompile=1 \| endif<CR>
 noremap <F3> :call Open_main_pdf()<CR><CR>
 "noremap <F2> $
-autocmd BufWritePost * if t:autocompile | execute '!pdflatex ' . t:main . '.tex' | endif
+
+augroup compile
+  au!
+  autocmd BufWritePost * if t:autocompile | execute '!pdflatex ' . t:main . '.tex' | endif
+augroup END
