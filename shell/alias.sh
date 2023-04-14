@@ -24,3 +24,7 @@ fcd() {
     dir="$(find * -type d | fzf)"
     cd "$dir"
 }
+# scopen - find (in ~/school/) and open with zathura
+scopen() {
+    zopen ~/school "$*"
+}

@@ -1,0 +1,38 @@
+#!/bin/bash
+
+# INTERFACE
+#
+# Open the fzf interactive finder with the book files in the provided library directory.
+# If no directory is supplied, the working directory is used.
+# If a selection is made, it will be opened in zathura.
+# If no selection is made, the program fails silently.
+
+# Constants
+if [ "$#" -ne 1 ]; then
+  library="$1"
+  search="${*:2}"
+else
+  library='.'
+  search="$*"
+fi
+
+wd="$(pwd)"
+# cd'ing into the Library results in clean(er) find output with no extra work.
+cd "$library"
+book_file=$(find * -type f -name '*.cbr' -or -name '*.djvu' -or -name '*.epub' -or -name '*.pdf' | fzf --reverse --height=45% --border --info=inline --query "$search")
+# And now we can cd back to where we started ASAP
+cd "$wd"
+
+if [ -z "$book_file" ]; then
+  exit 1
+fi
+
+book_path="$library/$book_file"
+echo "Opening $book_file."
+
+# Set recolor depending on whether it's day or night
+zathura() {
+  $HOME/dotfiles/bin/bzathura "$@"
+}
+# Some neat trick to keep running process while leaving no output in term
+zathura "$book_path" &>/dev/null &
