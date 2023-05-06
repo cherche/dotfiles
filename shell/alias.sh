@@ -3,7 +3,7 @@ alias bup="brew update && brew upgrade && brew cleanup; brew doctor"
 
 alias relaunchpad="defaults write com.apple.dock ResetLaunchPad -bool true; killall Dock"
 alias redock="killall Dock"
-alias reyabai="brew services restart yabai && sudo yabai --load-sa"
+alias reyabai="yabai --stop-service && yabai --start-service"
 alias retmux="tmux a -t main || tmux new -s main"
 alias rebash="source ~/.bashrc"
 alias rezsh="source ~/.zshrc"

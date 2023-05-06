@@ -30,7 +30,8 @@ alt - 0x2B : alacritty -e vim ~/dotfiles/yabai/yabairc
 alt - 0x2C : alacritty -e vim -c "set syntax=bash" ~/dotfiles/skhd/skhdrc
 cmd + shift - space : open -a Launchpad
 # yabai quick-restart
-ctrl + alt + cmd - y : launchctl kickstart -k "gui/${UID}/homebrew.mxcl.yabai"
+# ctrl + alt + cmd - y : launchctl kickstart -k "gui/${UID}/homebrew.mxcl.yabai"
+ctrl + alt + cmd - y : yabai --stop-service && yabai --start-service
 # finder quick restart (why does quick look keep breaking??)
 ctrl + alt + cmd - r : killall Finder
 
