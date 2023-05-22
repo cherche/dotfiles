@@ -1,3 +1,5 @@
+FPATH="$(brew --prefix)/share/zsh/site-functions:${FPATH}"
+
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
@@ -123,12 +125,12 @@ if test -z $CRONTABCMD; then
   $CRONTABCMD ~/.crontab
 fi
 
-if type brew &>/dev/null; then
-  FPATH=$(brew --prefix)/share/zsh-completions:$FPATH
-
-  autoload -Uz compinit
-  compinit
-fi
+#if type brew &>/dev/null; then
+#  FPATH=$(brew --prefix)/share/zsh-completions:$FPATH
+#
+#  autoload -Uz compinit
+#  compinit
+#fi
 
 source $HOME/dotfiles/shell/alias.sh
 source $HOME/dotfiles/shell/env.sh
