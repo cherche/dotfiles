@@ -46,7 +46,8 @@ colors:
     blue:    '0x51afef'
     magenta: '0xc678dd'
     cyan:    '0x5699af'
-    white:   '0x202328'
+    # white:   '0x202328'
+    white:   '0xbbbbbb'
 
   bright:
     black:   '0x5b6268'
@@ -79,7 +80,7 @@ key_bindings:
   - { key: T, mods: Command|Shift, chars: "\x02S" }
   - { key: T, mods: Command, chars: "\x02c" }
   - { key: W, mods: Command|Shift, chars: "\x02X" }
-  - { key: W, mods: Command, chars: "\x02&" }
+  - { key: W, mods: Command, chars: "\x02x" }
   - { key: Grave, mods: Command, chars: "\x02)" }
   - { key: Grave, mods: Command|Shift, chars: "\x02(" }
   - { key: Tab, mods: Control, chars: "\x02n" }
