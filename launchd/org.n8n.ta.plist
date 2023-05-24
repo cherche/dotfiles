@@ -13,7 +13,7 @@
   <array>
     <string>/Users/ryan/dotfiles/launchd/n8n.sh</string>
   </array>
-  
+
   <key>RunAtLoad</key>
   <true/>
 </dict>

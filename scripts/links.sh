@@ -6,6 +6,7 @@ ln -svf ~/dotfiles/shell/.bashrc ~/.bashrc
 ln -svf ~/dotfiles/shell/.zshrc_ohmyzsh ~/.zshrc
 ln -svf ~/dotfiles/shell/.inputrc ~
 ln -svf ~/dotfiles/tmux/.tmux.conf ~
+ln -svf ~/dotfiles/tmux/.tmux.reset.conf ~
 
 ln -svf ~/dotfiles/git/.gitconfig ~
 ln -svf ~/dotfiles/git/.gitignore ~
@@ -26,4 +27,3 @@ ln -svf ~/dotfiles/mpv/scripts/ ~/.config/mpv/
 ln -svf ~/dotfiles/vim/vimrc ~/.vim/
 ln -svf ~/dotfiles/vim/after/ ~/.vim/
 
-ln -svf ~/dotfiles/launchd/org.n8n.ta.plist ~/Library/LaunchAgents/
