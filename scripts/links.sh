@@ -7,6 +7,7 @@ ln -svf ~/dotfiles/shell/.zshrc_ohmyzsh ~/.zshrc
 ln -svf ~/dotfiles/shell/.inputrc ~
 ln -svf ~/dotfiles/tmux/.tmux.conf ~
 ln -svf ~/dotfiles/tmux/.tmux.reset.conf ~
+ln -svf ~/dotfiles/tmux/.tmux.remote.conf ~
 
 ln -svf ~/dotfiles/git/.gitconfig ~
 ln -svf ~/dotfiles/git/.gitignore ~
