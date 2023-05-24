@@ -1,13 +1,7 @@
 live_config_reload: true
 
 shell:
-  program: /opt/homebrew/bin/tmux
-  args:
-    - new-session
-    - -A
-#    - -D
-    - -s
-    - main
+  program: /Users/ryan/dotfiles/alacritty/alacritty-shell.sh
 
 window:
   startup_mode: Windowed

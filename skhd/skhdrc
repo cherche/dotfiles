@@ -10,14 +10,9 @@ passthrough < alt - i : ~/dotfiles/skhd/macros/normal-mode.sh
 
 # ===== General ==========
 
-# try to focus a Terminal window in this space
-# if none exists, open a new one
-# the idea is to prevent accidental opening of many terminal windows
-alt - return : yabai -m query --windows --space | \
-  jq '[.[] | select(.app == "Alacritty") | .id][0]' \
-  | xargs -I{} yabai -m window --focus {} \
-  || open -n /Applications/Alacritty.app
-alt + shift - return : open -n /Applications/Alacritty.app
+alt - return : open -n /Applications/Alacritty.app
+# Summon a "temporary" pop-up window for when you just need a terminal for a moment!
+alt + shift - return : alacritty -e tmux new-session -A -D -s temp
 alt + ctrl - return : open -a Finder ~
 # TODO: Make all these shortcuts toggle window visibility (hide/unhide)
 # so minimal hand movement is needed to quickly flash the window
