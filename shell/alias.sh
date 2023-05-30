@@ -14,6 +14,7 @@ alias bh="python3 ~/dotfiles/bin/bookmark-helper.py"
 alias firefox="/Applications/Firefox.app/Contents/MacOS/firefox"
 # zathura, but with automatic switching between light/dark themes
 alias zathura="bzathura"
+alias matlab="/Applications/MATLAB_R2023a.app/bin/matlab -nojvm -nodesktop"
 
 # fh - repeat history
 fh() {
@@ -27,4 +28,14 @@ fcd() {
 # scopen - find (in ~/school/) and open with zathura
 scopen() {
     zopen ~/school "$*"
+}
+
+print_colours() {
+    for i in {0..255}; do
+        printf "\x1b[38;5;${i}mcolour${i}\x1b[0m\n"
+    done
+}
+
+vscode() {
+    open "$1" -a /Applications/VSCodium.app
 }
