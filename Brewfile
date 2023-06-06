@@ -107,7 +107,6 @@ cask "numi"
 cask "obs"
 cask "openemu"
 cask "openttd"
-cask "opera"
 cask "prismlauncher"
 cask "rectangle"
 cask "sage"
@@ -130,3 +129,4 @@ mas "Keynote", id: 409183694
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 mas "WhatsApp", id: 1147396723
+mas "Xcode", id: 497799835
