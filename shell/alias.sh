@@ -1,5 +1,6 @@
 alias cleanupds="find . -type f -name '*.DS_Store' -ls -delete"
 alias bup="brew update && brew upgrade && brew cleanup; brew doctor"
+alias xbrew="arch -x86_64 /usr/local/bin/brew"
 
 alias relaunchpad="defaults write com.apple.dock ResetLaunchPad -bool true; killall Dock"
 alias redock="killall Dock"
