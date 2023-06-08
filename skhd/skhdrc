@@ -220,7 +220,8 @@ alt - e : yabai -m window --toggle zoom-parent
 # toggle window fullscreen zoom
 alt - f : yabai -m window --toggle zoom-fullscreen
 # toggle window native fullscreen
-shift + alt - f : yabai -m window --toggle native-fullscreen
+# Disabled because functionality already exists natively as ctrl  + cmd - F
+# shift + alt - f : yabai -m window --toggle native-fullscreen
 
 # change layout of desktop
 ctrl + alt - a : yabai -m space --layout bsp

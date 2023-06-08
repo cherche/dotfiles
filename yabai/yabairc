@@ -87,6 +87,7 @@ yabai -m rule --add label="WhatsApp" app="^WhatsApp$" manage=off
 yabai -m rule --add label="Calibre" app="^calibre$" manage=off
 yabai -m rule --add label="Discord" app="^Discord$" manage=off
 yabai -m rule --add label="eqMac" app="^eqMac$" manage=off
+yabai -m rule --add label="MATLAB" app="^MATLAB" manage=off
 yabai -m rule --add label="Minecraft Launcher" app="^Minecraft Launcher$" manage=off
 yabai -m rule --add label="Minecraft" app="^java$" title="^Minecraft" manage=off
 yabai -m rule --add label="Numi" app="^Numi$" manage=off
