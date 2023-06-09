@@ -125,8 +125,8 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="493.285427584894"
-         height="537.549659608821"
+         width="1068.34538016732"
+         height="1099.99996155266"
          rx="0"
          ry="0" />
       <eventcontext
@@ -164,8 +164,8 @@
          end="0"
          start="0"
          usecurrent="1"
-         rx="59.7031630369756"
-         ry="59.7031630369759" />
+         rx="224.999999999989"
+         ry="224.999999999996" />
       <eventcontext
          id="star"
          magnitude="5"
@@ -321,7 +321,7 @@
        id="lpetool"
        mode="drag"
        style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;"
-       unit="in"
+       unit="mm"
        show_bbox="1" />
     <eventcontext
        id="text"
@@ -556,7 +556,7 @@
        id="toolbox" />
     <group
        id="fillstroke"
-       page="1" />
+       page="2" />
     <group
        id="filtereffects" />
     <group
@@ -568,7 +568,7 @@
     <group
        id="align"
        align-to="4"
-       objects-align-to="biggest" />
+       objects-align-to="last" />
     <group
        id="xml"
        h="500"
@@ -1046,10 +1046,10 @@
      org.inkscape.output.pdf.cairorenderer.textToPath="paths" />
   <group
      id="desktop"
-     style="fill:#808080;font-size:13.33333333px;text-anchor:middle;text-align:center;line-height:1;stroke-width:0.96;-inkscape-font-specification:Avenir;font-family:Avenir;fill-opacity:0">
+     style="fill:#000000;font-size:13.33333333px;text-anchor:middle;text-align:center;line-height:1;stroke-width:15;-inkscape-font-specification:Avenir;font-family:Avenir">
     <group
-       width="1424"
-       height="836"
+       width="1904"
+       height="1016"
        x="8"
        y="30"
        maximized="0"
