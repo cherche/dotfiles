@@ -17,6 +17,10 @@ alias firefox="/Applications/Firefox.app/Contents/MacOS/firefox"
 alias zathura="bzathura"
 alias matlab="/Applications/MATLAB_R2023a.app/bin/matlab -nojvm -nodesktop"
 
+# q - for when you need to run exactly one command!
+q() {
+    $* && logout
+}
 # fh - repeat history
 fh() {
     eval $( ([ -n "$ZSH_NAME" ] && fc -l 1 || history) | fzf +s --tac | sed -E 's/ *[0-9]*\*? *//' | sed -E 's/\\/\\\\/g')

@@ -11,8 +11,8 @@ passthrough < alt - i : ~/dotfiles/skhd/macros/normal-mode.sh
 # ===== General ==========
 
 alt - return : open -n /Applications/Alacritty.app
-# Summon a "temporary" pop-up window for when you just need a terminal for a moment!
-alt + shift - return : alacritty -e tmux new-session -A -D -s temp
+# Summon a "temporary" pop-up window for when you just need a terminal for a single command!
+alt + shift - return : alacritty -e ~/dotfiles/skhd/macros/q.sh
 alt + ctrl - return : open -a Finder ~
 # TODO: Make all these shortcuts toggle window visibility (hide/unhide)
 # so minimal hand movement is needed to quickly flash the window
