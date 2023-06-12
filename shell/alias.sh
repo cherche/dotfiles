@@ -21,6 +21,12 @@ alias matlab="/Applications/MATLAB_R2023a.app/bin/matlab -nojvm -nodesktop"
 q() {
     $* && logout
 }
+# zd - for when you can't quite remember the directory name
+zd() {
+    z $*
+    pwd
+}
+
 # fh - repeat history
 fh() {
     eval $( ([ -n "$ZSH_NAME" ] && fc -l 1 || history) | fzf +s --tac | sed -E 's/ *[0-9]*\*? *//' | sed -E 's/\\/\\\\/g')
