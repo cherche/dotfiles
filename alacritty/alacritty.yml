@@ -77,6 +77,7 @@ key_bindings:
   - { key: W, mods: Command, chars: "\x02x" }
   - { key: Grave, mods: Command, chars: "\x02)" }
   - { key: Grave, mods: Command|Shift, chars: "\x02(" }
+  - { key: Return, mods: Command|Shift, chars: "\x1bOH \x0D" }
   - { key: Tab, mods: Control, chars: "\x02n" }
   - { key: Tab, mods: Control|Shift, chars: "\x02p" }
   - { key: Space, mods: Control, chars: "\x02s" }
