@@ -48,7 +48,7 @@ brew "micro"
 brew "mupdf"
 brew "node"
 brew "openjdk"
-brew "openssl@3"
+brew "openssl@3", link: false
 brew "pandoc"
 brew "pangomm"
 brew "pdftk-java"
