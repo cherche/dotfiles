@@ -42,6 +42,8 @@ highlight clear Conceal
 " Plugins
 """""
 
+set rtp+=/opt/homebrew/opt/fzf
+
 call plug#begin('~/.vim/plugged')
 
 Plug 'lervag/vimtex'
