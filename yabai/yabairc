@@ -29,7 +29,7 @@ yabai -m config window_shadow               float
 yabai -m config active_window_opacity       1.0
 yabai -m config normal_window_opacity       0.85
 
-yabai -m config auto_balance                on
+yabai -m config auto_balance                off
 
 # autofocus when window disappears
 yabai -m signal --add event=window_destroyed action="yabai -m query --windows --window &> /dev/null || yabai -m window --focus mouse"
