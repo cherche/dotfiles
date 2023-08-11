@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <inkscape
-   version="1"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd">
+   version="1">
   <group
      id="window">
     <group
@@ -101,9 +100,10 @@
   </group>
   <group
      id="template">
-    <sodipodi:namedview
+    <group
        id="base"
        pagecolor="#ffffff"
+       deskcolor="#d1d1d1"
        pageopacity="0.0"
        pagecheckerboard="0"
        bordercolor="#666666"
@@ -125,8 +125,8 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="1068.34538016732"
-         height="1099.99996155266"
+         width="13.5640142846297"
+         height="17.2031408595288"
          rx="0"
          ry="0" />
       <eventcontext
@@ -164,8 +164,8 @@
          end="0"
          start="0"
          usecurrent="1"
-         rx="224.999999999989"
-         ry="224.999999999996" />
+         rx="1.70455624738077"
+         ry="1.35490364915742" />
       <eventcontext
          id="star"
          magnitude="5"
@@ -197,15 +197,15 @@
          selcue="1"
          style="stroke-width:1px;"
          usecurrent="0"
-         freehand-mode="1" />
+         freehand-mode="0" />
     </group>
     <eventcontext
        id="calligraphic"
        style="fill:black;fill-opacity:1;fill-rule:nonzero;stroke:none;"
        mass="13"
        angle="45"
-       width="11.001"
-       thinning="-40"
+       width="11"
+       thinning="-30"
        flatness="16"
        cap_rounding="0.1"
        usecurrent="1"
@@ -321,7 +321,7 @@
        id="lpetool"
        mode="drag"
        style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;"
-       unit="mm"
+       unit="px"
        show_bbox="1" />
     <eventcontext
        id="text"
@@ -348,8 +348,8 @@
        live_outline="1"
        live_objects="1"
        show_helperpath="0"
-       x="339.236822204133"
-       y="225.190641344389"
+       x="265.656252169104"
+       y="616.603473292691"
        edit_clipping_paths="0"
        edit_masks="0" />
     <eventcontext
@@ -368,6 +368,14 @@
        dol="1"
        doo="1" />
     <eventcontext
+       id="marker"
+       selcue="1"
+       gradientdrag="1" />
+    <eventcontext
+       id="gradient"
+       selcue="1"
+       newgradient="1" />
+    <eventcontext
        id="spray"
        selcue="1"
        gradientdrag="0"
@@ -379,10 +387,6 @@
        scale_variation="0"
        standard_deviation="70"
        mean="0" />
-    <eventcontext
-       id="gradient"
-       selcue="1"
-       newgradient="1" />
     <eventcontext
        id="mesh"
        selcue="1" />
@@ -397,22 +401,18 @@
        pick="1"
        setalpha="1" />
     <eventcontext
-       id="select"
-       selcue="1"
-       gradientdrag="0" />
-    <eventcontext
        id="connector"
        style="fill:none;fill-rule:evenodd;stroke:black;stroke-opacity:1;stroke-linejoin:miter;stroke-width:1px;stroke-linecap:butt;"
        selcue="1"
        curvature="0" />
     <eventcontext
+       id="select"
+       selcue="1"
+       gradientdrag="0" />
+    <eventcontext
        id="paintbucket"
        style="fill:#a0a0a0;stroke:none;"
        usecurrent="1" />
-    <eventcontext
-       id="marker"
-       selcue="1"
-       gradientdrag="1" />
     <group
        id="geometric"
        mode="drag" />
@@ -537,7 +537,31 @@
   <group
      id="colorselector"
      page="0"
-     switcher="1" />
+     switcher="1">
+    <group
+       id="RGB"
+       visible="1" />
+    <group
+       id="HSL"
+       visible="1" />
+    <group
+       id="CMYK"
+       visible="1" />
+    <group
+       id="HSV"
+       visible="1" />
+    <group
+       id="HSLuv"
+       visible="1" />
+    <group
+       id="OKLAB"
+       visible="1" />
+    <group
+       id="CMS"
+       visible="1" />
+    <group
+       id="OKHSL" />
+  </group>
   <group
      id="embedded">
     <group
@@ -547,7 +571,17 @@
        panel_ratio="100"
        panel_wrap="0"
        palette="Inkscape default"
-       panel_border="0" />
+       panel_border="0">
+      <group
+         id="pinned"
+         none="1"
+         rgb000000="1"
+         black="1"
+         rgb808080="1"
+         gray-50="1"
+         rgbffffff="1"
+         white="1" />
+    </group>
   </group>
   <group
      id="dialogs"
@@ -556,7 +590,7 @@
        id="toolbox" />
     <group
        id="fillstroke"
-       page="2" />
+       page="1" />
     <group
        id="filtereffects" />
     <group
@@ -587,7 +621,7 @@
     <group
        id="preferences"
        state="1"
-       page="46" />
+       page="26" />
     <group
        id="gradienteditor" />
     <group
@@ -616,7 +650,7 @@
        default="org.inkscape.output.svg.inkscape"
        append_extension="1"
        enable_preview="1"
-       path="/Users/ryan/Desktop"
+       path="/Users/ryan/work/Artwork/Playlist Covers/Series Could-Valentine"
        use_current_dir="1" />
     <group
        id="save_copy"
@@ -627,7 +661,7 @@
     <group
        id="open"
        enable_preview="1"
-       path="/Users/ryan/school/Innis Residence Council 2022/Lobby Table/" />
+       path="/Users/ryan/work/Artwork/Playlist Covers/Administrative/" />
     <group
        id="import"
        enable_preview="1"
@@ -655,7 +689,8 @@
     <group
        id="messages" />
     <group
-       id="swatches" />
+       id="swatches"
+       palette="Auto" />
     <group
        id="iconpreview" />
     <group
@@ -682,10 +717,11 @@
        id="livepatheffect"
        dialogmode="0" />
     <group
-       id="objects" />
+       id="objects"
+       expand_to_layer="1" />
     <group
        id="layerProp"
-       addLayerPosition="0" />
+       addLayerPosition="1" />
   </group>
   <group
      id="printing">
@@ -751,8 +787,8 @@
        gamutcolor="#808080"
        gamutwarn="0"
        bpc="0"
-       preserveblack="0"
-       uri="" />
+       uri=""
+       preserveblack="0" />
     <group
        id="savewindowgeometry"
        value="0" />
@@ -944,13 +980,13 @@
        no_emphasize_when_zoomedout="0">
       <group
          id="xy"
-         units="px"
          origin_x="0.0"
          origin_y="0.0"
          spacing_x="1.0"
          spacing_y="1.0"
          empspacing="5"
-         dotted="0" />
+         dotted="0"
+         units="px" />
       <group
          id="axonom"
          units="mm"
@@ -1020,6 +1056,10 @@
     <group
        id="notebooklabels"
        value="1" />
+    <group
+       id="threading" />
+    <group
+       id="ruler" />
   </group>
   <group
      id="extensions"
@@ -1046,12 +1086,12 @@
      org.inkscape.output.pdf.cairorenderer.textToPath="paths" />
   <group
      id="desktop"
-     style="fill:#000000;font-size:13.33333333px;text-anchor:middle;text-align:center;line-height:1;stroke-width:15;-inkscape-font-specification:Avenir;font-family:Avenir">
+     style="fill:#aa0000;font-size:13.33333333px;text-anchor:middle;text-align:center;line-height:1;stroke-width:15.00094488;-inkscape-font-specification:Avenir;font-family:Avenir">
     <group
-       width="1904"
-       height="1016"
-       x="8"
-       y="30"
+       width="952"
+       height="551"
+       x="506"
+       y="1253"
        maximized="0"
        fullscreen="0"
        id="geometry" />
@@ -1091,6 +1131,49 @@
     <group
        id="controlbars"
        iconsize="16" />
+  </group>
+  <group
+     id="statusbar">
+    <group
+       id="visibility" />
+  </group>
+  <group
+     id="debug">
+    <group
+       id="latency"
+       skew="1" />
+  </group>
+  <group
+     id="ui"
+     language="en" />
+  <group
+     id="theme"
+     defaultPreferDarkTheme="0"
+     defaultIconTheme="Adwaita"
+     defaultGtkTheme="Adwaita"
+     narrowSpinButton="1"
+     preferDarkTheme="0"
+     darkTheme="1"
+     symbolicIcons="1"
+     symbolicDefaultBaseColors="1"
+     symbolicDefaultHighColors="1"
+     menuIcons_canvas="0"
+     menuIcons_layers="0"
+     menuIcons_objects="0"
+     gtkTheme="HighContrastInverse"
+     fontscale="100"
+     contrast="10"
+     iconTheme="multicolor"
+     syntax-color-theme="inkscape-dark">
+    <group
+       id="multicolor"
+       symbolicBaseColor="3958107135"
+       symbolicSuccessColor="180295167"
+       symbolicWarningColor="4279865599"
+       symbolicErrorColor="10086143" />
+    <group
+       id="hicolor"
+       symbolicBaseColor="4092850687" />
   </group>
   <group
      id="iconpreview"
@@ -1155,50 +1238,8 @@
     </group>
   </group>
   <group
-     id="debug">
-    <group
-       id="latency"
-       skew="1" />
-  </group>
-  <group
-     id="ui"
-     language="en" />
-  <group
-     id="theme"
-     defaultPreferDarkTheme="0"
-     defaultIconTheme="Adwaita"
-     defaultGtkTheme="Adwaita"
-     narrowSpinButton="1"
-     preferDarkTheme="0"
-     darkTheme="1"
-     symbolicIcons="1"
-     symbolicDefaultBaseColors="1"
-     symbolicDefaultHighColors="1"
-     menuIcons_canvas="0"
-     menuIcons_layers="0"
-     menuIcons_objects="0"
-     gtkTheme="HighContrastInverse"
-     fontscale="100"
-     contrast="10"
-     iconTheme="multicolor">
-    <group
-       id="multicolor"
-       symbolicBaseColor="3958107135"
-       symbolicSuccessColor="180295167"
-       symbolicWarningColor="4279865599"
-       symbolicErrorColor="10086143" />
-    <group
-       id="hicolor"
-       symbolicBaseColor="4092850687" />
-  </group>
-  <group
      id="live_effects"
      flattening="0" />
-  <group
-     id="statusbar">
-    <group
-       id="visibility" />
-  </group>
   <group
      id="gradient-edit"
      stoplist="1" />
