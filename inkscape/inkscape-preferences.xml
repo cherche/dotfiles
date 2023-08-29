@@ -125,8 +125,8 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="13.5640142846297"
-         height="17.2031408595288"
+         width="2303.99998597444"
+         height="1824.00000812009"
          rx="0"
          ry="0" />
       <eventcontext
@@ -164,8 +164,8 @@
          end="0"
          start="0"
          usecurrent="1"
-         rx="1.70455624738077"
-         ry="1.35490364915742" />
+         rx="161.263221079909"
+         ry="161.263221079909" />
       <eventcontext
          id="star"
          magnitude="5"
@@ -197,7 +197,7 @@
          selcue="1"
          style="stroke-width:1px;"
          usecurrent="0"
-         freehand-mode="0" />
+         freehand-mode="1" />
     </group>
     <eventcontext
        id="calligraphic"
@@ -321,7 +321,7 @@
        id="lpetool"
        mode="drag"
        style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;"
-       unit="px"
+       unit="in"
        show_bbox="1" />
     <eventcontext
        id="text"
@@ -330,9 +330,9 @@
        font_sample="AaBbCcIiPpQq12369$€¢?.;/()"
        show_sample_in_list="1"
        use_svg2="1"
-       style="line-height:1.25;font-family:sans-serif;font-size:16px"
+       style="line-height:1.25;font-family:'Gill Sans';font-size:16px;-inkscape-font-specification:'Gill Sans'"
        selcue="1"
-       align_mode="1" />
+       align_mode="2" />
     <eventcontext
        id="nodes"
        selcue="1"
@@ -348,8 +348,8 @@
        live_outline="1"
        live_objects="1"
        show_helperpath="0"
-       x="265.656252169104"
-       y="616.603473292691"
+       x="1192.16749050958"
+       y="734.533860982785"
        edit_clipping_paths="0"
        edit_masks="0" />
     <eventcontext
@@ -536,7 +536,7 @@
   </group>
   <group
      id="colorselector"
-     page="0"
+     page="HSV"
      switcher="1">
     <group
        id="RGB"
@@ -602,7 +602,8 @@
     <group
        id="align"
        align-to="4"
-       objects-align-to="last" />
+       objects-align-to="last"
+       sel-as-groups="0" />
     <group
        id="xml"
        h="500"
@@ -621,7 +622,7 @@
     <group
        id="preferences"
        state="1"
-       page="26" />
+       page="30" />
     <group
        id="gradienteditor" />
     <group
@@ -643,14 +644,14 @@
          value="layer" />
       <group
          id="defaultdpi"
-         value="34.1333351135254" />
+         value="300" />
     </group>
     <group
        id="save_as"
        default="org.inkscape.output.svg.inkscape"
        append_extension="1"
        enable_preview="1"
-       path="/Users/ryan/work/Artwork/Playlist Covers/Series Could-Valentine"
+       path="/Users/ryan/Desktop"
        use_current_dir="1" />
     <group
        id="save_copy"
@@ -661,16 +662,16 @@
     <group
        id="open"
        enable_preview="1"
-       path="/Users/ryan/work/Artwork/Playlist Covers/Administrative/" />
+       path="/Users/ryan/Desktop/" />
     <group
        id="import"
        enable_preview="1"
-       path="/Users/ryan/Downloads/"
+       path="/Users/ryan/Desktop/"
        ask="1"
        ask_svg="1"
        link="link"
        scale="auto"
-       import_mode_svg="link"
+       import_mode_svg="include"
        forcexdpi="0" />
     <group
        id="debug"
@@ -690,7 +691,10 @@
        id="messages" />
     <group
        id="swatches"
-       palette="Auto" />
+       palette="Auto">
+      <group
+         id="pinned" />
+    </group>
     <group
        id="iconpreview" />
     <group
@@ -734,7 +738,9 @@
   <group
      id="options"
      rotationlock="1"
-     onimport="0">
+     onimport="0"
+     onungroup="0"
+     displaymode="0">
     <group
        id="renderingcache"
        size="512" />
@@ -1024,7 +1030,7 @@
        shortcutfile="default.xml" />
     <group
        id="snapping"
-       snap-global-toggle="0"
+       snap-global-toggle="1"
        snap-bbox="1"
        snap-bbox-edge="1"
        snap-bbox-corner="1"
@@ -1082,16 +1088,39 @@
      org.inkscape.effect.filter.CrossBlur.fade="0"
      org.inkscape.effect.filter.CrossBlur.bright="0"
      org.inkscape.effect.filter.CrossBlur.__live_effect__="0"
-     org.inkscape.input.svg.import_mode_svg="link"
-     org.inkscape.output.pdf.cairorenderer.textToPath="paths" />
+     org.inkscape.input.svg.import_mode_svg="include"
+     org.inkscape.output.pdf.cairorenderer.textToPath="paths"
+     org.inkscape.render.grid_cartesian.border_th_unit="mm"
+     org.inkscape.render.grid_cartesian.dx_unit="in"
+     org.inkscape.render.grid_cartesian.x_div_unit="px"
+     org.inkscape.render.grid_cartesian.dy_unit="in"
+     org.inkscape.render.grid_cartesian.y_div_unit="mm"
+     org.inkscape.render.grid_cartesian.border_th="0"
+     org.inkscape.render.grid_cartesian.dx="24"
+     org.inkscape.render.grid_cartesian.x_divs="1"
+     org.inkscape.render.grid_cartesian.tab="y_tab"
+     org.inkscape.render.grid_cartesian.__live_effect__="0"
+     org.inkscape.render.grid_cartesian.dy="2"
+     org.inkscape.render.grid_cartesian.y_divs="11"
+     org.inkscape.render.grid_cartesian.y_subdivs_th="0"
+     org.inkscape.render.grid_cartesian.y_subsubdivs_th="0"
+     org.inkscape.render.grid_cartesian.y_divs_th="3"
+     org.inkscape.qr_code.typenumber="0"
+     org.inkscape.qr_code.correctionlevel="1"
+     org.inkscape.qr_code.qrmode="0"
+     org.inkscape.qr_code.encoding="latin_1"
+     org.inkscape.qr_code.text="https://media3-criterionpic-com.myaccess.library.utoronto.ca/htbin/wwform/006?T=P06505"
+     org.inkscape.qr_code.__live_effect__="0"
+     org.inkscape.qr_code.drawtype="smooth"
+     org.inkscape.output.pdf.cairorenderer.resolution="300" />
   <group
      id="desktop"
-     style="fill:#aa0000;font-size:13.33333333px;text-anchor:middle;text-align:center;line-height:1;stroke-width:15.00094488;-inkscape-font-specification:Avenir;font-family:Avenir">
+     style="fill:#f9f9f9;font-size:32px;line-height:1.25;stroke-width:3.77952756;-inkscape-font-specification:Futura;font-family:Futura;text-anchor:end;text-align:end;stroke:#666666">
     <group
-       width="952"
-       height="551"
-       x="506"
-       y="1253"
+       width="1904"
+       height="1016"
+       x="8"
+       y="30"
        maximized="0"
        fullscreen="0"
        id="geometry" />
@@ -1239,7 +1268,11 @@
   </group>
   <group
      id="live_effects"
-     flattening="0" />
+     flattening="0">
+    <group
+       id="skeletal"
+       width="3.04258272693425" />
+  </group>
   <group
      id="gradient-edit"
      stoplist="1" />

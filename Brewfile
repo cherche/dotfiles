@@ -18,6 +18,7 @@ brew "cmake"
 brew "dbus"
 brew "diff-so-fancy"
 brew "djview4"
+brew "docker"
 brew "exiftool"
 brew "fdupes"
 brew "libogg"
@@ -68,7 +69,7 @@ brew "z"
 brew "zsh-completions"
 brew "khanhas/tap/spicetify-cli"
 brew "koekeishiya/formulae/skhd"
-brew "koekeishiya/formulae/yabai", args: ["HEAD"]
+brew "koekeishiya/formulae/yabai"
 brew "zegervdv/zathura/girara", args: ["HEAD"]
 brew "zegervdv/zathura/zathura", args: ["HEAD", "with-synctex"]
 brew "zegervdv/zathura/zathura-cb"
