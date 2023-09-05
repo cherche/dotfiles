@@ -125,8 +125,8 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="2303.99998597444"
-         height="1824.00000812009"
+         width="48.0181151863161"
+         height="40.9566275529035"
          rx="0"
          ry="0" />
       <eventcontext
@@ -161,17 +161,18 @@
       <eventcontext
          id="arc"
          style="fill:red;"
-         end="0"
+         end="359.593090692116"
          start="0"
          usecurrent="1"
-         rx="161.263221079909"
-         ry="161.263221079909" />
+         rx="1197.94621985726"
+         ry="158.139528289557" />
       <eventcontext
          id="star"
          magnitude="5"
          style="fill:yellow;"
          usecurrent="1"
-         proportion="0.5" />
+         proportion="0.37999999369621"
+         isflatsided="1" />
       <eventcontext
          id="spiral"
          style="fill:none;stroke:black"
@@ -197,7 +198,7 @@
          selcue="1"
          style="stroke-width:1px;"
          usecurrent="0"
-         freehand-mode="1" />
+         freehand-mode="0" />
     </group>
     <eventcontext
        id="calligraphic"
@@ -330,7 +331,7 @@
        font_sample="AaBbCcIiPpQq12369$€¢?.;/()"
        show_sample_in_list="1"
        use_svg2="1"
-       style="line-height:1.25;font-family:'Gill Sans';font-size:16px;-inkscape-font-specification:'Gill Sans'"
+       style="line-height:1.25;font-family:Futura;font-size:16px;-inkscape-font-specification:Futura"
        selcue="1"
        align_mode="2" />
     <eventcontext
@@ -348,8 +349,8 @@
        live_outline="1"
        live_objects="1"
        show_helperpath="0"
-       x="1192.16749050958"
-       y="734.533860982785"
+       x="2967.83495640187"
+       y="571.895136780968"
        edit_clipping_paths="0"
        edit_masks="0" />
     <eventcontext
@@ -602,12 +603,13 @@
     <group
        id="align"
        align-to="4"
-       objects-align-to="last"
+       objects-align-to="first"
        sel-as-groups="0" />
     <group
        id="xml"
        h="500"
-       w="300" />
+       w="300"
+       layout="0" />
     <group
        id="find" />
     <group
@@ -622,7 +624,7 @@
     <group
        id="preferences"
        state="1"
-       page="30" />
+       page="1" />
     <group
        id="gradienteditor" />
     <group
@@ -635,7 +637,7 @@
        defaultopts="1">
       <group
          id="exportarea"
-         value="page" />
+         value="drawing" />
       <group
          id="defaultxdpi"
          value="96" />
@@ -651,7 +653,7 @@
        default="org.inkscape.output.svg.inkscape"
        append_extension="1"
        enable_preview="1"
-       path="/Users/ryan/Desktop"
+       path="/Users/ryan/work/Innis Residence Don 2023/name-tag-gen"
        use_current_dir="1" />
     <group
        id="save_copy"
@@ -662,11 +664,11 @@
     <group
        id="open"
        enable_preview="1"
-       path="/Users/ryan/Desktop/" />
+       path="/Users/ryan/work/Innis Residence Don 2023/community-board/" />
     <group
        id="import"
        enable_preview="1"
-       path="/Users/ryan/Desktop/"
+       path="/Users/ryan/work/Innis Residence Don 2023/name-tag-gen/"
        ask="1"
        ask_svg="1"
        link="link"
@@ -725,7 +727,10 @@
        expand_to_layer="1" />
     <group
        id="layerProp"
-       addLayerPosition="1" />
+       addLayerPosition="0" />
+    <group
+       id="attrib"
+       precision="2" />
   </group>
   <group
      id="printing">
@@ -1031,7 +1036,7 @@
     <group
        id="snapping"
        snap-global-toggle="1"
-       snap-bbox="1"
+       snap-bbox="0"
        snap-bbox-edge="1"
        snap-bbox-corner="1"
        snap-bbox-edge-midpoint="0"
@@ -1039,7 +1044,7 @@
        simple-snap-bbox="1"
        snap-node-category="1"
        snap-path="1"
-       snap-path-intersection="0"
+       snap-path-intersection="1"
        snap-node-cusp="1"
        snap-node-smooth="1"
        snap-line-midpoint="1"
@@ -1050,7 +1055,7 @@
        snap-alignment-self="0"
        snap-distribution="0"
        simple-snap-alignment="0"
-       snap-others="1"
+       snap-others="0"
        snap-object-midpoint="0"
        snap-rotation-center="0"
        snap-text-baseline="1"
@@ -1115,7 +1120,7 @@
      org.inkscape.output.pdf.cairorenderer.resolution="300" />
   <group
      id="desktop"
-     style="fill:#f9f9f9;font-size:32px;line-height:1.25;stroke-width:3.77952756;-inkscape-font-specification:Futura;font-family:Futura;text-anchor:end;text-align:end;stroke:#666666">
+     style="fill:#f4c746;font-size:400px;line-height:1.25;stroke-width:3.77952756;-inkscape-font-specification:'DELIRIUM NCV';font-family:'DELIRIUM NCV';text-anchor:end;text-align:end;letter-spacing:10px">
     <group
        width="1904"
        height="1016"
@@ -1271,7 +1276,7 @@
      flattening="0">
     <group
        id="skeletal"
-       width="3.04258272693425" />
+       width="-2.79608354809037" />
   </group>
   <group
      id="gradient-edit"
