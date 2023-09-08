@@ -125,8 +125,8 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="48.0181151863161"
-         height="40.9566275529035"
+         width="91.9546148345225"
+         height="56.1705401563268"
          rx="0"
          ry="0" />
       <eventcontext
@@ -322,7 +322,7 @@
        id="lpetool"
        mode="drag"
        style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;"
-       unit="in"
+       unit="mm"
        show_bbox="1" />
     <eventcontext
        id="text"
@@ -603,7 +603,7 @@
     <group
        id="align"
        align-to="4"
-       objects-align-to="first"
+       objects-align-to="page"
        sel-as-groups="0" />
     <group
        id="xml"
@@ -1036,7 +1036,7 @@
     <group
        id="snapping"
        snap-global-toggle="1"
-       snap-bbox="0"
+       snap-bbox="1"
        snap-bbox-edge="1"
        snap-bbox-corner="1"
        snap-bbox-edge-midpoint="0"
@@ -1120,7 +1120,7 @@
      org.inkscape.output.pdf.cairorenderer.resolution="300" />
   <group
      id="desktop"
-     style="fill:#f4c746;font-size:400px;line-height:1.25;stroke-width:3.77952756;-inkscape-font-specification:'DELIRIUM NCV';font-family:'DELIRIUM NCV';text-anchor:end;text-align:end;letter-spacing:10px">
+     style="fill:#29231a;font-size:400px;line-height:1.25;stroke-width:3.77952756;-inkscape-font-specification:'DELIRIUM NCV';font-family:'DELIRIUM NCV';text-anchor:end;text-align:end;letter-spacing:10px">
     <group
        width="1904"
        height="1016"
