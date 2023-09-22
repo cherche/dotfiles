@@ -125,8 +125,8 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="91.9546148345225"
-         height="56.1705401563268"
+         width="912.000011534203"
+         height="727.084884042815"
          rx="0"
          ry="0" />
       <eventcontext
@@ -322,7 +322,7 @@
        id="lpetool"
        mode="drag"
        style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;"
-       unit="mm"
+       unit="in"
        show_bbox="1" />
     <eventcontext
        id="text"
@@ -349,8 +349,8 @@
        live_outline="1"
        live_objects="1"
        show_helperpath="0"
-       x="2967.83495640187"
-       y="571.895136780968"
+       x="721.733078458411"
+       y="590.116667128131"
        edit_clipping_paths="0"
        edit_masks="0" />
     <eventcontext
@@ -603,7 +603,7 @@
     <group
        id="align"
        align-to="4"
-       objects-align-to="page"
+       objects-align-to="biggest"
        sel-as-groups="0" />
     <group
        id="xml"
@@ -637,7 +637,7 @@
        defaultopts="1">
       <group
          id="exportarea"
-         value="drawing" />
+         value="selection" />
       <group
          id="defaultxdpi"
          value="96" />
@@ -664,7 +664,7 @@
     <group
        id="open"
        enable_preview="1"
-       path="/Users/ryan/work/Innis Residence Don 2023/community-board/" />
+       path="/Users/ryan/work/Innis Residence Don 2023/name-tag-gen/tmp/" />
     <group
        id="import"
        enable_preview="1"
@@ -1120,7 +1120,7 @@
      org.inkscape.output.pdf.cairorenderer.resolution="300" />
   <group
      id="desktop"
-     style="fill:#29231a;font-size:400px;line-height:1.25;stroke-width:3.77952756;-inkscape-font-specification:'DELIRIUM NCV';font-family:'DELIRIUM NCV';text-anchor:end;text-align:end;letter-spacing:10px">
+     style="fill:#f9f9f9;font-size:400px;line-height:1.25;stroke-width:3.77952756;-inkscape-font-specification:'DELIRIUM NCV';font-family:'DELIRIUM NCV';text-anchor:end;text-align:end;letter-spacing:10px">
     <group
        width="1904"
        height="1016"
