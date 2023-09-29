@@ -125,8 +125,8 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="912.000011534203"
-         height="727.084884042815"
+         width="812.433889794537"
+         height="1054.52279158465"
          rx="0"
          ry="0" />
       <eventcontext
@@ -349,8 +349,8 @@
        live_outline="1"
        live_objects="1"
        show_helperpath="0"
-       x="721.733078458411"
-       y="590.116667128131"
+       x="627.363734100216"
+       y="446.19031149144"
        edit_clipping_paths="0"
        edit_masks="0" />
     <eventcontext
@@ -603,7 +603,7 @@
     <group
        id="align"
        align-to="4"
-       objects-align-to="biggest"
+       objects-align-to="last"
        sel-as-groups="0" />
     <group
        id="xml"
@@ -637,7 +637,7 @@
        defaultopts="1">
       <group
          id="exportarea"
-         value="selection" />
+         value="page" />
       <group
          id="defaultxdpi"
          value="96" />
@@ -646,14 +646,14 @@
          value="layer" />
       <group
          id="defaultdpi"
-         value="300" />
+         value="90" />
     </group>
     <group
        id="save_as"
        default="org.inkscape.output.svg.inkscape"
        append_extension="1"
        enable_preview="1"
-       path="/Users/ryan/work/Innis Residence Don 2023/name-tag-gen"
+       path="/Users/ryan/work/Innis Residence Don 2023/name-tag-gen-special"
        use_current_dir="1" />
     <group
        id="save_copy"
@@ -664,11 +664,11 @@
     <group
        id="open"
        enable_preview="1"
-       path="/Users/ryan/work/Innis Residence Don 2023/name-tag-gen/tmp/" />
+       path="/Users/ryan/work/Innis Residence Don 2023/name-tag-gen-special/" />
     <group
        id="import"
        enable_preview="1"
-       path="/Users/ryan/work/Innis Residence Don 2023/name-tag-gen/"
+       path="/Users/ryan/work/Innis Residence Don 2023/name-tag-gen-special/tmp/"
        ask="1"
        ask_svg="1"
        link="link"
@@ -1117,10 +1117,13 @@
      org.inkscape.qr_code.text="https://media3-criterionpic-com.myaccess.library.utoronto.ca/htbin/wwform/006?T=P06505"
      org.inkscape.qr_code.__live_effect__="0"
      org.inkscape.qr_code.drawtype="smooth"
-     org.inkscape.output.pdf.cairorenderer.resolution="300" />
+     org.inkscape.output.pdf.cairorenderer.resolution="300"
+     org.inkscape.template.paper.max="11.0"
+     org.inkscape.template.paper.min="8.5"
+     org.inkscape.template.paper.unit="in" />
   <group
      id="desktop"
-     style="fill:#f9f9f9;font-size:400px;line-height:1.25;stroke-width:3.77952756;-inkscape-font-specification:'DELIRIUM NCV';font-family:'DELIRIUM NCV';text-anchor:end;text-align:end;letter-spacing:10px">
+     style="fill:#000080;font-size:34.66666667px;line-height:1.25;-inkscape-font-specification:'DELIRIUM NCV';font-family:'DELIRIUM NCV';text-anchor:end;text-align:end;letter-spacing:10px;stroke-width:0.99999869">
     <group
        width="1904"
        height="1016"
