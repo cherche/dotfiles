@@ -15,7 +15,7 @@ brew "brew-cask-completion"
 brew "ghc"
 brew "cabal-install"
 brew "cmake"
-brew "dbus", restart_service: true
+brew "dbus"
 brew "diff-so-fancy"
 brew "djview4"
 brew "docker"
