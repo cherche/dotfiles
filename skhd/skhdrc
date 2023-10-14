@@ -5,8 +5,12 @@ passthrough < alt + shift - t ; default
 
 # vim-style insert mode and normal mode
 # also visually indicates mode using colour
-alt - i : ~/dotfiles/skhd/macros/insert-mode.sh
+alt - i : ~/dotfiles/skhd/macros/insert-mode.sh || ~/dotfiles/skhd/macros/s.sh
 passthrough < alt - i : ~/dotfiles/skhd/macros/normal-mode.sh
+
+# x-ray mode
+ctrl + alt - x : ~/dotfiles/skhd/macros/xray-mode.sh
+passthrough < ctrl + alt - x : ~/dotfiles/skhd/macros/normal-mode.sh
 
 # ===== General ==========
 
