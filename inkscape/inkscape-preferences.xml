@@ -125,8 +125,8 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="812.433889794537"
-         height="1054.52279158465"
+         width="48.6342110220848"
+         height="50.1079757570282"
          rx="0"
          ry="0" />
       <eventcontext
@@ -161,11 +161,11 @@
       <eventcontext
          id="arc"
          style="fill:red;"
-         end="359.593090692116"
+         end="360"
          start="0"
          usecurrent="1"
-         rx="1197.94621985726"
-         ry="158.139528289557" />
+         rx="100.776859794076"
+         ry="100.776859794076" />
       <eventcontext
          id="star"
          magnitude="5"
@@ -203,10 +203,10 @@
     <eventcontext
        id="calligraphic"
        style="fill:black;fill-opacity:1;fill-rule:nonzero;stroke:none;"
-       mass="13"
+       mass="7"
        angle="45"
-       width="11"
-       thinning="-30"
+       width="7"
+       thinning="-15"
        flatness="16"
        cap_rounding="0.1"
        usecurrent="1"
@@ -214,7 +214,7 @@
        usepressure="1"
        usetilt="1"
        keep_selected="1"
-       abs_width="0"
+       abs_width="1"
        unit="px"
        wiggle="25"
        tremor="0">
@@ -322,7 +322,7 @@
        id="lpetool"
        mode="drag"
        style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;"
-       unit="mm"
+       unit="in"
        show_bbox="1" />
     <eventcontext
        id="text"
@@ -333,7 +333,7 @@
        use_svg2="1"
        style="line-height:1.25;font-family:Futura;font-size:16px;-inkscape-font-specification:Futura"
        selcue="1"
-       align_mode="2" />
+       align_mode="1" />
     <eventcontext
        id="nodes"
        selcue="1"
@@ -349,8 +349,8 @@
        live_outline="1"
        live_objects="1"
        show_helperpath="0"
-       x="627.363734100216"
-       y="446.19031149144"
+       x="324.509026579724"
+       y="222.508474964025"
        edit_clipping_paths="0"
        edit_masks="0" />
     <eventcontext
@@ -609,7 +609,8 @@
        id="xml"
        h="500"
        w="300"
-       layout="0" />
+       layout="0"
+       panedpos="189" />
     <group
        id="find" />
     <group
@@ -637,7 +638,7 @@
        defaultopts="1">
       <group
          id="exportarea"
-         value="page" />
+         value="drawing" />
       <group
          id="defaultxdpi"
          value="96" />
@@ -646,14 +647,14 @@
          value="layer" />
       <group
          id="defaultdpi"
-         value="90" />
+         value="300" />
     </group>
     <group
        id="save_as"
        default="org.inkscape.output.svg.inkscape"
        append_extension="1"
        enable_preview="1"
-       path="/Users/ryan/work/Innis Residence Don 2023/name-tag-gen-special"
+       path="/Users/ryan/work/Innis Residence Don 2023"
        use_current_dir="1" />
     <group
        id="save_copy"
@@ -664,7 +665,7 @@
     <group
        id="open"
        enable_preview="1"
-       path="/Users/ryan/work/Innis Residence Don 2023/name-tag-gen-special/" />
+       path="/Users/ryan/work/Innis Residence Don 2023/birthday-cards/" />
     <group
        id="import"
        enable_preview="1"
@@ -724,7 +725,8 @@
        dialogmode="0" />
     <group
        id="objects"
-       expand_to_layer="1" />
+       expand_to_layer="1"
+       layers_only="0" />
     <group
        id="layerProp"
        addLayerPosition="0" />
@@ -778,7 +780,7 @@
        value="12" />
     <group
        id="cursortolerance"
-       value="8.0" />
+       value="8" />
     <group
        id="dragtolerance"
        value="4.0" />
@@ -899,9 +901,9 @@
     <group
        id="transform"
        stroke="0"
-       rectcorners="1"
-       pattern="1"
-       gradient="1" />
+       rectcorners="0"
+       pattern="0"
+       gradient="0" />
     <group
        id="dash"
        scale="1" />
@@ -1039,10 +1041,10 @@
        snap-bbox="1"
        snap-bbox-edge="1"
        snap-bbox-corner="1"
-       snap-bbox-edge-midpoint="0"
-       snap-bbox-center="0"
+       snap-bbox-edge-midpoint="1"
+       snap-bbox-center="1"
        simple-snap-bbox="1"
-       snap-node-category="1"
+       snap-node-category="0"
        snap-path="1"
        snap-path-intersection="1"
        snap-node-cusp="1"
@@ -1063,7 +1065,8 @@
        snap-path-clip="1"
        snap-page-border="1"
        snap-grid="1"
-       snap-guide="1" />
+       snap-guide="1"
+       snap-page-margin="1" />
     <group
        id="notebooklabels"
        value="1" />
@@ -1118,17 +1121,31 @@
      org.inkscape.qr_code.__live_effect__="0"
      org.inkscape.qr_code.drawtype="smooth"
      org.inkscape.output.pdf.cairorenderer.resolution="300"
-     org.inkscape.template.paper.max="11.0"
-     org.inkscape.template.paper.min="8.5"
-     org.inkscape.template.paper.unit="in" />
+     org.inkscape.template.paper.max="42.0"
+     org.inkscape.template.paper.min="30.0"
+     org.inkscape.template.paper.unit="in"
+     org.inkscape.template.paper.orientation="land"
+     org.inkscape.template.video.height="4320.0"
+     org.inkscape.template.video.unit="px"
+     org.inkscape.template.video.width="7680.0"
+     org.inkscape.template.social.height="720.0"
+     org.inkscape.template.social.unit="px"
+     org.inkscape.template.social.width="720.0"
+     org.inkscape.template.digital.height="768.0"
+     org.inkscape.template.digital.unit="px"
+     org.inkscape.template.digital.width="1024.0"
+     org.inkscape.template.other.size="512.0"
+     org.inkscape.template.other.unit="px"
+     org.inkscape.generate.printing_marks.where="canvas"
+     org.inkscape.generate.printing_marks.unit="px" />
   <group
      id="desktop"
-     style="fill:#d40000;font-size:34.66666667px;line-height:1.25;-inkscape-font-specification:'DELIRIUM NCV';font-family:'DELIRIUM NCV';text-anchor:end;text-align:end;letter-spacing:10px;stroke-width:0.99999869">
+     style="fill:#0b1120;font-size:21.33333333px;line-height:1.05;-inkscape-font-specification:'DELIRIUM NCV';font-family:'DELIRIUM NCV';text-anchor:middle;text-align:center;letter-spacing:10px;stroke-width:1.13385827;opacity:0.58688525">
     <group
-       width="1904"
-       height="1015"
-       x="8"
-       y="31"
+       width="1920"
+       height="1019"
+       x="6"
+       y="29"
        maximized="0"
        fullscreen="0"
        id="geometry" />
