@@ -125,8 +125,8 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="48.6342110220848"
-         height="50.1079757570282"
+         width="96"
+         height="48"
          rx="0"
          ry="0" />
       <eventcontext
@@ -322,7 +322,7 @@
        id="lpetool"
        mode="drag"
        style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;"
-       unit="in"
+       unit="px"
        show_bbox="1" />
     <eventcontext
        id="text"
@@ -1044,7 +1044,7 @@
        snap-bbox-edge-midpoint="1"
        snap-bbox-center="1"
        simple-snap-bbox="1"
-       snap-node-category="0"
+       snap-node-category="1"
        snap-path="1"
        snap-path-intersection="1"
        snap-node-cusp="1"
@@ -1140,10 +1140,10 @@
      org.inkscape.generate.printing_marks.unit="px" />
   <group
      id="desktop"
-     style="fill:#0b1120;font-size:21.33333333px;line-height:1.05;-inkscape-font-specification:'DELIRIUM NCV';font-family:'DELIRIUM NCV';text-anchor:middle;text-align:center;letter-spacing:10px;stroke-width:1.13385827;opacity:0.58688525">
+     style="fill:#cccccc;font-size:21.33333333px;line-height:1.05;-inkscape-font-specification:'DELIRIUM NCV';font-family:'DELIRIUM NCV';text-anchor:middle;text-align:center;letter-spacing:10px;stroke-width:1.13385827">
     <group
-       width="1920"
-       height="1019"
+       width="1432"
+       height="839"
        x="6"
        y="29"
        maximized="0"
