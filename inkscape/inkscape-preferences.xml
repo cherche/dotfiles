@@ -125,8 +125,8 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="96"
-         height="48"
+         width="506.921821209113"
+         height="393.67333537207"
          rx="0"
          ry="0" />
       <eventcontext
@@ -672,7 +672,7 @@
        path="/Users/ryan/work/Innis Residence Don 2023/name-tag-gen-special/tmp/"
        ask="1"
        ask_svg="1"
-       link="link"
+       link="embed"
        scale="auto"
        import_mode_svg="include"
        forcexdpi="0" />
@@ -1037,7 +1037,7 @@
        shortcutfile="default.xml" />
     <group
        id="snapping"
-       snap-global-toggle="1"
+       snap-global-toggle="0"
        snap-bbox="1"
        snap-bbox-edge="1"
        snap-bbox-corner="1"
@@ -1140,11 +1140,11 @@
      org.inkscape.generate.printing_marks.unit="px" />
   <group
      id="desktop"
-     style="fill:#cccccc;font-size:21.33333333px;line-height:1.05;-inkscape-font-specification:'DELIRIUM NCV';font-family:'DELIRIUM NCV';text-anchor:middle;text-align:center;letter-spacing:10px;stroke-width:1.13385827">
+     style="fill:#fffceb;font-size:21.33333333px;line-height:1.05;-inkscape-font-specification:'DELIRIUM NCV';font-family:'DELIRIUM NCV';text-anchor:middle;text-align:center;letter-spacing:10px;stroke-width:1.13385827">
     <group
-       width="1432"
-       height="839"
-       x="6"
+       width="960"
+       height="1019"
+       x="962"
        y="29"
        maximized="0"
        fullscreen="0"
