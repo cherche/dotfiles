@@ -125,8 +125,8 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="506.921821209113"
-         height="393.67333537207"
+         width="348.020022292298"
+         height="6.00000069288838"
          rx="0"
          ry="0" />
       <eventcontext
@@ -161,11 +161,11 @@
       <eventcontext
          id="arc"
          style="fill:red;"
-         end="360"
+         end="0"
          start="0"
          usecurrent="1"
-         rx="100.776859794076"
-         ry="100.776859794076" />
+         rx="0.949004353500711"
+         ry="0.895287183326059" />
       <eventcontext
          id="star"
          magnitude="5"
@@ -206,7 +206,7 @@
        mass="7"
        angle="45"
        width="7"
-       thinning="-15"
+       thinning="-11"
        flatness="16"
        cap_rounding="0.1"
        usecurrent="1"
@@ -349,8 +349,8 @@
        live_outline="1"
        live_objects="1"
        show_helperpath="0"
-       x="324.509026579724"
-       y="222.508474964025"
+       x="470.052661417323"
+       y="668.153801574803"
        edit_clipping_paths="0"
        edit_masks="0" />
     <eventcontext
@@ -638,7 +638,7 @@
        defaultopts="1">
       <group
          id="exportarea"
-         value="drawing" />
+         value="page" />
       <group
          id="defaultxdpi"
          value="96" />
@@ -669,7 +669,7 @@
     <group
        id="import"
        enable_preview="1"
-       path="/Users/ryan/work/Innis Residence Don 2023/name-tag-gen-special/tmp/"
+       path="/Users/ryan/work/Innis Residence Don 2023/birthday-cards/"
        ask="1"
        ask_svg="1"
        link="embed"
@@ -1042,7 +1042,7 @@
        snap-bbox-edge="1"
        snap-bbox-corner="1"
        snap-bbox-edge-midpoint="1"
-       snap-bbox-center="1"
+       snap-bbox-center="0"
        simple-snap-bbox="1"
        snap-node-category="1"
        snap-path="1"
@@ -1057,7 +1057,7 @@
        snap-alignment-self="0"
        snap-distribution="0"
        simple-snap-alignment="0"
-       snap-others="0"
+       snap-others="1"
        snap-object-midpoint="0"
        snap-rotation-center="0"
        snap-text-baseline="1"
@@ -1140,7 +1140,7 @@
      org.inkscape.generate.printing_marks.unit="px" />
   <group
      id="desktop"
-     style="fill:#fffceb;font-size:21.33333333px;line-height:1.05;-inkscape-font-specification:'DELIRIUM NCV';font-family:'DELIRIUM NCV';text-anchor:middle;text-align:center;letter-spacing:10px;stroke-width:1.13385827">
+     style="fill:#d41927;font-size:21.33333333px;line-height:1.05;-inkscape-font-specification:'DELIRIUM NCV';font-family:'DELIRIUM NCV';text-anchor:middle;text-align:center;letter-spacing:10px;stroke-width:1.13385827">
     <group
        width="1920"
        height="1019"
@@ -1175,7 +1175,7 @@
        icononly="1"
        small="0"
        iconsize="16"
-       width="32">
+       width="31">
       <group
          id="buttons"
          showRect="1"
