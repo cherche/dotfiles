@@ -125,8 +125,8 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="348.020022292298"
-         height="6.00000069288838"
+         width="107.635559381021"
+         height="116.724772459652"
          rx="0"
          ry="0" />
       <eventcontext
@@ -164,8 +164,8 @@
          end="0"
          start="0"
          usecurrent="1"
-         rx="0.949004353500711"
-         ry="0.895287183326059" />
+         rx="159.421252153051"
+         ry="159.421252153053" />
       <eventcontext
          id="star"
          magnitude="5"
@@ -205,7 +205,7 @@
        style="fill:black;fill-opacity:1;fill-rule:nonzero;stroke:none;"
        mass="7"
        angle="45"
-       width="7"
+       width="8"
        thinning="-11"
        flatness="16"
        cap_rounding="0.1"
@@ -349,8 +349,8 @@
        live_outline="1"
        live_objects="1"
        show_helperpath="0"
-       x="470.052661417323"
-       y="668.153801574803"
+       x="-179.971519370079"
+       y="482.902072440945"
        edit_clipping_paths="0"
        edit_masks="0" />
     <eventcontext
@@ -603,7 +603,7 @@
     <group
        id="align"
        align-to="4"
-       objects-align-to="last"
+       objects-align-to="biggest"
        sel-as-groups="0" />
     <group
        id="xml"
@@ -638,7 +638,7 @@
        defaultopts="1">
       <group
          id="exportarea"
-         value="page" />
+         value="drawing" />
       <group
          id="defaultxdpi"
          value="96" />
@@ -681,7 +681,10 @@
        redirect="0" />
     <group
        id="clonetiler"
-       dotrace="0" />
+       dotrace="0"
+       fillrect="1"
+       fillwidth="720"
+       fillheight="960" />
     <group
        id="gridtiler"
        SpacingType="20" />
@@ -900,8 +903,8 @@
        value="2" />
     <group
        id="transform"
-       stroke="0"
-       rectcorners="0"
+       stroke="1"
+       rectcorners="1"
        pattern="0"
        gradient="0" />
     <group
@@ -1140,7 +1143,7 @@
      org.inkscape.generate.printing_marks.unit="px" />
   <group
      id="desktop"
-     style="fill:#d41927;font-size:21.33333333px;line-height:1.05;-inkscape-font-specification:'DELIRIUM NCV';font-family:'DELIRIUM NCV';text-anchor:middle;text-align:center;letter-spacing:10px;stroke-width:1.13385827">
+     style="fill:none;font-size:21.33333333px;line-height:1.05;-inkscape-font-specification:'DELIRIUM NCV';font-family:'DELIRIUM NCV';text-anchor:middle;text-align:center;letter-spacing:10px;stroke-width:1.13385827">
     <group
        width="1920"
        height="1019"
