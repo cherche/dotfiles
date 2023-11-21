@@ -125,8 +125,8 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="107.635559381021"
-         height="116.724772459652"
+         width="360"
+         height="480.000086506527"
          rx="0"
          ry="0" />
       <eventcontext
@@ -1124,10 +1124,10 @@
      org.inkscape.qr_code.__live_effect__="0"
      org.inkscape.qr_code.drawtype="smooth"
      org.inkscape.output.pdf.cairorenderer.resolution="300"
-     org.inkscape.template.paper.max="42.0"
-     org.inkscape.template.paper.min="30.0"
+     org.inkscape.template.paper.max="11.0"
+     org.inkscape.template.paper.min="8.5"
      org.inkscape.template.paper.unit="in"
-     org.inkscape.template.paper.orientation="land"
+     org.inkscape.template.paper.orientation="port"
      org.inkscape.template.video.height="4320.0"
      org.inkscape.template.video.unit="px"
      org.inkscape.template.video.width="7680.0"
@@ -1143,7 +1143,7 @@
      org.inkscape.generate.printing_marks.unit="px" />
   <group
      id="desktop"
-     style="fill:none;font-size:21.33333333px;line-height:1.05;-inkscape-font-specification:'DELIRIUM NCV';font-family:'DELIRIUM NCV';text-anchor:middle;text-align:center;letter-spacing:10px;stroke-width:1.13385827">
+     style="fill:#ff0000;font-size:21.33333333px;line-height:1.05;-inkscape-font-specification:'DELIRIUM NCV';font-family:'DELIRIUM NCV';text-anchor:middle;text-align:center;letter-spacing:10px;stroke-width:1.13385827">
     <group
        width="1920"
        height="1019"
