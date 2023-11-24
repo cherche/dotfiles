@@ -125,8 +125,8 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="360"
-         height="480.000086506527"
+         width="292.398614357776"
+         height="254.649129552165"
          rx="0"
          ry="0" />
       <eventcontext
@@ -164,8 +164,8 @@
          end="0"
          start="0"
          usecurrent="1"
-         rx="159.421252153051"
-         ry="159.421252153053" />
+         rx="89.9785896361342"
+         ry="89.9785896361349" />
       <eventcontext
          id="star"
          magnitude="5"
@@ -349,8 +349,8 @@
        live_outline="1"
        live_objects="1"
        show_helperpath="0"
-       x="-179.971519370079"
-       y="482.902072440945"
+       x="299.778107716535"
+       y="-77.9165858267717"
        edit_clipping_paths="0"
        edit_masks="0" />
     <eventcontext
@@ -603,7 +603,7 @@
     <group
        id="align"
        align-to="4"
-       objects-align-to="biggest"
+       objects-align-to="smallest"
        sel-as-groups="0" />
     <group
        id="xml"
@@ -638,7 +638,7 @@
        defaultopts="1">
       <group
          id="exportarea"
-         value="drawing" />
+         value="page" />
       <group
          id="defaultxdpi"
          value="96" />
@@ -672,7 +672,7 @@
        path="/Users/ryan/work/Innis Residence Don 2023/birthday-cards/"
        ask="1"
        ask_svg="1"
-       link="embed"
+       link="link"
        scale="auto"
        import_mode_svg="include"
        forcexdpi="0" />
@@ -1124,10 +1124,10 @@
      org.inkscape.qr_code.__live_effect__="0"
      org.inkscape.qr_code.drawtype="smooth"
      org.inkscape.output.pdf.cairorenderer.resolution="300"
-     org.inkscape.template.paper.max="11.0"
-     org.inkscape.template.paper.min="8.5"
+     org.inkscape.template.paper.max="42.0"
+     org.inkscape.template.paper.min="30.0"
      org.inkscape.template.paper.unit="in"
-     org.inkscape.template.paper.orientation="port"
+     org.inkscape.template.paper.orientation="land"
      org.inkscape.template.video.height="4320.0"
      org.inkscape.template.video.unit="px"
      org.inkscape.template.video.width="7680.0"
@@ -1143,7 +1143,7 @@
      org.inkscape.generate.printing_marks.unit="px" />
   <group
      id="desktop"
-     style="fill:#ff0000;font-size:21.33333333px;line-height:1.05;-inkscape-font-specification:'DELIRIUM NCV';font-family:'DELIRIUM NCV';text-anchor:middle;text-align:center;letter-spacing:10px;stroke-width:1.13385827">
+     style="fill:#666666;font-size:21.33333333px;line-height:1.05;-inkscape-font-specification:'DELIRIUM NCV';font-family:'DELIRIUM NCV';text-anchor:middle;text-align:center;letter-spacing:10px;stroke-width:1.13385827">
     <group
        width="1920"
        height="1019"
@@ -1178,7 +1178,7 @@
        icononly="1"
        small="0"
        iconsize="16"
-       width="31">
+       width="32">
       <group
          id="buttons"
          showRect="1"
