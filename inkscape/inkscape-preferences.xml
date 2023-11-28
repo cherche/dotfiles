@@ -125,8 +125,8 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="292.398614357776"
-         height="254.649129552165"
+         width="382.783012965025"
+         height="366.654506884877"
          rx="0"
          ry="0" />
       <eventcontext
@@ -603,7 +603,7 @@
     <group
        id="align"
        align-to="4"
-       objects-align-to="smallest"
+       objects-align-to="biggest"
        sel-as-groups="0" />
     <group
        id="xml"
@@ -638,7 +638,7 @@
        defaultopts="1">
       <group
          id="exportarea"
-         value="page" />
+         value="drawing" />
       <group
          id="defaultxdpi"
          value="96" />
@@ -669,7 +669,7 @@
     <group
        id="import"
        enable_preview="1"
-       path="/Users/ryan/work/Innis Residence Don 2023/birthday-cards/"
+       path="/Users/ryan/Downloads/"
        ask="1"
        ask_svg="1"
        link="link"
