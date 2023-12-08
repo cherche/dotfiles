@@ -322,7 +322,7 @@
        id="lpetool"
        mode="drag"
        style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;"
-       unit="in"
+       unit="mm"
        show_bbox="1" />
     <eventcontext
        id="text"
@@ -625,7 +625,7 @@
     <group
        id="preferences"
        state="1"
-       page="1" />
+       page="28" />
     <group
        id="gradienteditor" />
     <group
@@ -1145,9 +1145,9 @@
      id="desktop"
      style="fill:#666666;font-size:21.33333333px;line-height:1.05;-inkscape-font-specification:'DELIRIUM NCV';font-family:'DELIRIUM NCV';text-anchor:middle;text-align:center;letter-spacing:10px;stroke-width:1.13385827">
     <group
-       width="1920"
+       width="960"
        height="1019"
-       x="6"
+       x="962"
        y="29"
        maximized="0"
        fullscreen="0"
