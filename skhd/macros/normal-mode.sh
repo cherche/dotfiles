@@ -1,4 +1,4 @@
 skhd -k "alt + shift - t"
-#yabai -m config active_window_border_color '0xfff6c177'
-yabai -m config normal_window_opacity 0.8
+borders active_color='0xfff2bb1c' &
+yabai -m config normal_window_opacity 1.0
 yabai -m config active_window_opacity 1.0

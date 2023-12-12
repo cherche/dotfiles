@@ -21,6 +21,7 @@ ln -svf ~/dotfiles/inkscape/inkscape-preferences.xml "$HOME/Library/Application 
 ln -svf ~/dotfiles/sage/init.sage ~/.sage/
 ln -svf ~/dotfiles/skhd/skhdrc ~/.config/skhd/
 ln -svf ~/dotfiles/yabai/yabairc ~/.config/yabai/
+ln -svf ~/dotfiles/borders/bordersrc ~/.config/borders/
 
 ln -svf ~/dotfiles/mpv/mpv.conf ~/.config/mpv/
 ln -svf ~/dotfiles/mpv/scripts/ ~/.config/mpv/

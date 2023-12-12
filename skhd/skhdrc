@@ -5,8 +5,8 @@ passthrough < alt + shift - t ; default
 
 # vim-style insert mode and normal mode
 # also visually indicates mode using colour
-alt - i : ~/dotfiles/skhd/macros/insert-mode.sh && ~/dotfiles/skhd/macros/s.sh
-passthrough < alt - i : ~/dotfiles/skhd/macros/normal-mode.sh && ~/dotfiles/skhd/macros/e.sh
+alt - i : ~/dotfiles/skhd/macros/insert-mode.sh
+passthrough < alt - i : ~/dotfiles/skhd/macros/normal-mode.sh
 
 # x-ray mode
 ctrl + alt - x : ~/dotfiles/skhd/macros/xray-mode.sh
@@ -20,7 +20,7 @@ alt + shift - return : alacritty -e ~/dotfiles/skhd/macros/q.sh
 alt + ctrl - return : open -a Finder ~
 # TODO: Make all these shortcuts toggle window visibility (hide/unhide)
 # so minimal hand movement is needed to quickly flash the window
-#alt - m : open -a Spotify
+alt - m : open -a Spotify
 alt - 1 : open -a KeePassXC
 #alt - 2 : open -a Music
 # alt - ,
