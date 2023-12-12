@@ -125,8 +125,8 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="382.783012965025"
-         height="366.654506884877"
+         width="632.761461152804"
+         height="437.382476085754"
          rx="0"
          ry="0" />
       <eventcontext
@@ -322,7 +322,7 @@
        id="lpetool"
        mode="drag"
        style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;"
-       unit="mm"
+       unit="in"
        show_bbox="1" />
     <eventcontext
        id="text"
@@ -591,7 +591,7 @@
        id="toolbox" />
     <group
        id="fillstroke"
-       page="1" />
+       page="2" />
     <group
        id="filtereffects" />
     <group
@@ -603,7 +603,7 @@
     <group
        id="align"
        align-to="4"
-       objects-align-to="biggest"
+       objects-align-to="page"
        sel-as-groups="0" />
     <group
        id="xml"
@@ -638,7 +638,7 @@
        defaultopts="1">
       <group
          id="exportarea"
-         value="drawing" />
+         value="page" />
       <group
          id="defaultxdpi"
          value="96" />
@@ -903,8 +903,8 @@
        value="2" />
     <group
        id="transform"
-       stroke="1"
-       rectcorners="1"
+       stroke="0"
+       rectcorners="0"
        pattern="0"
        gradient="0" />
     <group
@@ -1143,11 +1143,11 @@
      org.inkscape.generate.printing_marks.unit="px" />
   <group
      id="desktop"
-     style="fill:#666666;font-size:21.33333333px;line-height:1.05;-inkscape-font-specification:'DELIRIUM NCV';font-family:'DELIRIUM NCV';text-anchor:middle;text-align:center;letter-spacing:10px;stroke-width:1.13385827">
+     style="fill:none;font-size:128px;line-height:1.75;-inkscape-font-specification:'DELIRIUM NCV';font-family:'DELIRIUM NCV';text-anchor:middle;text-align:center;letter-spacing:10px;stroke-width:24;stroke:#000080">
     <group
-       width="960"
+       width="1920"
        height="1019"
-       x="962"
+       x="6"
        y="29"
        maximized="0"
        fullscreen="0"
