@@ -20,9 +20,9 @@ alt + shift - return : alacritty -e ~/dotfiles/skhd/macros/q.sh
 alt + ctrl - return : open -a Finder ~
 # TODO: Make all these shortcuts toggle window visibility (hide/unhide)
 # so minimal hand movement is needed to quickly flash the window
-alt - m : open -a Spotify
+#alt - m : open -a Spotify
 alt - 1 : open -a KeePassXC
-alt - 2 : open -a Music
+#alt - 2 : open -a Music
 # alt - ,
 alt - 0x2B : alacritty -e vim ~/dotfiles/yabai/yabairc
 # alt - / (same key as ? but minus the shift)

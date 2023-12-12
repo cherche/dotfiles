@@ -39,7 +39,7 @@ yabai -m signal --add event=application_terminated action="yabai -m query --wind
 # ===== Rules ==================================
 
 # Sticky
-yabai -m rule --add label="System Preferences" app="^Préférences Système$" sticky=on
+yabai -m rule --add label="System Preferences" app="^Réglages système$" sticky=on
 yabai -m rule --add label="KeePassXC" app="^KeePassXC$" sticky=on
 yabai -m rule --add label="Spotify" app="Spotify" sticky=on
 yabai -m rule --add label="Musique" app="Musique" sticky=on
