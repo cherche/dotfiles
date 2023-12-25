@@ -142,8 +142,8 @@ sudo chflags nohidden /Volumes
 # Enable highlight hover effect for the grid view of a stack (Dock)
 defaults write com.apple.dock mouse-over-hilite-stack -bool true
 
-# Set the icon size of Dock items to 56 pixels
-defaults write com.apple.dock tilesize -int 56
+# Set the icon size of Dock items to 64 pixels
+defaults write com.apple.dock tilesize -int 64
 
 # Change minimize/maximize window effect
 defaults write com.apple.dock mineffect -string "scale"
@@ -180,7 +180,7 @@ defaults write com.apple.dock autohide -bool true
 # Remove the auto-hiding Dock delay
 defaults write com.apple.dock autohide-delay -float 0
 # Speed up the animation when hiding/showing the Dock
-defaults write com.apple.dock autohide-time-modifier -float 0.5
+defaults write com.apple.dock autohide-time-modifier -float 0.3
 
 # Make Dock icons of hidden applications translucent
 defaults write com.apple.dock showhidden -bool true
