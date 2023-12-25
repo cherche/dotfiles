@@ -16,6 +16,7 @@ alias firefox="/Applications/Firefox.app/Contents/MacOS/firefox"
 # zathura, but with automatic switching between light/dark themes
 alias zathura="bzathura"
 alias matlab="/Applications/MATLAB_R2023a.app/bin/matlab -nojvm -nodesktop"
+alias darktable="/Applications/darktable.app/Contents/MacOS/darktable &>/dev/null &"
 
 # q - for when you need to run exactly one command!
 q() {

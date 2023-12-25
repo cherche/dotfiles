@@ -11,7 +11,7 @@ yabai -m config left_padding                8
 yabai -m config right_padding               8
 yabai -m config window_gap                  8
 
-yabai -m config mouse_follows_focus         on
+yabai -m config mouse_follows_focus         off
 yabai -m config focus_follows_mouse         off
 
 yabai -m config window_placement            second_child
@@ -79,6 +79,7 @@ yabai -m rule --add label="WhatsApp" app="^WhatsApp$" manage=off
 
 yabai -m rule --add label="Calibre" app="^calibre$" manage=off
 yabai -m rule --add label="AnyConnect" app="^Cisco" manage=off
+yabai -m rule --add label="darktable" app="^darktable$" manage=off
 yabai -m rule --add label="Discord" app="^Discord$" manage=off
 yabai -m rule --add label="eqMac" app="^eqMac$" manage=off
 yabai -m rule --add label="Hidden Bar" app="^Hidden Bar$" manage=off
