@@ -1,0 +1,190 @@
+live_config_reload = true
+
+[colors.bright]
+black = "0x5b6268"
+blue = "0x3071db"
+green = "0x4db5bd"
+magenta = "0xa9a1e1"
+red = "0xda8548"
+white = "0xffffff"
+yellow = "0xecbe7b"
+
+[colors.normal]
+black = "0x1c1f24"
+blue = "0x51afef"
+cyan = "0x5699af"
+green = "0x98be65"
+magenta = "0xc678dd"
+red = "0xff6c6b"
+white = "0xf5f5f5"
+yellow = "0xda8548"
+
+[colors.primary]
+background = "0x0e1419"
+foreground = "0xbbc2cf"
+
+[font]
+size = 13.0
+
+[font.bold]
+family = "Fira Mono"
+style = "Bold"
+
+[font.bold_italic]
+family = "Fira Mono"
+style = "Bold Italic"
+
+[font.italic]
+family = "Fira Mono"
+style = "Italic"
+
+[font.normal]
+family = "Fira Mono"
+
+[[keyboard.bindings]]
+key = "Comma"
+mods = "Command"
+
+[keyboard.bindings.command]
+args = ["-e", "vim ~/.config/alacritty/alacritty.yml"]
+program = "alacritty"
+
+[[keyboard.bindings]]
+chars = "\u001Bb"
+key = "Left"
+mods = "Alt"
+
+[[keyboard.bindings]]
+chars = "\u001Bf"
+key = "Right"
+mods = "Alt"
+
+[[keyboard.bindings]]
+chars = "\u0015"
+key = "Back"
+mods = "Super"
+
+[[keyboard.bindings]]
+chars = "\u001BOH"
+key = "Left"
+mode = "AppCursor"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u001BOF"
+key = "Right"
+mode = "AppCursor"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u00021"
+key = "Key1"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u00022"
+key = "Key2"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u00023"
+key = "Key3"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u00024"
+key = "Key4"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u00025"
+key = "Key5"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u00026"
+key = "Key6"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u00027"
+key = "Key7"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u00028"
+key = "Key8"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u00029"
+key = "Key9"
+mods = "Command"
+
+[[keyboard.bindings]]
+action = "SpawnNewInstance"
+key = "N"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u0002S"
+key = "T"
+mods = "Command|Shift"
+
+[[keyboard.bindings]]
+chars = "\u0002c"
+key = "T"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u0002X"
+key = "W"
+mods = "Command|Shift"
+
+[[keyboard.bindings]]
+chars = "\u0002x"
+key = "W"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u0002)"
+key = "`"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u0002("
+key = "`"
+mods = "Command|Shift"
+
+[[keyboard.bindings]]
+chars = "\u001BOH \r"
+key = "Return"
+mods = "Command|Shift"
+
+[[keyboard.bindings]]
+chars = "\u0002n"
+key = "Tab"
+mods = "Control"
+
+[[keyboard.bindings]]
+chars = "\u0002p"
+key = "Tab"
+mods = "Control|Shift"
+
+[[keyboard.bindings]]
+chars = "\u0002s"
+key = "Space"
+mods = "Control"
+
+[shell]
+program = "/Users/ryan/dotfiles/alacritty/alacritty-shell.sh"
+
+[window]
+decorations = "buttonless"
+dynamic_padding = true
+opacity = 0.8
+startup_mode = "Windowed"
+
+[window.padding]
+x = 3
+y = 3
