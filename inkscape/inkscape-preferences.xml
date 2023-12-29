@@ -603,7 +603,7 @@
     <group
        id="align"
        align-to="4"
-       objects-align-to="biggest"
+       objects-align-to="page"
        sel-as-groups="0" />
     <group
        id="xml"
@@ -1040,7 +1040,7 @@
        shortcutfile="default.xml" />
     <group
        id="snapping"
-       snap-global-toggle="1"
+       snap-global-toggle="0"
        snap-bbox="1"
        snap-bbox-edge="1"
        snap-bbox-corner="1"
@@ -1148,7 +1148,7 @@
        width="1904"
        height="1011"
        x="8"
-       y="-147"
+       y="33"
        maximized="0"
        fullscreen="0"
        id="geometry" />
