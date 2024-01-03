@@ -11,6 +11,12 @@ yabai -m config left_padding                8
 yabai -m config right_padding               8
 yabai -m config window_gap                  8
 
+yabai -m config mouse_modifier fn
+# modifier + left-click drag
+yabai -m config mouse_action1 move
+# modifier + right-click drag
+yabai -m config mouse_action2 resize
+
 yabai -m config mouse_follows_focus         off
 yabai -m config focus_follows_mouse         off
 
