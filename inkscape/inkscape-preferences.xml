@@ -32,7 +32,7 @@
        state="1" />
     <group
        id="scrollbars"
-       state="0" />
+       state="1" />
   </group>
   <group
      id="fullscreen">
@@ -125,8 +125,8 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="1055.99997693159"
-         height="815.999976931595"
+         width="757.700810469979"
+         height="264.593919168307"
          rx="0"
          ry="0" />
       <eventcontext
@@ -164,11 +164,11 @@
          end="0"
          start="0"
          usecurrent="1"
-         rx="89.9785896361342"
-         ry="89.9785896361349" />
+         rx="4.8"
+         ry="4.8" />
       <eventcontext
          id="star"
-         magnitude="5"
+         magnitude="3"
          style="fill:yellow;"
          usecurrent="1"
          proportion="0.37999999369621"
@@ -198,12 +198,13 @@
          selcue="1"
          style="stroke-width:1px;"
          usecurrent="0"
-         freehand-mode="0" />
+         freehand-mode="1"
+         shape="0" />
     </group>
     <eventcontext
        id="calligraphic"
        style="fill:black;fill-opacity:1;fill-rule:nonzero;stroke:none;"
-       mass="7"
+       mass="4"
        angle="45"
        width="8"
        thinning="-11"
@@ -331,7 +332,7 @@
        font_sample="AaBbCcIiPpQq12369$€¢?.;/()"
        show_sample_in_list="1"
        use_svg2="1"
-       style="line-height:1.25;font-family:Futura;font-size:16px;-inkscape-font-specification:Futura"
+       style="line-height:1.25;font-family:Sans;font-size:26.6666832px;-inkscape-font-specification:'Sans, Normal'"
        selcue="1"
        align_mode="1" />
     <eventcontext
@@ -349,8 +350,8 @@
        live_outline="1"
        live_objects="1"
        show_helperpath="0"
-       x="299.778107716535"
-       y="-77.9165858267717"
+       x="474.954660340372"
+       y="302.990149067824"
        edit_clipping_paths="0"
        edit_masks="0" />
     <eventcontext
@@ -375,7 +376,8 @@
     <eventcontext
        id="gradient"
        selcue="1"
-       newgradient="1" />
+       newgradient="2"
+       newfillorstroke="1" />
     <eventcontext
        id="spray"
        selcue="1"
@@ -390,7 +392,11 @@
        mean="0" />
     <eventcontext
        id="mesh"
-       selcue="1" />
+       selcue="1"
+       mesh_cols="4"
+       mesh_rows="4"
+       edit_fill="1"
+       edit_stroke="0" />
     <eventcontext
        id="zoom"
        selcue="1"
@@ -603,7 +609,7 @@
     <group
        id="align"
        align-to="4"
-       objects-align-to="page"
+       objects-align-to="biggest"
        sel-as-groups="0" />
     <group
        id="xml"
@@ -625,7 +631,7 @@
     <group
        id="preferences"
        state="1"
-       page="28" />
+       page="51" />
     <group
        id="gradienteditor" />
     <group
@@ -638,7 +644,7 @@
        defaultopts="1">
       <group
          id="exportarea"
-         value="page" />
+         value="drawing" />
       <group
          id="defaultxdpi"
          value="96" />
@@ -654,7 +660,7 @@
        default="org.inkscape.output.svg.inkscape"
        append_extension="1"
        enable_preview="1"
-       path="/Users/ryan/work/Innis Residence Don 2023"
+       path="/Users/ryan/Desktop"
        use_current_dir="1" />
     <group
        id="save_copy"
@@ -665,11 +671,11 @@
     <group
        id="open"
        enable_preview="1"
-       path="/Users/ryan/work/Innis Residence Don 2023/birthday-cards/" />
+       path="/Users/ryan/Desktop/" />
     <group
        id="import"
        enable_preview="1"
-       path="/Users/ryan/Downloads/"
+       path="/Users/ryan/work/Innis Residence Don 2023/name-tag-gen/tmp/"
        ask="1"
        ask_svg="1"
        link="link"
@@ -835,7 +841,7 @@
        value="1" />
     <group
        id="transientpolicy"
-       value="1" />
+       value="2" />
     <group
        id="scrollingacceleration"
        value="0.4" />
@@ -1143,12 +1149,12 @@
      org.inkscape.generate.printing_marks.unit="px" />
   <group
      id="desktop"
-     style="fill:#008000;font-size:21.33333333px;line-height:1.75;-inkscape-font-specification:'DELIRIUM NCV';font-family:'DELIRIUM NCV';text-anchor:middle;text-align:center;letter-spacing:10px;stroke-width:0;stroke:#000000">
+     style="fill:#ffffff;font-size:32px;line-height:1;-inkscape-font-specification:'Open Sans';font-family:'Open Sans';letter-spacing:-0.09px;stroke-width:4.8;text-anchor:middle;text-align:center">
     <group
-       width="1904"
-       height="1011"
-       x="8"
-       y="33"
+       width="1792"
+       height="881"
+       x="71"
+       y="98"
        maximized="0"
        fullscreen="0"
        id="geometry" />
@@ -1183,7 +1189,8 @@
          id="buttons"
          showRect="1"
          showArc="1"
-         showMeasure="1" />
+         showMeasure="1"
+         showGradient="1" />
     </group>
     <group
        id="controlbars"
@@ -1211,17 +1218,17 @@
      narrowSpinButton="1"
      preferDarkTheme="0"
      darkTheme="1"
-     symbolicIcons="1"
+     symbolicIcons="0"
      symbolicDefaultBaseColors="1"
      symbolicDefaultHighColors="1"
      menuIcons_canvas="0"
      menuIcons_layers="0"
      menuIcons_objects="0"
-     gtkTheme="HighContrastInverse"
      fontscale="100"
      contrast="10"
+     syntax-color-theme="inkscape-dark"
      iconTheme="multicolor"
-     syntax-color-theme="inkscape-dark">
+     gtkTheme="HighContrastInverse">
     <group
        id="multicolor"
        symbolicBaseColor="3958107135"
@@ -1300,6 +1307,9 @@
     <group
        id="skeletal"
        width="-2.79608354809037" />
+    <group
+       id="bend_path"
+       width="1.36923165515614" />
   </group>
   <group
      id="gradient-edit"
