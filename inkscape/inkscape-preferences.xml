@@ -125,8 +125,8 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="757.700810469979"
-         height="264.593919168307"
+         width="86.9775630920876"
+         height="249.60000346026"
          rx="0"
          ry="0" />
       <eventcontext
@@ -609,7 +609,7 @@
     <group
        id="align"
        align-to="4"
-       objects-align-to="biggest"
+       objects-align-to="page"
        sel-as-groups="0" />
     <group
        id="xml"
@@ -631,7 +631,7 @@
     <group
        id="preferences"
        state="1"
-       page="51" />
+       page="24" />
     <group
        id="gradienteditor" />
     <group
@@ -644,7 +644,7 @@
        defaultopts="1">
       <group
          id="exportarea"
-         value="drawing" />
+         value="page" />
       <group
          id="defaultxdpi"
          value="96" />
@@ -660,7 +660,7 @@
        default="org.inkscape.output.svg.inkscape"
        append_extension="1"
        enable_preview="1"
-       path="/Users/ryan/Desktop"
+       path="/Users/ryan/Downloads"
        use_current_dir="1" />
     <group
        id="save_copy"
@@ -738,7 +738,7 @@
        layers_only="0" />
     <group
        id="layerProp"
-       addLayerPosition="0" />
+       addLayerPosition="1" />
     <group
        id="attrib"
        precision="2" />
@@ -841,7 +841,7 @@
        value="1" />
     <group
        id="transientpolicy"
-       value="2" />
+       value="1" />
     <group
        id="scrollingacceleration"
        value="0.4" />
@@ -1046,7 +1046,7 @@
        shortcutfile="default.xml" />
     <group
        id="snapping"
-       snap-global-toggle="0"
+       snap-global-toggle="1"
        snap-bbox="1"
        snap-bbox-edge="1"
        snap-bbox-corner="1"
@@ -1149,12 +1149,12 @@
      org.inkscape.generate.printing_marks.unit="px" />
   <group
      id="desktop"
-     style="fill:#ffffff;font-size:32px;line-height:1;-inkscape-font-specification:'Open Sans';font-family:'Open Sans';letter-spacing:-0.09px;stroke-width:4.8;text-anchor:middle;text-align:center">
+     style="fill:#aa0000;font-size:13.33333333px;line-height:1;-inkscape-font-specification:'Open Sans';font-family:'Open Sans';letter-spacing:-0.09px;stroke-width:4.8;text-anchor:middle;text-align:center">
     <group
-       width="1792"
-       height="881"
-       x="71"
-       y="98"
+       width="1424"
+       height="831"
+       x="8"
+       y="33"
        maximized="0"
        fullscreen="0"
        id="geometry" />
@@ -1218,7 +1218,7 @@
      narrowSpinButton="1"
      preferDarkTheme="0"
      darkTheme="1"
-     symbolicIcons="0"
+     symbolicIcons="1"
      symbolicDefaultBaseColors="1"
      symbolicDefaultHighColors="1"
      menuIcons_canvas="0"
