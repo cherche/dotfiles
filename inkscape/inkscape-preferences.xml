@@ -125,8 +125,8 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="86.9775630920876"
-         height="249.60000346026"
+         width="950.492929292505"
+         height="635.322858827709"
          rx="0"
          ry="0" />
       <eventcontext
@@ -164,8 +164,8 @@
          end="0"
          start="0"
          usecurrent="1"
-         rx="4.8"
-         ry="4.8" />
+         rx="259.104271923821"
+         ry="259.104271923817" />
       <eventcontext
          id="star"
          magnitude="3"
@@ -323,7 +323,7 @@
        id="lpetool"
        mode="drag"
        style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;"
-       unit="in"
+       unit="cm"
        show_bbox="1" />
     <eventcontext
        id="text"
@@ -675,7 +675,7 @@
     <group
        id="import"
        enable_preview="1"
-       path="/Users/ryan/work/Innis Residence Don 2023/name-tag-gen/tmp/"
+       path="/Users/ryan/Desktop/"
        ask="1"
        ask_svg="1"
        link="link"
@@ -1046,7 +1046,7 @@
        shortcutfile="default.xml" />
     <group
        id="snapping"
-       snap-global-toggle="1"
+       snap-global-toggle="0"
        snap-bbox="1"
        snap-bbox-edge="1"
        snap-bbox-corner="1"
@@ -1134,9 +1134,9 @@
      org.inkscape.template.paper.min="30.0"
      org.inkscape.template.paper.unit="in"
      org.inkscape.template.paper.orientation="land"
-     org.inkscape.template.video.height="4320.0"
+     org.inkscape.template.video.height="1080.0"
      org.inkscape.template.video.unit="px"
-     org.inkscape.template.video.width="7680.0"
+     org.inkscape.template.video.width="1920.0"
      org.inkscape.template.social.height="720.0"
      org.inkscape.template.social.unit="px"
      org.inkscape.template.social.width="720.0"
@@ -1149,12 +1149,12 @@
      org.inkscape.generate.printing_marks.unit="px" />
   <group
      id="desktop"
-     style="fill:#aa0000;font-size:13.33333333px;line-height:1;-inkscape-font-specification:'Open Sans';font-family:'Open Sans';letter-spacing:-0.09px;stroke-width:4.8;text-anchor:middle;text-align:center">
+     style="fill:#302f5d;font-size:72px;line-height:1.5;-inkscape-font-specification:'Open Sans Condensed, ';font-family:'Open Sans Condensed';letter-spacing:-0.09px;text-anchor:middle;text-align:center;stroke-width:8;stroke-linecap:round">
     <group
-       width="1424"
-       height="831"
-       x="8"
-       y="33"
+       width="1440"
+       height="843"
+       x="2"
+       y="27"
        maximized="0"
        fullscreen="0"
        id="geometry" />
