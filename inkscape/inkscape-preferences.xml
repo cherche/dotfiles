@@ -125,8 +125,8 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="950.492929292505"
-         height="635.322858827709"
+         width="456.014592466962"
+         height="600.019200614419"
          rx="0"
          ry="0" />
       <eventcontext
@@ -164,8 +164,8 @@
          end="0"
          start="0"
          usecurrent="1"
-         rx="259.104271923821"
-         ry="259.104271923817" />
+         rx="55.6303951934061"
+         ry="55.6303951934065" />
       <eventcontext
          id="star"
          magnitude="3"
@@ -198,7 +198,7 @@
          selcue="1"
          style="stroke-width:1px;"
          usecurrent="0"
-         freehand-mode="1"
+         freehand-mode="0"
          shape="0" />
     </group>
     <eventcontext
@@ -323,7 +323,7 @@
        id="lpetool"
        mode="drag"
        style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;"
-       unit="cm"
+       unit="in"
        show_bbox="1" />
     <eventcontext
        id="text"
@@ -350,8 +350,8 @@
        live_outline="1"
        live_objects="1"
        show_helperpath="0"
-       x="474.954660340372"
-       y="302.990149067824"
+       x="272.243735377989"
+       y="130.749288136659"
        edit_clipping_paths="0"
        edit_masks="0" />
     <eventcontext
@@ -609,7 +609,7 @@
     <group
        id="align"
        align-to="4"
-       objects-align-to="page"
+       objects-align-to="last"
        sel-as-groups="0" />
     <group
        id="xml"
@@ -1046,7 +1046,7 @@
        shortcutfile="default.xml" />
     <group
        id="snapping"
-       snap-global-toggle="0"
+       snap-global-toggle="1"
        snap-bbox="1"
        snap-bbox-edge="1"
        snap-bbox-corner="1"
@@ -1149,12 +1149,12 @@
      org.inkscape.generate.printing_marks.unit="px" />
   <group
      id="desktop"
-     style="fill:#302f5d;font-size:72px;line-height:1.5;-inkscape-font-specification:'Open Sans Condensed, ';font-family:'Open Sans Condensed';letter-spacing:-0.09px;text-anchor:middle;text-align:center;stroke-width:8;stroke-linecap:round">
+     style="fill:#800000;font-size:14.66666667px;line-height:1.5;-inkscape-font-specification:'Open Sans Condensed, ';font-family:'Open Sans Condensed';letter-spacing:-0.09px;text-anchor:middle;text-align:center;stroke-linecap:round;stroke-width:2">
     <group
-       width="1440"
-       height="843"
-       x="2"
-       y="27"
+       width="1904"
+       height="1011"
+       x="8"
+       y="33"
        maximized="0"
        fullscreen="0"
        id="geometry" />
