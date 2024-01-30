@@ -125,8 +125,8 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="456.014592466962"
-         height="600.019200614419"
+         width="205.380361577245"
+         height="120.811977398378"
          rx="0"
          ry="0" />
       <eventcontext
@@ -164,8 +164,8 @@
          end="0"
          start="0"
          usecurrent="1"
-         rx="55.6303951934061"
-         ry="55.6303951934065" />
+         rx="45.0721602440968"
+         ry="16.7278125324246" />
       <eventcontext
          id="star"
          magnitude="3"
@@ -206,7 +206,7 @@
        style="fill:black;fill-opacity:1;fill-rule:nonzero;stroke:none;"
        mass="4"
        angle="45"
-       width="8"
+       width="4"
        thinning="-11"
        flatness="16"
        cap_rounding="0.1"
@@ -323,7 +323,7 @@
        id="lpetool"
        mode="drag"
        style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;"
-       unit="in"
+       unit="px"
        show_bbox="1" />
     <eventcontext
        id="text"
@@ -350,8 +350,8 @@
        live_outline="1"
        live_objects="1"
        show_helperpath="0"
-       x="272.243735377989"
-       y="130.749288136659"
+       x="451.313111435361"
+       y="357.424938112208"
        edit_clipping_paths="0"
        edit_masks="0" />
     <eventcontext
@@ -597,7 +597,7 @@
        id="toolbox" />
     <group
        id="fillstroke"
-       page="1" />
+       page="2" />
     <group
        id="filtereffects" />
     <group
@@ -1046,7 +1046,7 @@
        shortcutfile="default.xml" />
     <group
        id="snapping"
-       snap-global-toggle="1"
+       snap-global-toggle="0"
        snap-bbox="1"
        snap-bbox-edge="1"
        snap-bbox-corner="1"
@@ -1149,7 +1149,7 @@
      org.inkscape.generate.printing_marks.unit="px" />
   <group
      id="desktop"
-     style="fill:#800000;font-size:14.66666667px;line-height:1.5;-inkscape-font-specification:'Open Sans Condensed, ';font-family:'Open Sans Condensed';letter-spacing:-0.09px;text-anchor:middle;text-align:center;stroke-linecap:round;stroke-width:2">
+     style="fill:#000000;font-size:14.66666667px;line-height:1.5;-inkscape-font-specification:'Open Sans Condensed, ';font-family:'Open Sans Condensed';letter-spacing:-0.09px;text-anchor:middle;text-align:center;stroke-linecap:round;stroke-width:3;stroke:#ff0000">
     <group
        width="1904"
        height="1011"
