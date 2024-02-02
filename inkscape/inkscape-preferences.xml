@@ -125,8 +125,8 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="205.380361577245"
-         height="120.811977398378"
+         width="420"
+         height="564"
          rx="0"
          ry="0" />
       <eventcontext
@@ -323,7 +323,7 @@
        id="lpetool"
        mode="drag"
        style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;"
-       unit="px"
+       unit="in"
        show_bbox="1" />
     <eventcontext
        id="text"
@@ -597,7 +597,7 @@
        id="toolbox" />
     <group
        id="fillstroke"
-       page="2" />
+       page="1" />
     <group
        id="filtereffects" />
     <group
@@ -609,7 +609,7 @@
     <group
        id="align"
        align-to="4"
-       objects-align-to="last"
+       objects-align-to="page"
        sel-as-groups="0" />
     <group
        id="xml"
@@ -644,7 +644,7 @@
        defaultopts="1">
       <group
          id="exportarea"
-         value="page" />
+         value="drawing" />
       <group
          id="defaultxdpi"
          value="96" />
@@ -671,11 +671,11 @@
     <group
        id="open"
        enable_preview="1"
-       path="/Users/ryan/Desktop/" />
+       path="/Users/ryan/Downloads/" />
     <group
        id="import"
        enable_preview="1"
-       path="/Users/ryan/Desktop/"
+       path="/Users/ryan/Downloads/"
        ask="1"
        ask_svg="1"
        link="link"
@@ -1149,7 +1149,7 @@
      org.inkscape.generate.printing_marks.unit="px" />
   <group
      id="desktop"
-     style="fill:#000000;font-size:14.66666667px;line-height:1.5;-inkscape-font-specification:'Open Sans Condensed, ';font-family:'Open Sans Condensed';letter-spacing:-0.09px;text-anchor:middle;text-align:center;stroke-linecap:round;stroke-width:3;stroke:#ff0000">
+     style="fill:#000000;font-size:14.66666667px;line-height:1.5;-inkscape-font-specification:'Open Sans Condensed, ';font-family:'Open Sans Condensed';letter-spacing:-0.09px;text-anchor:middle;text-align:center;stroke-linecap:round;stroke-width:3">
     <group
        width="1904"
        height="1011"
