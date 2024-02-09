@@ -164,8 +164,8 @@
          end="0"
          start="0"
          usecurrent="1"
-         rx="45.0721602440968"
-         ry="16.7278125324246" />
+         rx="289.063213739798"
+         ry="289.063213739806" />
       <eventcontext
          id="star"
          magnitude="3"
@@ -323,7 +323,7 @@
        id="lpetool"
        mode="drag"
        style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;"
-       unit="in"
+       unit="px"
        show_bbox="1" />
     <eventcontext
        id="text"
@@ -350,8 +350,8 @@
        live_outline="1"
        live_objects="1"
        show_helperpath="0"
-       x="451.313111435361"
-       y="357.424938112208"
+       x="210.713182571763"
+       y="149.399876814908"
        edit_clipping_paths="0"
        edit_masks="0" />
     <eventcontext
@@ -597,7 +597,7 @@
        id="toolbox" />
     <group
        id="fillstroke"
-       page="1" />
+       page="2" />
     <group
        id="filtereffects" />
     <group
@@ -1149,7 +1149,7 @@
      org.inkscape.generate.printing_marks.unit="px" />
   <group
      id="desktop"
-     style="fill:#000000;font-size:14.66666667px;line-height:1.5;-inkscape-font-specification:'Open Sans Condensed, ';font-family:'Open Sans Condensed';letter-spacing:-0.09px;text-anchor:middle;text-align:center;stroke-linecap:round;stroke-width:3">
+     style="fill:#000000;font-size:14.66666667px;line-height:1.5;-inkscape-font-specification:'Open Sans Condensed, ';font-family:'Open Sans Condensed';letter-spacing:-0.09px;text-anchor:middle;text-align:center;stroke-linecap:round;stroke-width:3;stroke:#ff0000">
     <group
        width="1904"
        height="1011"
