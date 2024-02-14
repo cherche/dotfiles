@@ -53,7 +53,7 @@ let g:vimtex_quickfix_mode=0
 set conceallevel=2
 let g:tex_conceal='abdmg'
 
-Plug 'sirver/ultisnips'
+Plug 'sirver/ultisnips' | Plug 'honza/vim-snippets'
 let g:UltiSnipsExpandTrigger = '<tab>'
 let g:UltiSnipsJumpForwardTrigger = '<tab>'
 let g:UltiSnipsJumpBackwardTrigger = '<s-tab>'
