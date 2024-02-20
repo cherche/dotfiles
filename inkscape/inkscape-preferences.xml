@@ -598,7 +598,7 @@
        id="toolbox" />
     <group
        id="fillstroke"
-       page="2" />
+       page="1" />
     <group
        id="filtereffects" />
     <group
@@ -1150,7 +1150,7 @@
      org.inkscape.generate.printing_marks.unit="px" />
   <group
      id="desktop"
-     style="fill:#000000;font-size:16px;line-height:1.5;-inkscape-font-specification:'Open Sans';font-family:'Open Sans';letter-spacing:-0.09px;stroke-linecap:round;stroke-width:1.88976378;text-anchor:middle;text-align:center;stroke:#000000">
+     style="fill:#a72d26;font-size:16px;line-height:1.5;-inkscape-font-specification:'Open Sans';font-family:'Open Sans';letter-spacing:-0.09px;stroke-linecap:round;stroke-width:1.88976378;text-anchor:middle;text-align:center;stroke:#762879">
     <group
        width="1904"
        height="1011"
