@@ -125,8 +125,8 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="60.8633051808679"
-         height="46.2110336590985"
+         width="186.355100616695"
+         height="135.929613488865"
          rx="0"
          ry="0" />
       <eventcontext
@@ -164,8 +164,8 @@
          end="0"
          start="0"
          usecurrent="1"
-         rx="10.9416898592251"
-         ry="17.7040262297382" />
+         rx="134.4"
+         ry="134.4" />
       <eventcontext
          id="star"
          magnitude="3"
@@ -192,7 +192,9 @@
          usecurrent="1"
          average_all_sketches="1"
          pressure="0"
-         simplify="0" />
+         simplify="0"
+         freehand-mode="0"
+         shape="0" />
       <eventcontext
          id="pen"
          mode="drag"
@@ -672,7 +674,7 @@
     <group
        id="open"
        enable_preview="1"
-       path="/Users/ryan/Downloads/" />
+       path="/Users/ryan/Desktop/" />
     <group
        id="import"
        enable_preview="1"
@@ -1052,7 +1054,7 @@
        snap-bbox-edge="1"
        snap-bbox-corner="1"
        snap-bbox-edge-midpoint="1"
-       snap-bbox-center="0"
+       snap-bbox-center="1"
        simple-snap-bbox="1"
        snap-node-category="1"
        snap-path="1"
@@ -1150,7 +1152,7 @@
      org.inkscape.generate.printing_marks.unit="px" />
   <group
      id="desktop"
-     style="fill:#a72d26;font-size:16px;line-height:1.5;-inkscape-font-specification:'Open Sans';font-family:'Open Sans';letter-spacing:-0.09px;stroke-linecap:round;stroke-width:1.88976378;text-anchor:middle;text-align:center;stroke:#762879">
+     style="fill:#808080;font-size:74.66666667px;line-height:1.5;-inkscape-font-specification:'Open Sans';font-family:'Open Sans';letter-spacing:-0.09px;stroke-linecap:round;stroke-width:3.77952756;text-anchor:middle;text-align:center">
     <group
        width="1904"
        height="1011"
@@ -1307,10 +1309,13 @@
      flattening="0">
     <group
        id="skeletal"
-       width="-2.79608354809037" />
+       width="0" />
     <group
        id="bend_path"
        width="1.36923165515614" />
+    <group
+       id="powerstroke"
+       width="4.99213836477987" />
   </group>
   <group
      id="gradient-edit"
