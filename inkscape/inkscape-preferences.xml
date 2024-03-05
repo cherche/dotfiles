@@ -125,8 +125,8 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="186.355100616695"
-         height="135.929613488865"
+         width="696.00002090182"
+         height="455.999910284205"
          rx="0"
          ry="0" />
       <eventcontext
@@ -326,7 +326,7 @@
        id="lpetool"
        mode="drag"
        style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;"
-       unit="in"
+       unit="mm"
        show_bbox="1" />
     <eventcontext
        id="text"
@@ -647,7 +647,7 @@
        defaultopts="1">
       <group
          id="exportarea"
-         value="custom" />
+         value="page" />
       <group
          id="defaultxdpi"
          value="96" />
@@ -1152,7 +1152,7 @@
      org.inkscape.generate.printing_marks.unit="px" />
   <group
      id="desktop"
-     style="fill:#808080;font-size:74.66666667px;line-height:1.5;-inkscape-font-specification:'Open Sans';font-family:'Open Sans';letter-spacing:-0.09px;stroke-linecap:round;stroke-width:3.77952756;text-anchor:middle;text-align:center">
+     style="fill:#246681;font-size:74.66666667px;line-height:1.5;-inkscape-font-specification:'Open Sans';font-family:'Open Sans';letter-spacing:-0.09px;stroke-linecap:round;stroke-width:3.77952756;text-anchor:middle;text-align:center">
     <group
        width="1904"
        height="1011"
