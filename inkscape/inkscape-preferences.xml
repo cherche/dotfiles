@@ -125,8 +125,8 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="24"
-         height="12"
+         width="576"
+         height="432"
          rx="0"
          ry="0" />
       <eventcontext
@@ -326,7 +326,7 @@
        id="lpetool"
        mode="drag"
        style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;"
-       unit="in"
+       unit="px"
        show_bbox="1" />
     <eventcontext
        id="text"
@@ -603,7 +603,7 @@
        id="toolbox" />
     <group
        id="fillstroke"
-       page="2" />
+       page="1" />
     <group
        id="filtereffects" />
     <group
@@ -615,7 +615,7 @@
     <group
        id="align"
        align-to="4"
-       objects-align-to="page"
+       objects-align-to="last"
        sel-as-groups="0" />
     <group
        id="xml"
@@ -637,7 +637,7 @@
     <group
        id="preferences"
        state="1"
-       page="15" />
+       page="1" />
     <group
        id="gradienteditor" />
     <group
@@ -677,7 +677,7 @@
     <group
        id="open"
        enable_preview="1"
-       path="/Users/ryan/Desktop/" />
+       path="/Users/ryan/Downloads/North House Dinner invites/" />
     <group
        id="import"
        enable_preview="1"
@@ -1155,10 +1155,10 @@
      org.inkscape.generate.printing_marks.unit="px" />
   <group
      id="desktop"
-     style="fill:#ff00ff;font-size:74.66666667px;line-height:1.5;-inkscape-font-specification:'Open Sans';font-family:'Open Sans';letter-spacing:-0.09px;stroke-linecap:round;stroke-width:1.92;text-anchor:middle;text-align:center">
+     style="fill:#ffffff;font-size:74.66666667px;line-height:1.5;-inkscape-font-specification:'Open Sans';font-family:'Open Sans';letter-spacing:-0.09px;stroke-width:1.92;text-anchor:middle;text-align:center;stroke:#000000">
     <group
-       width="1904"
-       height="1011"
+       width="1424"
+       height="831"
        x="8"
        y="33"
        maximized="0"
