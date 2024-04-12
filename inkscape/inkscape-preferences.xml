@@ -164,8 +164,8 @@
          end="0"
          start="0"
          usecurrent="1"
-         rx="134.4"
-         ry="134.4" />
+         rx="27.939696892744"
+         ry="27.939696892744" />
       <eventcontext
          id="star"
          magnitude="3"
@@ -209,7 +209,7 @@
        style="fill:black;fill-opacity:1;fill-rule:nonzero;stroke:none;"
        mass="1"
        angle="90"
-       width="1.88976377952756"
+       width="2.64566929133858"
        thinning="0"
        flatness="0"
        cap_rounding="1"
@@ -353,8 +353,8 @@
        live_outline="1"
        live_objects="1"
        show_helperpath="0"
-       x="23.458225"
-       y="867.450561523438"
+       x="143.624855442917"
+       y="374.387525291666"
        edit_clipping_paths="0"
        edit_masks="0" />
     <eventcontext
@@ -615,7 +615,7 @@
     <group
        id="align"
        align-to="4"
-       objects-align-to="last"
+       objects-align-to="page"
        sel-as-groups="0" />
     <group
        id="xml"
@@ -673,11 +673,11 @@
        default="org.inkscape.output.pdf.cairorenderer"
        append_extension="1"
        enable_preview="1"
-       path="/Users/ryan/school/Innis Residence Council 2022/Lobby Table" />
+       path="/Users/ryan/work/Innis Residence Don 2023/Passive rounds-help" />
     <group
        id="open"
        enable_preview="1"
-       path="/Users/ryan/Downloads/North House Dinner invites/" />
+       path="/Users/ryan/work/Artwork/Playlist Covers/Administrative/" />
     <group
        id="import"
        enable_preview="1"
@@ -1136,8 +1136,8 @@
      org.inkscape.qr_code.__live_effect__="0"
      org.inkscape.qr_code.drawtype="smooth"
      org.inkscape.output.pdf.cairorenderer.resolution="300"
-     org.inkscape.template.paper.max="42.0"
-     org.inkscape.template.paper.min="30.0"
+     org.inkscape.template.paper.max="11.0"
+     org.inkscape.template.paper.min="8.5"
      org.inkscape.template.paper.unit="in"
      org.inkscape.template.paper.orientation="land"
      org.inkscape.template.video.height="4320.0"
@@ -1155,10 +1155,10 @@
      org.inkscape.generate.printing_marks.unit="px" />
   <group
      id="desktop"
-     style="fill:#ffffff;font-size:74.66666667px;line-height:1.5;-inkscape-font-specification:'Open Sans';font-family:'Open Sans';letter-spacing:-0.09px;stroke-width:1.92;text-anchor:middle;text-align:center;stroke:#000000">
+     style="fill:#f8e09f;font-size:74.66666667px;line-height:1.5;-inkscape-font-specification:'Open Sans';font-family:'Open Sans';letter-spacing:-0.09px;stroke-width:3.77952756;text-anchor:middle;text-align:center;stroke:#000000;stroke-opacity:0">
     <group
-       width="1424"
-       height="831"
+       width="1904"
+       height="1011"
        x="8"
        y="33"
        maximized="0"
