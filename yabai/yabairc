@@ -62,6 +62,7 @@ yabai -m rule --add label="About This Mac" app="Informations système" manage=of
 yabai -m rule --add label="Firefox Downloads" app="^Firefox$" title="^Ouverture de" manage=off
 yabai -m rule --add label="Firefox About" app="^Firefox$" title="^$" manage=off
 yabai -m rule --add label="Firefox Library" app="^Firefox$" title="^Bibliothèque$" manage=off
+yabai -m rule --add label="Firefox Google login" app="^Firefox$" title="^Bibliothèque$" manage=off
 yabai -m rule --add label="Inkscape Launch" app="^Inkscape$" title="^Inkscape 1." manage=off border=off
 yabai -m rule --add label="Inkscape Auxiliary" app="^Inkscape$" title!="- Inkscape$" manage=off
 yabai -m rule --add label="Transmission" app="^Transmission$" title!="^Transmission$" manage=off
@@ -78,6 +79,7 @@ yabai -m rule --add label="Contacts" app="^Contacts$" manage=off
 yabai -m rule --add label="Dictionary" app="^Dictionnaire$" manage=off
 yabai -m rule --add label="FaceTime" app="^FaceTime$" manage=off
 yabai -m rule --add label="IntelliJ IDEA" app="IntelliJ IDEA" manage=off
+yabai -m rule --add label="Livre des polices" app="^Livre des polices$" manage=off
 yabai -m rule --add label="Localiser" app="^Localiser$" manage=off
 yabai -m rule --add label="Messages" app="^Messages$" manage=off
 #yabai -m rule --add label="Safari" app="^Safari$" title="^(General|(Tab|Password|Website|Extension)s|AutoFill|Se(arch|curity)|Privacy|Advance)$" manage=off
@@ -86,9 +88,11 @@ yabai -m rule --add label="WhatsApp" app="^WhatsApp$" manage=off
 yabai -m rule --add label="Calibre" app="^calibre$" manage=off
 yabai -m rule --add label="AnyConnect" app="^Cisco" manage=off
 yabai -m rule --add label="darktable" app="^darktable$" manage=off
+yabai -m rule --add label="ColorSlurp" app="^ColorSlurp$" manage=off
 yabai -m rule --add label="Discord" app="^Discord$" manage=off
 yabai -m rule --add label="eqMac" app="^eqMac$" manage=off
 yabai -m rule --add label="Hidden Bar" app="^Hidden Bar$" manage=off
+yabai -m rule --add label="LibreOffice" app="^LibreOffice$" manage=off
 yabai -m rule --add label="MATLAB" app="^MATLAB" manage=off
 yabai -m rule --add label="Minecraft Launcher" app="^Minecraft Launcher$" manage=off
 yabai -m rule --add label="Minecraft" app="^java$" title="^Minecraft" manage=off
@@ -96,6 +100,7 @@ yabai -m rule --add label="Numi" app="^Numi$" manage=off
 yabai -m rule --add label="Prism Launcher" app="^Prism Launcher$" manage=off
 # yabai -m rule --add label="PyCharm" app="^PyCharm$" manage=off
 yabai -m rule --add label="Steam" app="^Steam" manage=off
-yabai -m rule --add label="Teams" app="^Microsoft Teams$" manage=off
+yabai -m rule --add label="Teams" app="^Microsoft Teams" manage=off
+yabai -m rule --add label="new Teams" app="^Microsoft Teams (work or school)$" manage=off
 yabai -m rule --add label="Thunderbird" app="^Thunderbird$" manage=off
 yabai -m rule --add label="Zoom" app="zoom.us" manage=off
