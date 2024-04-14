@@ -134,6 +134,8 @@ fi
 #  compinit
 #fi
 
+autoload zmv
+
 source $HOME/dotfiles/shell/alias.sh
 source $HOME/dotfiles/shell/env.sh
 
