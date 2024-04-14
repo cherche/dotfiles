@@ -20,7 +20,7 @@ alt + shift - return : alacritty -e ~/dotfiles/skhd/macros/q.sh
 alt + ctrl - return : open -a Finder ~
 # TODO: Make all these shortcuts toggle window visibility (hide/unhide)
 # so minimal hand movement is needed to quickly flash the window
-alt - m : open -a Spotify
+#alt - m : open -a Spotify
 alt - 1 : open -a KeePassXC
 #alt - 2 : open -a Music
 # alt - ,
@@ -229,6 +229,6 @@ alt - f : yabai -m window --toggle zoom-fullscreen
 
 # change layout of desktop
 ctrl + alt - a : yabai -m space --layout bsp
-ctrl + alt - d : yabai -m space --layout float
-ctrl + alt - w : yabai -m space --layout stack
-ctrl + alt - s : yabai -m space --layout $(yabai -m query --spaces --space | jq -r 'if .type == "bsp" then "float" else "bsp" end')
+ctrl + alt - w : yabai -m space --layout float
+ctrl + alt - s : yabai -m space --layout stack
+ctrl + alt - d : yabai -m space --layout $(yabai -m query --spaces --space | jq -r 'if .type == "bsp" then "float" else "bsp" end')
