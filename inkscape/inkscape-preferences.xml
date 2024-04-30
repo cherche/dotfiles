@@ -125,8 +125,8 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="576"
-         height="432"
+         width="343.233635279329"
+         height="491.463447195799"
          rx="0"
          ry="0" />
       <eventcontext
@@ -207,9 +207,9 @@
     <eventcontext
        id="calligraphic"
        style="fill:black;fill-opacity:1;fill-rule:nonzero;stroke:none;"
-       mass="1"
-       angle="90"
-       width="2.64566929133858"
+       mass="4"
+       angle="60"
+       width="5.76"
        thinning="0"
        flatness="0"
        cap_rounding="1"
@@ -219,7 +219,7 @@
        usetilt="0"
        keep_selected="1"
        abs_width="1"
-       unit="mm"
+       unit="in"
        wiggle="0"
        tremor="0">
       <group
@@ -326,7 +326,7 @@
        id="lpetool"
        mode="drag"
        style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;"
-       unit="px"
+       unit="in"
        show_bbox="1" />
     <eventcontext
        id="text"
@@ -353,8 +353,8 @@
        live_outline="1"
        live_objects="1"
        show_helperpath="0"
-       x="143.624855442917"
-       y="374.387525291666"
+       x="525.790960629921"
+       y="217.719845669291"
        edit_clipping_paths="0"
        edit_masks="0" />
     <eventcontext
@@ -677,7 +677,7 @@
     <group
        id="open"
        enable_preview="1"
-       path="/Users/ryan/work/Artwork/Playlist Covers/Administrative/" />
+       path="/Users/ryan/Desktop/" />
     <group
        id="import"
        enable_preview="1"
@@ -1136,8 +1136,8 @@
      org.inkscape.qr_code.__live_effect__="0"
      org.inkscape.qr_code.drawtype="smooth"
      org.inkscape.output.pdf.cairorenderer.resolution="300"
-     org.inkscape.template.paper.max="11.0"
-     org.inkscape.template.paper.min="8.5"
+     org.inkscape.template.paper.max="42.0"
+     org.inkscape.template.paper.min="30.0"
      org.inkscape.template.paper.unit="in"
      org.inkscape.template.paper.orientation="land"
      org.inkscape.template.video.height="4320.0"
@@ -1155,7 +1155,7 @@
      org.inkscape.generate.printing_marks.unit="px" />
   <group
      id="desktop"
-     style="fill:#f8e09f;font-size:74.66666667px;line-height:1.5;-inkscape-font-specification:'Open Sans';font-family:'Open Sans';letter-spacing:-0.09px;stroke-width:3.77952756;text-anchor:middle;text-align:center;stroke:#000000;stroke-opacity:0">
+     style="fill:#002255;font-size:48px;line-height:0.95;-inkscape-font-specification:Futura;font-family:Futura;letter-spacing:-0.09px;stroke-width:3.77952756;text-anchor:middle;text-align:center;stroke:#000000;stroke-opacity:0">
     <group
        width="1904"
        height="1011"
