@@ -125,10 +125,10 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="343.233635279329"
-         height="491.463447195799"
-         rx="0"
-         ry="0" />
+         width="815.999919260592"
+         height="1055.99997693159"
+         rx="11.9999998197782"
+         ry="11.9999998197781" />
       <eventcontext
          id="3dbox"
          style="stroke:none;stroke-linejoin:round;"
@@ -615,7 +615,7 @@
     <group
        id="align"
        align-to="4"
-       objects-align-to="page"
+       objects-align-to="last"
        sel-as-groups="0" />
     <group
        id="xml"
@@ -915,7 +915,7 @@
        value="2" />
     <group
        id="transform"
-       stroke="0"
+       stroke="1"
        rectcorners="0"
        pattern="0"
        gradient="0" />
@@ -1136,8 +1136,8 @@
      org.inkscape.qr_code.__live_effect__="0"
      org.inkscape.qr_code.drawtype="smooth"
      org.inkscape.output.pdf.cairorenderer.resolution="300"
-     org.inkscape.template.paper.max="42.0"
-     org.inkscape.template.paper.min="30.0"
+     org.inkscape.template.paper.max="11.0"
+     org.inkscape.template.paper.min="8.5"
      org.inkscape.template.paper.unit="in"
      org.inkscape.template.paper.orientation="land"
      org.inkscape.template.video.height="4320.0"
@@ -1155,7 +1155,7 @@
      org.inkscape.generate.printing_marks.unit="px" />
   <group
      id="desktop"
-     style="fill:#002255;font-size:48px;line-height:0.95;-inkscape-font-specification:Futura;font-family:Futura;letter-spacing:-0.09px;stroke-width:3.77952756;text-anchor:middle;text-align:center;stroke:#000000;stroke-opacity:0">
+     style="fill:#000000;font-size:18.66666667px;line-height:0.95;-inkscape-font-specification:Arial;font-family:Arial;letter-spacing:0px;stroke-width:3.77952756;text-anchor:middle;text-align:center;stroke-opacity:0;opacity:0.36065574;stroke:#ff0000;word-spacing:1px">
     <group
        width="1904"
        height="1011"
