@@ -125,10 +125,10 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="10.3508800596703"
-         height="4.53467136292947"
-         rx="11.9999998197781"
-         ry="4.53467136292947" />
+         width="815.999986110449"
+         height="1055.99998881011"
+         rx="0"
+         ry="0" />
       <eventcontext
          id="3dbox"
          style="stroke:none;stroke-linejoin:round;"
@@ -164,8 +164,8 @@
          end="0"
          start="0"
          usecurrent="1"
-         rx="27.939696892744"
-         ry="27.939696892744" />
+         rx="316.029225747416"
+         ry="316.029225747417" />
       <eventcontext
          id="star"
          magnitude="3"
@@ -337,7 +337,7 @@
        use_svg2="1"
        style="line-height:1.25;font-family:Sans;font-size:26.6666832px;-inkscape-font-specification:'Sans, Normal'"
        selcue="1"
-       align_mode="1" />
+       align_mode="2" />
     <eventcontext
        id="nodes"
        selcue="1"
@@ -428,7 +428,7 @@
        mode="drag" />
     <group
        id="pages"
-       move_objects="0" />
+       move_objects="1" />
   </group>
   <group
      id="palette">
@@ -615,7 +615,7 @@
     <group
        id="align"
        align-to="4"
-       objects-align-to="last"
+       objects-align-to="page"
        sel-as-groups="0" />
     <group
        id="xml"
@@ -637,7 +637,7 @@
     <group
        id="preferences"
        state="1"
-       page="1" />
+       page="26" />
     <group
        id="gradienteditor" />
     <group
@@ -650,7 +650,7 @@
        defaultopts="1">
       <group
          id="exportarea"
-         value="page" />
+         value="drawing" />
       <group
          id="defaultxdpi"
          value="96" />
@@ -1040,7 +1040,8 @@
          ver1.1.2="1"
          ver1.2="1"
          ver1.2.1="1"
-         ver1.2.2="1" />
+         ver1.2.2="1"
+         ver1.3.2="1" />
     </group>
     <group
        id="rendering" />
@@ -1052,7 +1053,7 @@
        shortcutfile="default.xml" />
     <group
        id="snapping"
-       snap-global-toggle="0"
+       snap-global-toggle="1"
        snap-bbox="1"
        snap-bbox-edge="1"
        snap-bbox-corner="1"
@@ -1155,12 +1156,12 @@
      org.inkscape.generate.printing_marks.unit="px" />
   <group
      id="desktop"
-     style="fill:#fefdfe;font-size:12px;line-height:0.95;-inkscape-font-specification:Helvetica;font-family:Helvetica;letter-spacing:0px;stroke-width:2.88;text-anchor:middle;text-align:center;word-spacing:1px;stroke:#fe4b4b">
+     style="fill:#ffffff;font-size:128px;line-height:0.95;-inkscape-font-specification:Avenir;font-family:Avenir;letter-spacing:0px;stroke-width:1.13385827;text-anchor:end;text-align:end;word-spacing:1px;stroke-dasharray:3.40157497, 3.40157497">
     <group
-       width="960"
-       height="487"
-       x="964"
-       y="556"
+       width="712"
+       height="397"
+       x="366"
+       y="466"
        maximized="0"
        fullscreen="0"
        id="geometry" />
@@ -1222,7 +1223,7 @@
      defaultIconTheme="Adwaita"
      defaultGtkTheme="Adwaita"
      narrowSpinButton="1"
-     preferDarkTheme="0"
+     preferDarkTheme="1"
      darkTheme="1"
      symbolicIcons="1"
      symbolicDefaultBaseColors="1"
