@@ -650,7 +650,7 @@
        defaultopts="1">
       <group
          id="exportarea"
-         value="drawing" />
+         value="page" />
       <group
          id="defaultxdpi"
          value="96" />
@@ -1158,10 +1158,10 @@
      id="desktop"
      style="fill:#ffffff;font-size:128px;line-height:0.95;-inkscape-font-specification:Avenir;font-family:Avenir;letter-spacing:0px;stroke-width:1.13385827;text-anchor:end;text-align:end;word-spacing:1px;stroke-dasharray:3.40157497, 3.40157497">
     <group
-       width="712"
-       height="397"
-       x="366"
-       y="466"
+       width="1424"
+       height="831"
+       x="8"
+       y="33"
        maximized="0"
        fullscreen="0"
        id="geometry" />
