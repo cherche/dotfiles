@@ -1,0 +1,5 @@
+#!/bin/bash
+base="$(basename $1)"
+filename="${base%.*}"
+extension="${base##*.}"
+cp -vn "$1" "$2"/ || cp -vn "$1" "$2"/"$filename"~"$(md5 "$1" | cut -f4 -d' ')"."$extension"
