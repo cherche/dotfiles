@@ -1,5 +1,16 @@
 #!/usr/bin/python3
 
+# The outputs of this script should be used in conjunction with
+# a djvu/pdf manipulation program. See the following examples.
+# 
+# djvused beardon.djvu -e "set-outline beardon.djvu.txt" -s
+# 
+# pdftk doc.pdf dump_data output meta.txt
+# pdftk temp.pdf update_info meta.txt output final.pdf
+# 
+# pdftk doc.pdf dump_data_utf8 output meta.txt
+# pdftk temp.pdf update_info_utf8 meta.txt output final.pdf
+
 from typing import List, Tuple, TextIO
 import re
 
