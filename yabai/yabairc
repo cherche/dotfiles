@@ -63,6 +63,7 @@ yabai -m rule --add label="Firefox Downloads" app="^Firefox$" title="^Ouverture 
 yabai -m rule --add label="Firefox About" app="^Firefox$" title="^$" manage=off
 yabai -m rule --add label="Firefox Library" app="^Firefox$" title="^Bibliothèque$" manage=off
 yabai -m rule --add label="Firefox Google login" app="^Firefox$" title="^Bibliothèque$" manage=off
+yabai -m rule --add label="GIMP" app="^GIMP$" manage=off
 yabai -m rule --add label="Inkscape Launch" app="^Inkscape$" title="^Inkscape 1." manage=off border=off
 yabai -m rule --add label="Inkscape Auxiliary" app="^Inkscape$" title!="- Inkscape$" manage=off
 yabai -m rule --add label="Transmission" app="^Transmission$" title!="^Transmission$" manage=off
