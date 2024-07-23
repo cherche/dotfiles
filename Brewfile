@@ -58,7 +58,7 @@ brew "perl"
 brew "poppler"
 brew "python@3.10"
 brew "ruby"
-brew "rustup-init", link: true
+brew "rustup"
 brew "switchaudio-osx"
 brew "tldr"
 brew "tmux"

@@ -125,8 +125,8 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="815.999986110449"
-         height="1055.99998881011"
+         width="12.7371681857779"
+         height="9.41485402252772"
          rx="0"
          ry="0" />
       <eventcontext
@@ -337,7 +337,7 @@
        use_svg2="1"
        style="line-height:1.25;font-family:Sans;font-size:26.6666832px;-inkscape-font-specification:'Sans, Normal'"
        selcue="1"
-       align_mode="2" />
+       align_mode="0" />
     <eventcontext
        id="nodes"
        selcue="1"
@@ -603,7 +603,7 @@
        id="toolbox" />
     <group
        id="fillstroke"
-       page="2" />
+       page="1" />
     <group
        id="filtereffects" />
     <group
@@ -1054,7 +1054,7 @@
     <group
        id="snapping"
        snap-global-toggle="1"
-       snap-bbox="1"
+       snap-bbox="0"
        snap-bbox-edge="1"
        snap-bbox-corner="1"
        snap-bbox-edge-midpoint="1"
@@ -1073,7 +1073,7 @@
        snap-alignment-self="0"
        snap-distribution="0"
        simple-snap-alignment="0"
-       snap-others="1"
+       snap-others="0"
        snap-object-midpoint="0"
        snap-rotation-center="0"
        snap-text-baseline="1"
@@ -1156,7 +1156,7 @@
      org.inkscape.generate.printing_marks.unit="px" />
   <group
      id="desktop"
-     style="fill:#ffffff;font-size:128px;line-height:0.95;-inkscape-font-specification:Avenir;font-family:Avenir;letter-spacing:0px;text-anchor:end;text-align:end;word-spacing:1px;stroke-width:4">
+     style="fill:none;font-size:10.66666667px;line-height:1;-inkscape-font-specification:'Mplus 1p';font-family:'Mplus 1p';letter-spacing:-1px;word-spacing:1px;stroke-width:1.88976378">
     <group
        width="1424"
        height="831"
