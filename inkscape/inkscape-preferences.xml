@@ -326,7 +326,7 @@
        id="lpetool"
        mode="drag"
        style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;"
-       unit="mm"
+       unit="px"
        show_bbox="1" />
     <eventcontext
        id="text"
@@ -353,8 +353,8 @@
        live_outline="1"
        live_objects="1"
        show_helperpath="0"
-       x="251.998429606299"
-       y="407.811023622047"
+       x="1055.10712629193"
+       y="213.853461577337"
        edit_clipping_paths="0"
        edit_masks="0" />
     <eventcontext
@@ -637,7 +637,7 @@
     <group
        id="preferences"
        state="1"
-       page="26" />
+       page="23" />
     <group
        id="gradienteditor" />
     <group
@@ -677,7 +677,7 @@
     <group
        id="open"
        enable_preview="1"
-       path="/Users/ryan/Downloads/" />
+       path="/Users/ryan/work/Animateur Explore UQAC/journal-3/journal-3 Folder-3 (pas nouveau text, article avec gifs)/" />
     <group
        id="import"
        enable_preview="1"
@@ -1156,12 +1156,12 @@
      org.inkscape.generate.printing_marks.unit="px" />
   <group
      id="desktop"
-     style="fill:none;font-size:10.66666667px;line-height:1;-inkscape-font-specification:'Mplus 1p';font-family:'Mplus 1p';letter-spacing:-1px;word-spacing:1px;stroke-width:1.88976378">
+     style="fill:#c1d732;font-size:10.66666667px;line-height:1;-inkscape-font-specification:'Mplus 1p';font-family:'Mplus 1p';letter-spacing:-1px;word-spacing:1px;stroke-width:7.55905512;stroke:#c1d61d;stroke-linecap:round;stroke-linejoin:round">
     <group
-       width="1424"
-       height="831"
+       width="736"
+       height="397"
        x="8"
-       y="33"
+       y="466"
        maximized="0"
        fullscreen="0"
        id="geometry" />
@@ -1216,7 +1216,7 @@
   </group>
   <group
      id="ui"
-     language="en" />
+     language="fr" />
   <group
      id="theme"
      defaultPreferDarkTheme="0"
