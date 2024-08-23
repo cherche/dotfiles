@@ -32,7 +32,7 @@
        state="1" />
     <group
        id="scrollbars"
-       state="0" />
+       state="1" />
   </group>
   <group
      id="fullscreen">
@@ -125,8 +125,8 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="12.7371681857779"
-         height="9.41485402252772"
+         width="2687.99990043721"
+         height="2112.00002063695"
          rx="0"
          ry="0" />
       <eventcontext
@@ -164,8 +164,8 @@
          end="0"
          start="0"
          usecurrent="1"
-         rx="316.029225747416"
-         ry="316.029225747417" />
+         rx="168.51499594666"
+         ry="168.51499594668" />
       <eventcontext
          id="star"
          magnitude="3"
@@ -201,7 +201,7 @@
          selcue="1"
          style="stroke-width:1px;"
          usecurrent="1"
-         freehand-mode="0"
+         freehand-mode="1"
          shape="0" />
     </group>
     <eventcontext
@@ -326,7 +326,7 @@
        id="lpetool"
        mode="drag"
        style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;"
-       unit="px"
+       unit="mm"
        show_bbox="1" />
     <eventcontext
        id="text"
@@ -335,9 +335,9 @@
        font_sample="AaBbCcIiPpQq12369$€¢?.;/()"
        show_sample_in_list="1"
        use_svg2="1"
-       style="line-height:1.25;font-family:Sans;font-size:26.6666832px;-inkscape-font-specification:'Sans, Normal'"
+       style="line-height:1.25;font-family:Sans;font-size:96px;-inkscape-font-specification:'Sans, Normal'"
        selcue="1"
-       align_mode="0" />
+       align_mode="1" />
     <eventcontext
        id="nodes"
        selcue="1"
@@ -353,8 +353,8 @@
        live_outline="1"
        live_objects="1"
        show_helperpath="0"
-       x="1055.10712629193"
-       y="213.853461577337"
+       x="4595.9997186097"
+       y="268.224633403604"
        edit_clipping_paths="0"
        edit_masks="0" />
     <eventcontext
@@ -429,6 +429,9 @@
     <group
        id="pages"
        move_objects="1" />
+    <group
+       id="booleans"
+       mode="0" />
   </group>
   <group
      id="palette">
@@ -637,7 +640,7 @@
     <group
        id="preferences"
        state="1"
-       page="23" />
+       page="13" />
     <group
        id="gradienteditor" />
     <group
@@ -677,7 +680,7 @@
     <group
        id="open"
        enable_preview="1"
-       path="/Users/ryan/work/Animateur Explore UQAC/journal-3/journal-3 Folder-3 (pas nouveau text, article avec gifs)/" />
+       path="/Users/ryan/work/Innis Residence Don 2024/community board cricut/" />
     <group
        id="import"
        enable_preview="1"
@@ -1137,8 +1140,8 @@
      org.inkscape.qr_code.__live_effect__="0"
      org.inkscape.qr_code.drawtype="smooth"
      org.inkscape.output.pdf.cairorenderer.resolution="300"
-     org.inkscape.template.paper.max="11.0"
-     org.inkscape.template.paper.min="8.5"
+     org.inkscape.template.paper.max="42.0"
+     org.inkscape.template.paper.min="30.0"
      org.inkscape.template.paper.unit="in"
      org.inkscape.template.paper.orientation="land"
      org.inkscape.template.video.height="4320.0"
@@ -1156,12 +1159,12 @@
      org.inkscape.generate.printing_marks.unit="px" />
   <group
      id="desktop"
-     style="fill:#c1d732;font-size:10.66666667px;line-height:1;-inkscape-font-specification:'Mplus 1p';font-family:'Mplus 1p';letter-spacing:-1px;word-spacing:1px;stroke-width:7.55905512;stroke:#c1d61d;stroke-linecap:round;stroke-linejoin:round">
+     style="fill:#f5d7bd;font-size:48px;line-height:1;-inkscape-font-specification:'Avenir Next Heavy';font-family:'Avenir Next';letter-spacing:-1px;word-spacing:1px;stroke-width:9.6;stroke-linecap:round;stroke-linejoin:round;text-anchor:middle;text-align:center;font-weight:900">
     <group
-       width="736"
-       height="397"
-       x="8"
-       y="466"
+       width="832"
+       height="831"
+       x="724"
+       y="33"
        maximized="0"
        fullscreen="0"
        id="geometry" />
