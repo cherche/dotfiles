@@ -29,7 +29,7 @@
        state="1" />
     <group
        id="rulers"
-       state="1" />
+       state="0" />
     <group
        id="scrollbars"
        state="1" />
@@ -125,8 +125,8 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="2687.99990043721"
-         height="2112.00002063695"
+         width="471.386459230444"
+         height="135.976860466904"
          rx="0"
          ry="0" />
       <eventcontext
@@ -164,8 +164,8 @@
          end="0"
          start="0"
          usecurrent="1"
-         rx="168.51499594666"
-         ry="168.51499594668" />
+         rx="399.872640379901"
+         ry="399.872640379877" />
       <eventcontext
          id="star"
          magnitude="3"
@@ -326,7 +326,7 @@
        id="lpetool"
        mode="drag"
        style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;"
-       unit="mm"
+       unit="in"
        show_bbox="1" />
     <eventcontext
        id="text"
@@ -618,7 +618,7 @@
     <group
        id="align"
        align-to="4"
-       objects-align-to="page"
+       objects-align-to="biggest"
        sel-as-groups="0" />
     <group
        id="xml"
@@ -669,7 +669,7 @@
        default="org.inkscape.output.svg.inkscape"
        append_extension="1"
        enable_preview="1"
-       path="/Users/ryan/Downloads"
+       path="/Users/ryan/work/Innis Residence Don 2024"
        use_current_dir="1" />
     <group
        id="save_copy"
@@ -921,7 +921,7 @@
        stroke="0"
        rectcorners="0"
        pattern="0"
-       gradient="0" />
+       gradient="1" />
     <group
        id="dash"
        scale="1" />
@@ -1057,7 +1057,7 @@
     <group
        id="snapping"
        snap-global-toggle="1"
-       snap-bbox="0"
+       snap-bbox="1"
        snap-bbox-edge="1"
        snap-bbox-corner="1"
        snap-bbox-edge-midpoint="1"
@@ -1140,9 +1140,9 @@
      org.inkscape.qr_code.__live_effect__="0"
      org.inkscape.qr_code.drawtype="smooth"
      org.inkscape.output.pdf.cairorenderer.resolution="300"
-     org.inkscape.template.paper.max="42.0"
-     org.inkscape.template.paper.min="30.0"
-     org.inkscape.template.paper.unit="in"
+     org.inkscape.template.paper.max="297.0"
+     org.inkscape.template.paper.min="210.0"
+     org.inkscape.template.paper.unit="mm"
      org.inkscape.template.paper.orientation="land"
      org.inkscape.template.video.height="4320.0"
      org.inkscape.template.video.unit="px"
@@ -1159,11 +1159,11 @@
      org.inkscape.generate.printing_marks.unit="px" />
   <group
      id="desktop"
-     style="fill:#f5d7bd;font-size:48px;line-height:1;-inkscape-font-specification:'Avenir Next Heavy';font-family:'Avenir Next';letter-spacing:-1px;word-spacing:1px;stroke-width:9.6;stroke-linecap:round;stroke-linejoin:round;text-anchor:middle;text-align:center;font-weight:900">
+     style="fill:#e5682d;font-size:101.33333333px;line-height:1;-inkscape-font-specification:'Futura Medium Italic';font-family:Futura;letter-spacing:-1px;word-spacing:1px;stroke-width:9.6;stroke-linecap:round;stroke-linejoin:round;text-anchor:middle;text-align:center;font-weight:500;font-style:italic">
     <group
-       width="832"
+       width="1424"
        height="831"
-       x="724"
+       x="8"
        y="33"
        maximized="0"
        fullscreen="0"
