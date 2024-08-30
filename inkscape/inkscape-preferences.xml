@@ -125,8 +125,8 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="471.386459230444"
-         height="135.976860466904"
+         width="1080.88431007438"
+         height="1063.12327043871"
          rx="0"
          ry="0" />
       <eventcontext
@@ -164,8 +164,8 @@
          end="0"
          start="0"
          usecurrent="1"
-         rx="399.872640379901"
-         ry="399.872640379877" />
+         rx="259.471016263367"
+         ry="259.471016263387" />
       <eventcontext
          id="star"
          magnitude="3"
@@ -326,7 +326,7 @@
        id="lpetool"
        mode="drag"
        style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;"
-       unit="in"
+       unit="mm"
        show_bbox="1" />
     <eventcontext
        id="text"
@@ -353,8 +353,8 @@
        live_outline="1"
        live_objects="1"
        show_helperpath="0"
-       x="4595.9997186097"
-       y="268.224633403604"
+       x="603.427219653543"
+       y="484.371862677165"
        edit_clipping_paths="0"
        edit_masks="0" />
     <eventcontext
@@ -662,7 +662,7 @@
          value="layer" />
       <group
          id="defaultdpi"
-         value="300" />
+         value="96" />
     </group>
     <group
        id="save_as"
@@ -1159,7 +1159,7 @@
      org.inkscape.generate.printing_marks.unit="px" />
   <group
      id="desktop"
-     style="fill:#e5682d;font-size:101.33333333px;line-height:1;-inkscape-font-specification:'Futura Medium Italic';font-family:Futura;letter-spacing:-1px;word-spacing:1px;stroke-width:9.6;stroke-linecap:round;stroke-linejoin:round;text-anchor:middle;text-align:center;font-weight:500;font-style:italic">
+     style="fill:#912818;font-size:101.33333333px;line-height:1;-inkscape-font-specification:'Futura Medium Italic';font-family:Futura;letter-spacing:-1px;word-spacing:1px;stroke-width:9.6;stroke-linecap:round;stroke-linejoin:round;text-anchor:middle;text-align:center;font-weight:500;font-style:italic">
     <group
        width="1424"
        height="831"
