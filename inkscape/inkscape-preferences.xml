@@ -353,8 +353,8 @@
        live_outline="1"
        live_objects="1"
        show_helperpath="0"
-       x="603.427219653543"
-       y="484.371862677165"
+       x="302.798147527559"
+       y="598.737154015748"
        edit_clipping_paths="0"
        edit_masks="0" />
     <eventcontext
@@ -1161,8 +1161,8 @@
      id="desktop"
      style="fill:#912818;font-size:101.33333333px;line-height:1;-inkscape-font-specification:'Futura Medium Italic';font-family:Futura;letter-spacing:-1px;word-spacing:1px;stroke-width:9.6;stroke-linecap:round;stroke-linejoin:round;text-anchor:middle;text-align:center;font-weight:500;font-style:italic">
     <group
-       width="1424"
-       height="831"
+       width="1904"
+       height="1011"
        x="8"
        y="33"
        maximized="0"
