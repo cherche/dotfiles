@@ -326,7 +326,7 @@
        id="lpetool"
        mode="drag"
        style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;"
-       unit="mm"
+       unit="in"
        show_bbox="1" />
     <eventcontext
        id="text"
@@ -353,8 +353,8 @@
        live_outline="1"
        live_objects="1"
        show_helperpath="0"
-       x="302.798147527559"
-       y="598.737154015748"
+       x="12.6184327559055"
+       y="8.04478110236101"
        edit_clipping_paths="0"
        edit_masks="0" />
     <eventcontext
