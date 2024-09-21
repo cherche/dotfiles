@@ -69,6 +69,9 @@ yabai -m rule --add label="Inkscape Auxiliary" app="^Inkscape$" title!="- Inksca
 yabai -m rule --add label="Transmission" app="^Transmission$" title!="^Transmission$" manage=off
 
 # Float
+yabai -m rule --add label="Creative Cloud" app="Creative Cloud" manage=off border=off
+yabai -m rule --add label="InDesign" app="InDesign" manage=off border=off
+
 yabai -m rule --add label="AlDente" app="^AlDente$" manage=off
 yabai -m rule --add label="MonitorControl" app="^MonitorControl$" manage=off
 yabai -m rule --add label="Arc" app="Arc" manage=off border=off
