@@ -125,8 +125,8 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="695.999976931604"
-         height="455.999948096094"
+         width="24.0010222566566"
+         height="285.983588181745"
          rx="0"
          ry="0" />
       <eventcontext
@@ -326,7 +326,7 @@
        id="lpetool"
        mode="drag"
        style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;"
-       unit="in"
+       unit="px"
        show_bbox="1" />
     <eventcontext
        id="text"
@@ -335,9 +335,12 @@
        font_sample="AaBbCcIiPpQq12369$€¢?.;/()"
        show_sample_in_list="1"
        use_svg2="1"
-       style="line-height:1.25;font-family:Sans;font-size:96px;-inkscape-font-specification:'Sans, Normal'"
+       style="line-height:1.25;font-family:Sans;font-size:96px;-inkscape-font-specification:'Sans, Normal';text-anchor:middle;text-align:center;text-orientation:auto"
        selcue="1"
-       align_mode="1" />
+       align_mode="1"
+       writing_mode="0"
+       orientation_mode="0"
+       direction_mode="0" />
     <eventcontext
        id="nodes"
        selcue="1"
@@ -353,10 +356,10 @@
        live_outline="1"
        live_objects="1"
        show_helperpath="0"
-       x="88.296880063137"
-       y="115.644496431433"
        edit_clipping_paths="0"
-       edit_masks="0" />
+       edit_masks="0"
+       x="88.296880063137"
+       y="115.644496431433" />
     <eventcontext
        id="tweak"
        selcue="0"
@@ -371,7 +374,8 @@
        doh="1"
        dos="1"
        dol="1"
-       doo="1" />
+       doo="1"
+       mode="0" />
     <eventcontext
        id="marker"
        selcue="1"
@@ -418,7 +422,9 @@
     <eventcontext
        id="select"
        selcue="1"
-       gradientdrag="0" />
+       gradientdrag="0"
+       changelayer="1"
+       changepage="1" />
     <eventcontext
        id="paintbucket"
        style="fill:#a0a0a0;stroke:none;"
@@ -618,8 +624,8 @@
     <group
        id="align"
        align-to="4"
-       objects-align-to="smallest"
-       sel-as-groups="0" />
+       sel-as-groups="0"
+       objects-align-to="page" />
     <group
        id="xml"
        h="500"
@@ -653,7 +659,7 @@
        defaultopts="1">
       <group
          id="exportarea"
-         value="drawing" />
+         value="selection" />
       <group
          id="defaultxdpi"
          value="96" />
@@ -1027,11 +1033,22 @@
          angle_x="30.0"
          angle_z="30.0"
          empspacing="5" />
+      <group
+         id="modular"
+         units="mm"
+         origin_x="0.0"
+         origin_y="0.0"
+         spacing_x="40.0"
+         spacing_y="40.0"
+         gapx="10"
+         gapy="10"
+         marginx="0"
+         marginy="0" />
     </group>
     <group
        id="workarounds"
-       colorsontop="0"
-       partialdynamic="0" />
+       partialdynamic="0"
+       colorsontop="0" />
     <group
        id="boot"
        theme="custom"
@@ -1160,10 +1177,10 @@
      org.inkscape.input.gdkpixbuf.jpg.do_not_ask="1" />
   <group
      id="desktop"
-     style="fill:#9dbc57;font-size:101.33333333px;line-height:1;-inkscape-font-specification:'Futura Medium Italic';font-family:Futura;letter-spacing:-1px;word-spacing:1px;stroke-width:9.6;stroke-linecap:round;stroke-linejoin:round;text-anchor:middle;text-align:center;font-weight:500;font-style:italic">
+     style="fill:#000000;font-size:101.33333333px;line-height:1;-inkscape-font-specification:'Futura Medium Italic';font-family:Futura;letter-spacing:-1px;word-spacing:1px;stroke-width:9.6;stroke-linecap:round;stroke-linejoin:round;text-anchor:middle;text-align:center;font-weight:500;font-style:italic;text-orientation:auto">
     <group
-       width="1424"
-       height="831"
+       width="1904"
+       height="1011"
        x="8"
        y="33"
        maximized="0"
