@@ -676,7 +676,8 @@
        append_extension="1"
        enable_preview="1"
        path="/Users/ryan/work/Innis Residence Don 2024"
-       use_current_dir="1" />
+       use_current_dir="1"
+       enable_svgexport="0" />
     <group
        id="save_copy"
        default="org.inkscape.output.pdf.cairorenderer"
@@ -1073,7 +1074,7 @@
        shortcutfile="default.xml" />
     <group
        id="snapping"
-       snap-global-toggle="1"
+       snap-global-toggle="0"
        snap-bbox="1"
        snap-bbox-edge="1"
        snap-bbox-corner="1"
@@ -1177,11 +1178,11 @@
      org.inkscape.input.gdkpixbuf.jpg.do_not_ask="1" />
   <group
      id="desktop"
-     style="fill:#000000;font-size:101.33333333px;line-height:1;-inkscape-font-specification:'Futura Medium Italic';font-family:Futura;letter-spacing:-1px;word-spacing:1px;stroke-width:9.6;stroke-linecap:round;stroke-linejoin:round;text-anchor:middle;text-align:center;font-weight:500;font-style:italic;text-orientation:auto">
+     style="fill:#000000;font-size:101.33333333px;line-height:1;-inkscape-font-specification:'Futura Medium Italic';font-family:Futura;letter-spacing:-1px;word-spacing:1px;stroke-width:9.6;stroke-linecap:round;stroke-linejoin:round;text-anchor:middle;text-align:center;font-weight:500;font-style:italic;text-orientation:auto;opacity:0.49180328">
     <group
-       width="1904"
+       width="1200"
        height="1011"
-       x="8"
+       x="964"
        y="33"
        maximized="0"
        fullscreen="0"
