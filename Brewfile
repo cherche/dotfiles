@@ -7,7 +7,7 @@ tap "khanhas/tap"
 tap "koekeishiya/formulae"
 tap "zegervdv/zathura"
 brew "openssl@3"
-brew "dbus", restart_service: true
+brew "dbus"
 brew "autoconf"
 brew "automake"
 brew "libgit2@1.7"
