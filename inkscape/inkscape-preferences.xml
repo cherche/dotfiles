@@ -125,8 +125,8 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="24.0010222566566"
-         height="285.983588181745"
+         width="670.16526590183"
+         height="1454.40125953492"
          rx="0"
          ry="0" />
       <eventcontext
@@ -326,7 +326,7 @@
        id="lpetool"
        mode="drag"
        style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;"
-       unit="in"
+       unit="mm"
        show_bbox="1" />
     <eventcontext
        id="text"
@@ -694,10 +694,10 @@
        enable_preview="1"
        path="/Users/ryan/Downloads/"
        ask="0"
-       ask_svg="1"
+       ask_svg="0"
        link="link"
        scale="auto"
-       import_mode_svg="include"
+       import_mode_svg="link"
        forcexdpi="0" />
     <group
        id="debug"
@@ -1079,15 +1079,15 @@
        snap-bbox="1"
        snap-bbox-edge="1"
        snap-bbox-corner="1"
-       snap-bbox-edge-midpoint="1"
-       snap-bbox-center="1"
+       snap-bbox-edge-midpoint="0"
+       snap-bbox-center="0"
        simple-snap-bbox="1"
        snap-node-category="1"
        snap-path="1"
        snap-path-intersection="1"
        snap-node-cusp="1"
        snap-node-smooth="1"
-       snap-line-midpoint="1"
+       snap-line-midpoint="0"
        snap-line-tangential="0"
        snap-line-perpendicular="0"
        simple-snap-nodes="1"
@@ -1134,7 +1134,7 @@
      org.inkscape.effect.filter.CrossBlur.fade="0"
      org.inkscape.effect.filter.CrossBlur.bright="0"
      org.inkscape.effect.filter.CrossBlur.__live_effect__="0"
-     org.inkscape.input.svg.import_mode_svg="include"
+     org.inkscape.input.svg.import_mode_svg="link"
      org.inkscape.output.pdf.cairorenderer.textToPath="paths"
      org.inkscape.render.grid_cartesian.border_th_unit="mm"
      org.inkscape.render.grid_cartesian.dx_unit="in"
@@ -1176,10 +1176,11 @@
      org.inkscape.template.other.unit="px"
      org.inkscape.generate.printing_marks.where="canvas"
      org.inkscape.generate.printing_marks.unit="px"
-     org.inkscape.input.gdkpixbuf.jpg.do_not_ask="1" />
+     org.inkscape.input.gdkpixbuf.jpg.do_not_ask="1"
+     org.inkscape.input.svg.do_not_ask="1" />
   <group
      id="desktop"
-     style="fill:#000000;font-size:101.33333333px;line-height:1;-inkscape-font-specification:'Futura Medium Italic';font-family:Futura;letter-spacing:-1px;word-spacing:1px;stroke-width:9.6;stroke-linecap:round;stroke-linejoin:round;text-anchor:middle;text-align:center;font-weight:500;font-style:italic;text-orientation:auto;opacity:0.49180328">
+     style="fill:#00ffff;font-size:101.33333333px;line-height:1;-inkscape-font-specification:'Futura Medium Italic';font-family:Futura;letter-spacing:-1px;word-spacing:1px;stroke-width:9.6;stroke-linecap:round;stroke-linejoin:round;text-anchor:middle;text-align:center;font-weight:500;font-style:italic;text-orientation:auto;opacity:0.35">
     <group
        width="1904"
        height="1011"
