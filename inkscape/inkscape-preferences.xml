@@ -326,7 +326,7 @@
        id="lpetool"
        mode="drag"
        style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;"
-       unit="mm"
+       unit="px"
        show_bbox="1" />
     <eventcontext
        id="text"
@@ -1182,10 +1182,10 @@
      id="desktop"
      style="fill:#00ffff;font-size:101.33333333px;line-height:1;-inkscape-font-specification:'Futura Medium Italic';font-family:Futura;letter-spacing:-1px;word-spacing:1px;stroke-width:9.6;stroke-linecap:round;stroke-linejoin:round;text-anchor:middle;text-align:center;font-weight:500;font-style:italic;text-orientation:auto;opacity:0.35">
     <group
-       width="1904"
-       height="1011"
-       x="8"
-       y="33"
+       width="1320"
+       height="710"
+       x="63"
+       y="94"
        maximized="0"
        fullscreen="0"
        id="geometry" />
