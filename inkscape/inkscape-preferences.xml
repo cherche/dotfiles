@@ -1180,12 +1180,12 @@
      org.inkscape.input.svg.do_not_ask="1" />
   <group
      id="desktop"
-     style="fill:#00ffff;font-size:101.33333333px;line-height:1;-inkscape-font-specification:'Futura Medium Italic';font-family:Futura;letter-spacing:-1px;word-spacing:1px;stroke-width:9.6;stroke-linecap:round;stroke-linejoin:round;text-anchor:middle;text-align:center;font-weight:500;font-style:italic;text-orientation:auto;opacity:0.35">
+     style="fill:#00ffff;font-size:64px;line-height:1;-inkscape-font-specification:'Open Sans';font-family:'Open Sans';letter-spacing:-1px;word-spacing:1px;stroke-width:9.6;stroke-linecap:round;stroke-linejoin:round;text-anchor:middle;text-align:center;text-orientation:auto;opacity:0.35">
     <group
-       width="1320"
-       height="710"
-       x="63"
-       y="94"
+       width="1424"
+       height="831"
+       x="8"
+       y="33"
        maximized="0"
        fullscreen="0"
        id="geometry" />
