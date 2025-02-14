@@ -326,7 +326,7 @@
        id="lpetool"
        mode="drag"
        style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;"
-       unit="px"
+       unit="mm"
        show_bbox="1" />
     <eventcontext
        id="text"
@@ -926,7 +926,7 @@
        value="2" />
     <group
        id="transform"
-       stroke="1"
+       stroke="0"
        rectcorners="0"
        pattern="0"
        gradient="1" />
@@ -1075,7 +1075,7 @@
        shortcutfile="default.xml" />
     <group
        id="snapping"
-       snap-global-toggle="1"
+       snap-global-toggle="0"
        snap-bbox="1"
        snap-bbox-edge="1"
        snap-bbox-corner="1"
@@ -1180,7 +1180,7 @@
      org.inkscape.input.svg.do_not_ask="1" />
   <group
      id="desktop"
-     style="fill:#00ffff;font-size:64px;line-height:1;-inkscape-font-specification:'Open Sans';font-family:'Open Sans';letter-spacing:-1px;word-spacing:1px;stroke-width:9.6;stroke-linecap:round;stroke-linejoin:round;text-anchor:middle;text-align:center;text-orientation:auto;opacity:0.35">
+     style="fill:#ffffff;font-size:64px;line-height:1;-inkscape-font-specification:'Open Sans';font-family:'Open Sans';letter-spacing:-1px;word-spacing:1px;stroke-width:5.33333333;stroke-linecap:round;stroke-linejoin:round;text-anchor:middle;text-align:center;text-orientation:auto;stroke:#000000">
     <group
        width="1424"
        height="831"
