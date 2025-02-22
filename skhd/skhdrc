@@ -13,6 +13,14 @@ ctrl + alt - x : ~/dotfiles/skhd/macros/xray-mode.sh
 passthrough < ctrl + alt - x : ~/dotfiles/skhd/macros/normal-mode.sh
 
 # ===== General ==========
+# flash time
+ctrl + alt - t : ~/dotfiles/skhd/macros/flash-time.sh
+
+# Quick access file
+ctrl + cmd - return : open ~/obfuscated
+
+# Open special Firefox profile
+ctrl + alt + cmd - n : /Applications/Firefox.app/Contents/MacOS/firefox -P herald
 
 alt - return : open -n /Applications/Alacritty.app
 # Summon a "temporary" pop-up window for when you just need a terminal for a single command!
