@@ -125,8 +125,8 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="670.16526590183"
-         height="1454.40125953492"
+         width="337.944614680733"
+         height="240"
          rx="0"
          ry="0" />
       <eventcontext
@@ -326,7 +326,7 @@
        id="lpetool"
        mode="drag"
        style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;"
-       unit="mm"
+       unit="pc"
        show_bbox="1" />
     <eventcontext
        id="text"
@@ -425,7 +425,7 @@
        gradientdrag="0"
        changelayer="1"
        changepage="1"
-       lock_aspect_ratio="1" />
+       lock_aspect_ratio="0" />
     <eventcontext
        id="paintbucket"
        style="fill:#a0a0a0;stroke:none;"
@@ -626,7 +626,7 @@
        id="align"
        align-to="4"
        sel-as-groups="0"
-       objects-align-to="page" />
+       objects-align-to="smallest" />
     <group
        id="xml"
        h="500"
@@ -660,7 +660,7 @@
        defaultopts="1">
       <group
          id="exportarea"
-         value="selection" />
+         value="page" />
       <group
          id="defaultxdpi"
          value="96" />
@@ -1075,7 +1075,7 @@
        shortcutfile="default.xml" />
     <group
        id="snapping"
-       snap-global-toggle="0"
+       snap-global-toggle="1"
        snap-bbox="1"
        snap-bbox-edge="1"
        snap-bbox-corner="1"
@@ -1180,12 +1180,12 @@
      org.inkscape.input.svg.do_not_ask="1" />
   <group
      id="desktop"
-     style="fill:#ffffff;font-size:64px;line-height:1;-inkscape-font-specification:'Open Sans';font-family:'Open Sans';letter-spacing:-1px;word-spacing:1px;stroke-width:5.33333333;stroke-linecap:round;stroke-linejoin:round;text-anchor:middle;text-align:center;text-orientation:auto;stroke:#000000">
+     style="fill:#00ffff;font-size:32px;line-height:1;-inkscape-font-specification:'Open Sans';font-family:'Open Sans';letter-spacing:-1px;word-spacing:1px;stroke-width:5.33333333;stroke-linecap:round;stroke-linejoin:round;text-anchor:middle;text-align:center;text-orientation:auto">
     <group
-       width="1424"
-       height="831"
-       x="8"
-       y="33"
+       width="1360"
+       height="710"
+       x="63"
+       y="94"
        maximized="0"
        fullscreen="0"
        id="geometry" />
