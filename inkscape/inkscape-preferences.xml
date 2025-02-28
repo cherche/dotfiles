@@ -125,8 +125,8 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="337.944614680733"
-         height="240"
+         width="90.8238844697843"
+         height="90.8238844697857"
          rx="0"
          ry="0" />
       <eventcontext
@@ -164,8 +164,8 @@
          end="0"
          start="0"
          usecurrent="1"
-         rx="259.471016263367"
-         ry="259.471016263387" />
+         rx="126.037770825579"
+         ry="126.037770825579" />
       <eventcontext
          id="star"
          magnitude="3"
@@ -209,7 +209,7 @@
        style="fill:black;fill-opacity:1;fill-rule:nonzero;stroke:none;"
        mass="4"
        angle="60"
-       width="5.76"
+       width="48"
        thinning="0"
        flatness="0"
        cap_rounding="1"
@@ -326,7 +326,7 @@
        id="lpetool"
        mode="drag"
        style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;"
-       unit="pc"
+       unit="px"
        show_bbox="1" />
     <eventcontext
        id="text"
@@ -425,7 +425,7 @@
        gradientdrag="0"
        changelayer="1"
        changepage="1"
-       lock_aspect_ratio="0" />
+       lock_aspect_ratio="1" />
     <eventcontext
        id="paintbucket"
        style="fill:#a0a0a0;stroke:none;"
@@ -669,7 +669,7 @@
          value="layer" />
       <group
          id="defaultdpi"
-         value="90" />
+         value="150" />
     </group>
     <group
        id="save_as"
@@ -1075,7 +1075,7 @@
        shortcutfile="default.xml" />
     <group
        id="snapping"
-       snap-global-toggle="1"
+       snap-global-toggle="0"
        snap-bbox="1"
        snap-bbox-edge="1"
        snap-bbox-corner="1"
@@ -1180,12 +1180,12 @@
      org.inkscape.input.svg.do_not_ask="1" />
   <group
      id="desktop"
-     style="fill:#00ffff;font-size:32px;line-height:1;-inkscape-font-specification:'Open Sans';font-family:'Open Sans';letter-spacing:-1px;word-spacing:1px;stroke-width:5.33333333;stroke-linecap:round;stroke-linejoin:round;text-anchor:middle;text-align:center;text-orientation:auto">
+     style="fill:#000000;font-size:53.33333333px;line-height:1;-inkscape-font-specification:'Marker Felt';font-family:'Marker Felt';letter-spacing:-1px;word-spacing:1px;stroke-width:5.33333333;stroke-linecap:round;stroke-linejoin:round;text-anchor:middle;text-align:center;text-orientation:auto">
     <group
-       width="1360"
-       height="710"
-       x="63"
-       y="94"
+       width="1904"
+       height="1011"
+       x="8"
+       y="33"
        maximized="0"
        fullscreen="0"
        id="geometry" />
