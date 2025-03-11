@@ -194,7 +194,8 @@
          pressure="0"
          simplify="0"
          freehand-mode="0"
-         shape="0" />
+         shape="0"
+         minpressure="16" />
       <eventcontext
          id="pen"
          mode="drag"
@@ -207,9 +208,9 @@
     <eventcontext
        id="calligraphic"
        style="fill:black;fill-opacity:1;fill-rule:nonzero;stroke:none;"
-       mass="4"
-       angle="60"
-       width="48"
+       mass="2"
+       angle="90"
+       width="2.64566929133857"
        thinning="0"
        flatness="0"
        cap_rounding="1"
@@ -219,7 +220,7 @@
        usetilt="0"
        keep_selected="1"
        abs_width="1"
-       unit="in"
+       unit="mm"
        wiggle="0"
        tremor="0">
       <group
@@ -626,7 +627,7 @@
        id="align"
        align-to="4"
        sel-as-groups="0"
-       objects-align-to="smallest" />
+       objects-align-to="page" />
     <group
        id="xml"
        h="500"
@@ -647,7 +648,7 @@
     <group
        id="preferences"
        state="1"
-       page="13" />
+       page="51" />
     <group
        id="gradienteditor" />
     <group
@@ -660,7 +661,7 @@
        defaultopts="1">
       <group
          id="exportarea"
-         value="page" />
+         value="drawing" />
       <group
          id="defaultxdpi"
          value="96" />
@@ -1159,9 +1160,9 @@
      org.inkscape.qr_code.__live_effect__="0"
      org.inkscape.qr_code.drawtype="smooth"
      org.inkscape.output.pdf.cairorenderer.resolution="300"
-     org.inkscape.template.paper.max="297.0"
-     org.inkscape.template.paper.min="210.0"
-     org.inkscape.template.paper.unit="mm"
+     org.inkscape.template.paper.max="42.0"
+     org.inkscape.template.paper.min="30.0"
+     org.inkscape.template.paper.unit="in"
      org.inkscape.template.paper.orientation="land"
      org.inkscape.template.video.height="4320.0"
      org.inkscape.template.video.unit="px"
@@ -1177,13 +1178,18 @@
      org.inkscape.generate.printing_marks.where="canvas"
      org.inkscape.generate.printing_marks.unit="px"
      org.inkscape.input.gdkpixbuf.jpg.do_not_ask="1"
-     org.inkscape.input.svg.do_not_ask="1" />
+     org.inkscape.input.svg.do_not_ask="1"
+     org.inkscape.effect.filter.ColorDropShadow.type="outer"
+     org.inkscape.effect.filter.ColorDropShadow.xoffset="0.2"
+     org.inkscape.effect.filter.ColorDropShadow.__live_effect__="0"
+     org.inkscape.effect.filter.ColorDropShadow.blur="1"
+     org.inkscape.effect.filter.ColorDropShadow.yoffset="2.56797583081571" />
   <group
      id="desktop"
-     style="fill:#000000;font-size:53.33333333px;line-height:1;-inkscape-font-specification:'Marker Felt';font-family:'Marker Felt';letter-spacing:-1px;word-spacing:1px;stroke-width:5.33333333;stroke-linecap:round;stroke-linejoin:round;text-anchor:middle;text-align:center;text-orientation:auto">
+     style="fill:#ff0000;font-size:53.33333333px;line-height:1;-inkscape-font-specification:'Marker Felt';font-family:'Marker Felt';letter-spacing:-1px;word-spacing:1px;stroke-width:5.33333333;stroke-linecap:round;stroke-linejoin:round;text-anchor:middle;text-align:center;text-orientation:auto">
     <group
-       width="1904"
-       height="1011"
+       width="1424"
+       height="831"
        x="8"
        y="33"
        maximized="0"
