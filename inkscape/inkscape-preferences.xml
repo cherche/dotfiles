@@ -327,7 +327,7 @@
        id="lpetool"
        mode="drag"
        style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;"
-       unit="px"
+       unit="pt"
        show_bbox="1" />
     <eventcontext
        id="text"
@@ -1188,9 +1188,9 @@
      id="desktop"
      style="fill:#ff0000;font-size:53.33333333px;line-height:1;-inkscape-font-specification:'Marker Felt';font-family:'Marker Felt';letter-spacing:-1px;word-spacing:1px;stroke-width:5.33333333;stroke-linecap:round;stroke-linejoin:round;text-anchor:middle;text-align:center;text-orientation:auto">
     <group
-       width="1424"
-       height="831"
-       x="8"
+       width="1200"
+       height="1011"
+       x="964"
        y="33"
        maximized="0"
        fullscreen="0"
