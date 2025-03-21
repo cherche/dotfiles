@@ -6,10 +6,10 @@ tap "homebrew/services"
 tap "khanhas/tap"
 tap "koekeishiya/formulae"
 tap "zegervdv/zathura"
-brew "openssl@3"
-brew "dbus"
+brew "dbus", restart_service: :changed
 brew "autoconf"
 brew "automake"
+brew "openssl@3"
 brew "oniguruma"
 brew "bat"
 brew "brew-cask-completion"
@@ -141,3 +141,7 @@ mas "Keynote", id: 409183694
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 mas "Xcode", id: 497799835
+vscode "janisdd.vscode-edit-csv"
+vscode "mathworks.language-matlab"
+vscode "ms-ceintl.vscode-language-pack-fr"
+vscode "redhat.vscode-yaml"
