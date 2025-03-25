@@ -1186,12 +1186,12 @@
      org.inkscape.effect.filter.ColorDropShadow.yoffset="2.56797583081571" />
   <group
      id="desktop"
-     style="fill:#ff0000;font-size:53.33333333px;line-height:1;-inkscape-font-specification:'Marker Felt';font-family:'Marker Felt';letter-spacing:-1px;word-spacing:1px;stroke-width:5.33333333;stroke-linecap:round;stroke-linejoin:round;text-anchor:middle;text-align:center;text-orientation:auto">
+     style="fill:#808080;font-size:53.33333333px;line-height:1;-inkscape-font-specification:'Marker Felt';font-family:'Marker Felt';letter-spacing:-1px;word-spacing:1px;stroke-width:5.33333333;stroke-linecap:round;stroke-linejoin:round;text-anchor:middle;text-align:center;text-orientation:auto">
     <group
-       width="1200"
-       height="1011"
-       x="964"
-       y="33"
+       width="1776"
+       height="867"
+       x="79"
+       y="105"
        maximized="0"
        fullscreen="0"
        id="geometry" />

@@ -1,8 +1,6 @@
 tap "felixkratz/formulae"
-tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
-tap "homebrew/services"
 tap "khanhas/tap"
 tap "koekeishiya/formulae"
 tap "zegervdv/zathura"
