@@ -66,6 +66,7 @@ brew "rename"
 brew "ruby"
 brew "rustup"
 brew "sox"
+brew "streamrip"
 brew "tmux"
 brew "trash", link: true
 brew "unar"

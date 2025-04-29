@@ -327,7 +327,7 @@
        id="lpetool"
        mode="drag"
        style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;"
-       unit="px"
+       unit="pt"
        show_bbox="1" />
     <eventcontext
        id="text"
@@ -336,9 +336,9 @@
        font_sample="AaBbCcIiPpQq12369$€¢?.;/()"
        show_sample_in_list="1"
        use_svg2="1"
-       style="line-height:1.25;font-family:Sans;font-size:10.66666667px;-inkscape-font-specification:'Sans, Normal';text-orientation:auto"
+       style="line-height:1.25;font-family:Sans;font-size:10.66666667px;-inkscape-font-specification:'Sans, Normal';text-orientation:auto;text-anchor:middle;text-align:center"
        selcue="1"
-       align_mode="1"
+       align_mode="0"
        writing_mode="0"
        orientation_mode="0"
        direction_mode="0" />
@@ -677,7 +677,7 @@
        default="org.inkscape.output.svg.inkscape"
        append_extension="1"
        enable_preview="1"
-       path="/Users/ryan/work/Innis Residence Don 2024"
+       path="/Users/ryan/Downloads"
        use_current_dir="1"
        enable_svgexport="0" />
     <group
@@ -1077,7 +1077,7 @@
        shortcutfile="default.xml" />
     <group
        id="snapping"
-       snap-global-toggle="0"
+       snap-global-toggle="1"
        snap-bbox="1"
        snap-bbox-edge="1"
        snap-bbox-corner="1"
@@ -1187,7 +1187,7 @@
      org.inkscape.effect.filter.ColorDropShadow.yoffset="2.56797583081571" />
   <group
      id="desktop"
-     style="fill:#808080;font-size:10.66666667px;line-height:1;-inkscape-font-specification:Arial;font-family:Arial;letter-spacing:-1px;word-spacing:1px;stroke-width:5.33333333;stroke-linecap:round;stroke-linejoin:round;text-orientation:auto;text-anchor:middle;text-align:center">
+     style="fill:#808080;font-size:6.66666667px;line-height:1;-inkscape-font-specification:Arial;font-family:Arial;letter-spacing:-1px;word-spacing:1px;stroke-width:5.33333333;stroke-linecap:round;stroke-linejoin:round;text-orientation:auto">
     <group
        width="1424"
        height="831"
