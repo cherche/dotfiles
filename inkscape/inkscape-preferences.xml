@@ -327,7 +327,7 @@
        id="lpetool"
        mode="drag"
        style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;"
-       unit="pt"
+       unit="px"
        show_bbox="1" />
     <eventcontext
        id="text"
@@ -336,7 +336,7 @@
        font_sample="AaBbCcIiPpQq12369$€¢?.;/()"
        show_sample_in_list="1"
        use_svg2="1"
-       style="line-height:1.25;font-family:Sans;font-size:10.66666667px;-inkscape-font-specification:'Sans, Normal';text-orientation:auto;text-anchor:middle;text-align:center"
+       style="line-height:1.25;font-family:Sans;font-size:10.66666667px;-inkscape-font-specification:'Sans, Normal';text-orientation:auto"
        selcue="1"
        align_mode="0"
        writing_mode="0"
@@ -1189,9 +1189,9 @@
      id="desktop"
      style="fill:#808080;font-size:6.66666667px;line-height:1;-inkscape-font-specification:Arial;font-family:Arial;letter-spacing:-1px;word-spacing:1px;stroke-width:5.33333333;stroke-linecap:round;stroke-linejoin:round;text-orientation:auto">
     <group
-       width="1424"
-       height="831"
-       x="8"
+       width="1200"
+       height="1011"
+       x="964"
        y="33"
        maximized="0"
        fullscreen="0"
