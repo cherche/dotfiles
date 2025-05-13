@@ -1,7 +1,6 @@
 tap "felixkratz/formulae"
 tap "homebrew/cask"
 tap "homebrew/core"
-tap "khanhas/tap"
 tap "koekeishiya/formulae"
 tap "zegervdv/zathura"
 brew "dbus", restart_service: :changed
@@ -76,10 +75,9 @@ brew "yt-dlp"
 brew "z"
 brew "zsh-completions"
 brew "felixkratz/formulae/borders"
-brew "khanhas/tap/spicetify-cli"
 brew "koekeishiya/formulae/skhd"
 brew "koekeishiya/formulae/yabai"
-brew "zegervdv/zathura/girara", args: ["HEAD"]
+brew "zegervdv/zathura/girara"
 brew "zegervdv/zathura/zathura", args: ["HEAD", "with-synctex"]
 brew "zegervdv/zathura/zathura-cb"
 brew "zegervdv/zathura/zathura-djvu"
