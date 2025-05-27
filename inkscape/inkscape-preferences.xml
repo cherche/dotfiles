@@ -168,10 +168,10 @@
          ry="126.037770825579" />
       <eventcontext
          id="star"
-         magnitude="3"
+         magnitude="6"
          style="fill:yellow;"
          usecurrent="1"
-         proportion="0.37999999369621"
+         proportion="0.866025365033052"
          isflatsided="1" />
       <eventcontext
          id="spiral"
@@ -327,7 +327,7 @@
        id="lpetool"
        mode="drag"
        style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;"
-       unit="px"
+       unit="mm"
        show_bbox="1" />
     <eventcontext
        id="text"
@@ -440,6 +440,8 @@
     <group
        id="booleans"
        mode="0" />
+    <group
+       id="picker" />
   </group>
   <group
      id="palette">
@@ -670,7 +672,7 @@
          value="layer" />
       <group
          id="defaultdpi"
-         value="150" />
+         value="300" />
     </group>
     <group
        id="save_as"
@@ -690,7 +692,7 @@
     <group
        id="open"
        enable_preview="1"
-       path="/Users/ryan/work/Innis Residence Don 2024/community board cricut/" />
+       path="/Users/ryan/Downloads/" />
     <group
        id="import"
        enable_preview="1"
@@ -1078,7 +1080,7 @@
     <group
        id="snapping"
        snap-global-toggle="1"
-       snap-bbox="1"
+       snap-bbox="0"
        snap-bbox-edge="1"
        snap-bbox-corner="1"
        snap-bbox-edge-midpoint="0"
@@ -1161,8 +1163,8 @@
      org.inkscape.qr_code.__live_effect__="0"
      org.inkscape.qr_code.drawtype="smooth"
      org.inkscape.output.pdf.cairorenderer.resolution="300"
-     org.inkscape.template.paper.max="42.0"
-     org.inkscape.template.paper.min="30.0"
+     org.inkscape.template.paper.max="11.0"
+     org.inkscape.template.paper.min="8.5"
      org.inkscape.template.paper.unit="in"
      org.inkscape.template.paper.orientation="land"
      org.inkscape.template.video.height="4320.0"
@@ -1187,11 +1189,11 @@
      org.inkscape.effect.filter.ColorDropShadow.yoffset="2.56797583081571" />
   <group
      id="desktop"
-     style="fill:#808080;font-size:6.66666667px;line-height:1;-inkscape-font-specification:Arial;font-family:Arial;letter-spacing:-1px;word-spacing:1px;stroke-width:5.33333333;stroke-linecap:round;stroke-linejoin:round;text-orientation:auto">
+     style="fill:#000080;font-size:6.66666667px;line-height:1;-inkscape-font-specification:Arial;font-family:Arial;letter-spacing:-1px;word-spacing:1px;stroke-width:5.33333333;stroke-linecap:round;stroke-linejoin:round;text-orientation:auto">
     <group
-       width="1200"
-       height="1011"
-       x="964"
+       width="984"
+       height="831"
+       x="724"
        y="33"
        maximized="0"
        fullscreen="0"
