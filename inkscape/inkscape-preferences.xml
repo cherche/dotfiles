@@ -663,7 +663,7 @@
        defaultopts="1">
       <group
          id="exportarea"
-         value="drawing" />
+         value="page" />
       <group
          id="defaultxdpi"
          value="96" />
@@ -1163,8 +1163,8 @@
      org.inkscape.qr_code.__live_effect__="0"
      org.inkscape.qr_code.drawtype="smooth"
      org.inkscape.output.pdf.cairorenderer.resolution="300"
-     org.inkscape.template.paper.max="11.0"
-     org.inkscape.template.paper.min="8.5"
+     org.inkscape.template.paper.max="42.0"
+     org.inkscape.template.paper.min="30.0"
      org.inkscape.template.paper.unit="in"
      org.inkscape.template.paper.orientation="land"
      org.inkscape.template.video.height="4320.0"
@@ -1186,15 +1186,16 @@
      org.inkscape.effect.filter.ColorDropShadow.xoffset="0.2"
      org.inkscape.effect.filter.ColorDropShadow.__live_effect__="0"
      org.inkscape.effect.filter.ColorDropShadow.blur="1"
-     org.inkscape.effect.filter.ColorDropShadow.yoffset="2.56797583081571" />
+     org.inkscape.effect.filter.ColorDropShadow.yoffset="2.56797583081571"
+     org.inkscape.effect.bitmap.emboss.__live_effect__="0" />
   <group
      id="desktop"
      style="fill:#000080;font-size:6.66666667px;line-height:1;-inkscape-font-specification:Arial;font-family:Arial;letter-spacing:-1px;word-spacing:1px;stroke-width:5.33333333;stroke-linecap:round;stroke-linejoin:round;text-orientation:auto">
     <group
-       width="984"
-       height="831"
-       x="724"
-       y="33"
+       width="1264"
+       height="654"
+       x="330"
+       y="212"
        maximized="0"
        fullscreen="0"
        id="geometry" />
