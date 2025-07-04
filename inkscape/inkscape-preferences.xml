@@ -32,7 +32,7 @@
        state="0" />
     <group
        id="scrollbars"
-       state="1" />
+       state="0" />
   </group>
   <group
      id="fullscreen">
@@ -125,8 +125,8 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="90.8238844697843"
-         height="90.8238844697857"
+         width="496.311035156257"
+         height="307.573011503447"
          rx="0"
          ry="0" />
       <eventcontext
@@ -171,7 +171,7 @@
          magnitude="6"
          style="fill:yellow;"
          usecurrent="1"
-         proportion="0.866025365033052"
+         proportion="0.866025416844093"
          isflatsided="1" />
       <eventcontext
          id="spiral"
@@ -202,7 +202,7 @@
          selcue="1"
          style="stroke-width:1px;"
          usecurrent="1"
-         freehand-mode="1"
+         freehand-mode="0"
          shape="0" />
     </group>
     <eventcontext
@@ -210,7 +210,7 @@
        style="fill:black;fill-opacity:1;fill-rule:nonzero;stroke:none;"
        mass="2"
        angle="90"
-       width="2.64566929133857"
+       width="0.755905511811024"
        thinning="0"
        flatness="0"
        cap_rounding="1"
@@ -336,7 +336,7 @@
        font_sample="AaBbCcIiPpQq12369$€¢?.;/()"
        show_sample_in_list="1"
        use_svg2="1"
-       style="line-height:1.25;font-family:Sans;font-size:10.66666667px;-inkscape-font-specification:'Sans, Normal';text-orientation:auto"
+       style="line-height:1.25;font-family:Sans;font-size:42.66666667px;-inkscape-font-specification:'Sans, Normal';text-orientation:auto"
        selcue="1"
        align_mode="0"
        writing_mode="0"
@@ -426,7 +426,7 @@
        gradientdrag="0"
        changelayer="1"
        changepage="1"
-       lock_aspect_ratio="1" />
+       lock_aspect_ratio="0" />
     <eventcontext
        id="paintbucket"
        style="fill:#a0a0a0;stroke:none;"
@@ -596,7 +596,7 @@
        panel_mode="1"
        panel_ratio="100"
        panel_wrap="0"
-       palette="Inkscape default"
+       palette="/Applications/Inkscape.app/Contents/Resources/share/inkscape/palettes/inkscape.gpl"
        panel_border="0">
       <group
          id="pinned"
@@ -650,7 +650,7 @@
     <group
        id="preferences"
        state="1"
-       page="51" />
+       page="30" />
     <group
        id="gradienteditor" />
     <group
@@ -1083,15 +1083,15 @@
        snap-bbox="0"
        snap-bbox-edge="1"
        snap-bbox-corner="1"
-       snap-bbox-edge-midpoint="0"
-       snap-bbox-center="0"
+       snap-bbox-edge-midpoint="1"
+       snap-bbox-center="1"
        simple-snap-bbox="1"
        snap-node-category="1"
-       snap-path="1"
-       snap-path-intersection="1"
+       snap-path="0"
+       snap-path-intersection="0"
        snap-node-cusp="1"
-       snap-node-smooth="1"
-       snap-line-midpoint="0"
+       snap-node-smooth="0"
+       snap-line-midpoint="1"
        snap-line-tangential="0"
        snap-line-perpendicular="0"
        simple-snap-nodes="1"
@@ -1099,16 +1099,16 @@
        snap-alignment-self="0"
        snap-distribution="0"
        simple-snap-alignment="0"
-       snap-others="0"
-       snap-object-midpoint="0"
+       snap-others="1"
+       snap-object-midpoint="1"
        snap-rotation-center="0"
        snap-text-baseline="1"
        snap-path-mask="1"
        snap-path-clip="1"
        snap-page-border="1"
        snap-grid="1"
-       snap-guide="1"
-       snap-page-margin="1" />
+       snap-guide="0"
+       snap-page-margin="0" />
     <group
        id="notebooklabels"
        value="1" />
@@ -1187,15 +1187,30 @@
      org.inkscape.effect.filter.ColorDropShadow.__live_effect__="0"
      org.inkscape.effect.filter.ColorDropShadow.blur="1"
      org.inkscape.effect.filter.ColorDropShadow.yoffset="2.56797583081571"
-     org.inkscape.effect.bitmap.emboss.__live_effect__="0" />
+     org.inkscape.effect.bitmap.emboss.__live_effect__="0"
+     pelles.effect.hexmap.units="mm"
+     pelles.effect.hexmap.tab="page_2"
+     pelles.effect.hexmap.rotate="1"
+     pelles.effect.hexmap.hexsize="25"
+     pelles.effect.hexmap.cols="9"
+     pelles.effect.hexmap.rows="9"
+     pelles.effect.hexmap.__live_effect__="0"
+     pelles.effect.hexmap.strokewidth="2"
+     pelles.effect.hexmap.verticesize="5"
+     pelles.effect.hexmap.layersingroup="1"
+     pelles.effect.hexmap.firstcoldown="0"
+     pelles.effect.hexmap.halfhexes="0"
+     hardpixel.eu.generate_palette.property="fill"
+     hardpixel.eu.generate_palette.name="Mapping"
+     pelles.effect.hexmap.layer_coordinates="0" />
   <group
      id="desktop"
-     style="fill:#000080;font-size:6.66666667px;line-height:1;-inkscape-font-specification:Arial;font-family:Arial;letter-spacing:-1px;word-spacing:1px;stroke-width:5.33333333;stroke-linecap:round;stroke-linejoin:round;text-orientation:auto">
+     style="fill:none;font-size:42.66666667px;line-height:1;-inkscape-font-specification:Arial;font-family:Arial;letter-spacing:-1px;word-spacing:1px;stroke-width:3.77952756;stroke-linejoin:round;text-orientation:auto;stroke-linecap:round;stroke:#ff0000">
     <group
-       width="1264"
-       height="654"
-       x="330"
-       y="212"
+       width="1320"
+       height="710"
+       x="63"
+       y="94"
        maximized="0"
        fullscreen="0"
        id="geometry" />
@@ -1225,7 +1240,7 @@
        icononly="1"
        small="0"
        iconsize="16"
-       width="32">
+       width="26">
       <group
          id="buttons"
          showRect="1"
@@ -1358,4 +1373,7 @@
   <group
      id="gradient-edit"
      stoplist="1" />
+  <group
+     id="pattern-edit"
+     currentSet="0" />
 </inkscape>
