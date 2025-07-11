@@ -125,8 +125,8 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="496.311035156257"
-         height="307.573011503447"
+         width="595.100219726562"
+         height="192.427612304688"
          rx="0"
          ry="0" />
       <eventcontext
@@ -1205,12 +1205,12 @@
      pelles.effect.hexmap.layer_coordinates="0" />
   <group
      id="desktop"
-     style="fill:none;font-size:42.66666667px;line-height:1;-inkscape-font-specification:Arial;font-family:Arial;letter-spacing:-1px;word-spacing:1px;stroke-width:3.77952756;stroke-linejoin:round;text-orientation:auto;stroke-linecap:round;stroke:#ff0000">
+     style="fill:#595959;font-size:42.66666667px;line-height:1;-inkscape-font-specification:Arial;font-family:Arial;letter-spacing:-1px;word-spacing:1px;stroke-width:3.77952756;stroke-linejoin:round;text-orientation:auto;stroke-linecap:round">
     <group
-       width="1320"
-       height="710"
-       x="63"
-       y="94"
+       width="1424"
+       height="831"
+       x="8"
+       y="33"
        maximized="0"
        fullscreen="0"
        id="geometry" />
