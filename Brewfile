@@ -21,6 +21,7 @@ brew "libsndfile"
 brew "ffmpeg", args: ["HEAD"]
 brew "fzf"
 brew "git"
+brew "git-filter-repo"
 brew "git-lfs"
 brew "go"
 brew "gtk-mac-integration"
