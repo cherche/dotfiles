@@ -9,6 +9,7 @@ $HOME/dotfiles/bin\
 :/sbin\
 :/Library/TeX/texbin\
 :/opt/X11/bin\
+:/Users/ryan/.local/bin\
 "
 # Mainly for clang
 export LIBRARY_PATH="\
