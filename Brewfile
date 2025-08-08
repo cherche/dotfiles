@@ -4,7 +4,6 @@ tap "homebrew/core"
 tap "koekeishiya/formulae"
 tap "zegervdv/zathura"
 brew "dbus", restart_service: :changed
-brew "brew-cask-completion"
 brew "cmake"
 brew "openssl@3"
 brew "diff-so-fancy"
