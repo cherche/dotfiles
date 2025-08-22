@@ -32,7 +32,7 @@
        state="0" />
     <group
        id="scrollbars"
-       state="0" />
+       state="1" />
   </group>
   <group
      id="fullscreen">
@@ -125,8 +125,8 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="595.100219726562"
-         height="192.427612304688"
+         width="287.997649844715"
+         height="383.996847235903"
          rx="0"
          ry="0" />
       <eventcontext
@@ -426,7 +426,7 @@
        gradientdrag="0"
        changelayer="1"
        changepage="1"
-       lock_aspect_ratio="0" />
+       lock_aspect_ratio="1" />
     <eventcontext
        id="paintbucket"
        style="fill:#a0a0a0;stroke:none;"
@@ -629,7 +629,7 @@
        id="align"
        align-to="4"
        sel-as-groups="0"
-       objects-align-to="page" />
+       objects-align-to="last" />
     <group
        id="xml"
        h="500"
@@ -1099,7 +1099,7 @@
        snap-alignment-self="0"
        snap-distribution="0"
        simple-snap-alignment="0"
-       snap-others="1"
+       snap-others="0"
        snap-object-midpoint="1"
        snap-rotation-center="0"
        snap-text-baseline="1"
@@ -1163,8 +1163,8 @@
      org.inkscape.qr_code.__live_effect__="0"
      org.inkscape.qr_code.drawtype="smooth"
      org.inkscape.output.pdf.cairorenderer.resolution="300"
-     org.inkscape.template.paper.max="11.0"
-     org.inkscape.template.paper.min="8.5"
+     org.inkscape.template.paper.max="42.0"
+     org.inkscape.template.paper.min="30.0"
      org.inkscape.template.paper.unit="in"
      org.inkscape.template.paper.orientation="land"
      org.inkscape.template.video.height="4320.0"
@@ -1205,10 +1205,10 @@
      pelles.effect.hexmap.layer_coordinates="0" />
   <group
      id="desktop"
-     style="fill:#595959;font-size:42.66666667px;line-height:1;-inkscape-font-specification:Arial;font-family:Arial;letter-spacing:-1px;word-spacing:1px;stroke-width:3.77952756;stroke-linejoin:round;text-orientation:auto;stroke-linecap:round">
+     style="fill:#800080;font-size:192px;line-height:1;-inkscape-font-specification:Calibri;font-family:Calibri;letter-spacing:-1px;word-spacing:1px;stroke-width:3.77952756;stroke-linejoin:round;text-orientation:auto;stroke-linecap:round">
     <group
-       width="1904"
-       height="1011"
+       width="1176"
+       height="831"
        x="8"
        y="33"
        maximized="0"
