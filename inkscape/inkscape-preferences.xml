@@ -125,8 +125,8 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="287.997649844715"
-         height="383.996847235903"
+         width="464.929410679136"
+         height="142.144011249692"
          rx="0"
          ry="0" />
       <eventcontext
@@ -327,7 +327,7 @@
        id="lpetool"
        mode="drag"
        style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;"
-       unit="in"
+       unit="px"
        show_bbox="1" />
     <eventcontext
        id="text"
@@ -336,9 +336,9 @@
        font_sample="AaBbCcIiPpQq12369$€¢?.;/()"
        show_sample_in_list="1"
        use_svg2="1"
-       style="line-height:1.25;font-family:Sans;font-size:42.66666667px;-inkscape-font-specification:'Sans, Normal';text-orientation:auto"
+       style="line-height:1.25;font-family:Sans;font-size:42.66666667px;-inkscape-font-specification:'Sans, Normal';text-orientation:auto;text-anchor:middle;text-align:center"
        selcue="1"
-       align_mode="0"
+       align_mode="1"
        writing_mode="0"
        orientation_mode="0"
        direction_mode="0" />
@@ -426,7 +426,7 @@
        gradientdrag="0"
        changelayer="1"
        changepage="1"
-       lock_aspect_ratio="1" />
+       lock_aspect_ratio="0" />
     <eventcontext
        id="paintbucket"
        style="fill:#a0a0a0;stroke:none;"
@@ -629,7 +629,7 @@
        id="align"
        align-to="4"
        sel-as-groups="0"
-       objects-align-to="last" />
+       objects-align-to="page" />
     <group
        id="xml"
        h="500"
@@ -663,7 +663,7 @@
        defaultopts="1">
       <group
          id="exportarea"
-         value="page" />
+         value="drawing" />
       <group
          id="defaultxdpi"
          value="96" />
@@ -672,7 +672,7 @@
          value="layer" />
       <group
          id="defaultdpi"
-         value="300" />
+         value="96" />
     </group>
     <group
        id="save_as"
@@ -1087,7 +1087,7 @@
        snap-bbox-center="1"
        simple-snap-bbox="1"
        snap-node-category="1"
-       snap-path="0"
+       snap-path="1"
        snap-path-intersection="0"
        snap-node-cusp="1"
        snap-node-smooth="0"
@@ -1099,7 +1099,7 @@
        snap-alignment-self="0"
        snap-distribution="0"
        simple-snap-alignment="0"
-       snap-others="0"
+       snap-others="1"
        snap-object-midpoint="1"
        snap-rotation-center="0"
        snap-text-baseline="1"
@@ -1107,7 +1107,7 @@
        snap-path-clip="1"
        snap-page-border="1"
        snap-grid="1"
-       snap-guide="0"
+       snap-guide="1"
        snap-page-margin="1" />
     <group
        id="notebooklabels"
@@ -1205,11 +1205,11 @@
      pelles.effect.hexmap.layer_coordinates="0" />
   <group
      id="desktop"
-     style="fill:#800080;font-size:192px;line-height:1;-inkscape-font-specification:Calibri;font-family:Calibri;letter-spacing:-1px;word-spacing:1px;stroke-width:3.77952756;stroke-linejoin:round;text-orientation:auto;stroke-linecap:round">
+     style="fill:#ffffff;font-size:192px;line-height:1;-inkscape-font-specification:Sensei;font-family:Sensei;letter-spacing:-1px;word-spacing:1px;stroke-width:3.77952756;stroke-linejoin:round;text-orientation:auto;stroke-linecap:round;text-anchor:middle;text-align:center">
     <group
-       width="1176"
+       width="984"
        height="831"
-       x="8"
+       x="724"
        y="33"
        maximized="0"
        fullscreen="0"
