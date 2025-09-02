@@ -71,7 +71,6 @@ cask "anki"
 cask "audacity"
 cask "blackhole-2ch"
 cask "calibre"
-cask "curseforge"
 cask "darktable"
 cask "discord"
 cask "firefox"
@@ -102,8 +101,10 @@ cask "r-app"
 cask "rstudio"
 cask "sage"
 cask "scribus"
+cask "signal"
 cask "skim"
 cask "spotify"
+cask "standard-notes"
 cask "steam"
 cask "syntax-highlight"
 cask "thunderbird"
@@ -114,10 +115,6 @@ cask "vscodium"
 cask "zoom"
 mas "ColorSlurp", id: 1287239339
 mas "GarageBand", id: 682658836
-mas "iMovie", id: 408981434
-mas "Keynote", id: 409183694
-mas "Numbers", id: 409203825
-mas "Pages", id: 409201541
 mas "Xcode", id: 497799835
 vscode "janisdd.vscode-edit-csv"
 vscode "mathworks.language-matlab"

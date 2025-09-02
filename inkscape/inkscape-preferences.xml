@@ -29,7 +29,7 @@
        state="1" />
     <group
        id="rulers"
-       state="0" />
+       state="1" />
     <group
        id="scrollbars"
        state="1" />
@@ -125,8 +125,8 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="464.929410679136"
-         height="142.144011249692"
+         width="9.64833916656261e-06"
+         height="1007.99981545276"
          rx="0"
          ry="0" />
       <eventcontext
@@ -171,7 +171,7 @@
          magnitude="6"
          style="fill:yellow;"
          usecurrent="1"
-         proportion="0.866025416844093"
+         proportion="0.958474419805525"
          isflatsided="1" />
       <eventcontext
          id="spiral"
@@ -209,15 +209,15 @@
        id="calligraphic"
        style="fill:black;fill-opacity:1;fill-rule:nonzero;stroke:none;"
        mass="2"
-       angle="90"
-       width="0.755905511811024"
-       thinning="0"
-       flatness="0"
-       cap_rounding="1"
+       angle="30"
+       width="23.4330708661417"
+       thinning="10"
+       flatness="90"
+       cap_rounding="0"
        usecurrent="1"
        tracebackground="0"
-       usepressure="0"
-       usetilt="0"
+       usepressure="1"
+       usetilt="1"
        keep_selected="1"
        abs_width="1"
        unit="mm"
@@ -336,12 +336,16 @@
        font_sample="AaBbCcIiPpQq12369$€¢?.;/()"
        show_sample_in_list="1"
        use_svg2="1"
-       style="line-height:1.25;font-family:Sans;font-size:42.66666667px;-inkscape-font-specification:'Sans, Normal';text-orientation:auto;text-anchor:middle;text-align:center"
+       style="line-height:1.25;font-family:'Open Sans';font-size:13.33329964px;-inkscape-font-specification:'Open Sans, Italic';text-orientation:auto;font-style:italic;text-anchor:middle;text-align:center"
        selcue="1"
        align_mode="1"
        writing_mode="0"
        orientation_mode="0"
-       direction_mode="0" />
+       direction_mode="0">
+      <group
+         id="lineheight"
+         display_unit="2" />
+    </eventcontext>
     <eventcontext
        id="nodes"
        selcue="1"
@@ -616,7 +620,7 @@
        id="toolbox" />
     <group
        id="fillstroke"
-       page="1" />
+       page="2" />
     <group
        id="filtereffects" />
     <group
@@ -629,7 +633,7 @@
        id="align"
        align-to="4"
        sel-as-groups="0"
-       objects-align-to="page" />
+       objects-align-to="biggest" />
     <group
        id="xml"
        h="500"
@@ -672,7 +676,7 @@
          value="layer" />
       <group
          id="defaultdpi"
-         value="96" />
+         value="300" />
     </group>
     <group
        id="save_as"
@@ -1073,14 +1077,15 @@
        id="rendering" />
     <group
        id="font"
-       unitType="2" />
+       unitType="2"
+       scaleLineHeightFromFontSIze="1" />
     <group
        id="kbshortcuts"
        shortcutfile="default.xml" />
     <group
        id="snapping"
        snap-global-toggle="1"
-       snap-bbox="0"
+       snap-bbox="1"
        snap-bbox-edge="1"
        snap-bbox-corner="1"
        snap-bbox-edge-midpoint="1"
@@ -1088,7 +1093,7 @@
        simple-snap-bbox="1"
        snap-node-category="1"
        snap-path="1"
-       snap-path-intersection="0"
+       snap-path-intersection="1"
        snap-node-cusp="1"
        snap-node-smooth="0"
        snap-line-midpoint="1"
@@ -1102,7 +1107,7 @@
        snap-others="1"
        snap-object-midpoint="1"
        snap-rotation-center="0"
-       snap-text-baseline="1"
+       snap-text-baseline="0"
        snap-path-mask="1"
        snap-path-clip="1"
        snap-page-border="1"
@@ -1205,11 +1210,11 @@
      pelles.effect.hexmap.layer_coordinates="0" />
   <group
      id="desktop"
-     style="fill:#ffffff;font-size:192px;line-height:1;-inkscape-font-specification:Sensei;font-family:Sensei;letter-spacing:-1px;word-spacing:1px;stroke-width:3.77952756;stroke-linejoin:round;text-orientation:auto;stroke-linecap:round;text-anchor:middle;text-align:center">
+     style="fill:none;font-size:192px;line-height:1;-inkscape-font-specification:'Trade Gothic LT Std Bold Oblique Condensed';font-family:'Trade Gothic LT Std';letter-spacing:-1px;word-spacing:1px;stroke-width:15.11811024;text-orientation:auto;text-anchor:middle;text-align:center;stroke:#40c080;font-stretch:condensed;font-weight:bold;font-style:oblique">
     <group
-       width="984"
+       width="1424"
        height="831"
-       x="724"
+       x="8"
        y="33"
        maximized="0"
        fullscreen="0"
