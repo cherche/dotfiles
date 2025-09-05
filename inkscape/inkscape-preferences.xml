@@ -125,8 +125,8 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="9.64833916656261e-06"
-         height="1007.99981545276"
+         width="504.000009625"
+         height="384.000007333334"
          rx="0"
          ry="0" />
       <eventcontext
@@ -327,7 +327,7 @@
        id="lpetool"
        mode="drag"
        style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;"
-       unit="px"
+       unit="in"
        show_bbox="1" />
     <eventcontext
        id="text"
@@ -430,7 +430,7 @@
        gradientdrag="0"
        changelayer="1"
        changepage="1"
-       lock_aspect_ratio="0" />
+       lock_aspect_ratio="1" />
     <eventcontext
        id="paintbucket"
        style="fill:#a0a0a0;stroke:none;"
@@ -620,7 +620,7 @@
        id="toolbox" />
     <group
        id="fillstroke"
-       page="2" />
+       page="1" />
     <group
        id="filtereffects" />
     <group
@@ -1210,10 +1210,10 @@
      pelles.effect.hexmap.layer_coordinates="0" />
   <group
      id="desktop"
-     style="fill:none;font-size:192px;line-height:1;-inkscape-font-specification:'Trade Gothic LT Std Bold Oblique Condensed';font-family:'Trade Gothic LT Std';letter-spacing:-1px;word-spacing:1px;stroke-width:15.11811024;text-orientation:auto;text-anchor:middle;text-align:center;stroke:#40c080;font-stretch:condensed;font-weight:bold;font-style:oblique">
+     style="fill:#ffffff;font-size:192px;line-height:1;-inkscape-font-specification:'Trade Gothic LT Std Bold Oblique Condensed';font-family:'Trade Gothic LT Std';letter-spacing:-1px;word-spacing:1px;stroke-width:15.118;text-orientation:auto;text-anchor:middle;text-align:center;font-stretch:condensed;font-weight:bold;font-style:oblique;opacity:0">
     <group
-       width="1424"
-       height="831"
+       width="1904"
+       height="1011"
        x="8"
        y="33"
        maximized="0"
