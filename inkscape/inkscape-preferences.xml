@@ -125,8 +125,8 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="504.000009625"
-         height="384.000007333334"
+         width="173.716"
+         height="173.716024554773"
          rx="0"
          ry="0" />
       <eventcontext
@@ -164,8 +164,8 @@
          end="0"
          start="0"
          usecurrent="1"
-         rx="126.037770825579"
-         ry="126.037770825579" />
+         rx="50.0000018904559"
+         ry="50.0000018904559" />
       <eventcontext
          id="star"
          magnitude="6"
@@ -327,7 +327,7 @@
        id="lpetool"
        mode="drag"
        style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;"
-       unit="in"
+       unit="px"
        show_bbox="1" />
     <eventcontext
        id="text"
@@ -336,7 +336,7 @@
        font_sample="AaBbCcIiPpQq12369$€¢?.;/()"
        show_sample_in_list="1"
        use_svg2="1"
-       style="line-height:1.25;font-family:'Open Sans';font-size:13.33329964px;-inkscape-font-specification:'Open Sans, Italic';text-orientation:auto;font-style:italic;text-anchor:middle;text-align:center"
+       style="line-height:1.25;font-family:'Open Sans';font-size:21.33329964px;-inkscape-font-specification:'Open Sans, Normal';text-orientation:auto;text-anchor:middle;text-align:center"
        selcue="1"
        align_mode="1"
        writing_mode="0"
@@ -566,7 +566,7 @@
   </group>
   <group
      id="colorselector"
-     page="HSV"
+     page="TSL"
      switcher="1">
     <group
        id="RGB"
@@ -633,7 +633,7 @@
        id="align"
        align-to="4"
        sel-as-groups="0"
-       objects-align-to="biggest" />
+       objects-align-to="page" />
     <group
        id="xml"
        h="500"
@@ -676,7 +676,7 @@
          value="layer" />
       <group
          id="defaultdpi"
-         value="300" />
+         value="96" />
     </group>
     <group
        id="save_as"
@@ -1084,7 +1084,7 @@
        shortcutfile="default.xml" />
     <group
        id="snapping"
-       snap-global-toggle="1"
+       snap-global-toggle="0"
        snap-bbox="1"
        snap-bbox-edge="1"
        snap-bbox-corner="1"
@@ -1095,10 +1095,10 @@
        snap-path="1"
        snap-path-intersection="1"
        snap-node-cusp="1"
-       snap-node-smooth="0"
+       snap-node-smooth="1"
        snap-line-midpoint="1"
-       snap-line-tangential="0"
-       snap-line-perpendicular="0"
+       snap-line-tangential="1"
+       snap-line-perpendicular="1"
        simple-snap-nodes="1"
        snap-alignment="0"
        snap-alignment-self="0"
@@ -1210,11 +1210,11 @@
      pelles.effect.hexmap.layer_coordinates="0" />
   <group
      id="desktop"
-     style="fill:#ffffff;font-size:192px;line-height:1;-inkscape-font-specification:'Trade Gothic LT Std Bold Oblique Condensed';font-family:'Trade Gothic LT Std';letter-spacing:-1px;word-spacing:1px;stroke-width:15.118;text-orientation:auto;text-anchor:middle;text-align:center;font-stretch:condensed;font-weight:bold;font-style:oblique;opacity:0">
+     style="fill:none;font-size:48px;line-height:1;-inkscape-font-specification:Sensei;font-family:Sensei;letter-spacing:-1px;word-spacing:1px;text-orientation:auto;text-anchor:middle;text-align:center;opacity:0.43197279;stroke:#000000;stroke-width:3">
     <group
-       width="1904"
+       width="992"
        height="1011"
-       x="8"
+       x="206"
        y="33"
        maximized="0"
        fullscreen="0"
