@@ -125,14 +125,15 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="173.716"
-         height="173.716024554773"
+         width="401.304383765994"
+         height="177.164489265502"
          rx="0"
          ry="0" />
       <eventcontext
          id="3dbox"
          style="stroke:none;stroke-linejoin:round;"
-         usecurrent="1">
+         usecurrent="1"
+         persp="perspective1">
         <side
            id="XYfront"
            style="fill:#8686bf;stroke:none;stroke-linejoin:round;"
@@ -164,14 +165,14 @@
          end="0"
          start="0"
          usecurrent="1"
-         rx="50.0000018904559"
-         ry="50.0000018904559" />
+         rx="43.8406207640327"
+         ry="43.8406207640327" />
       <eventcontext
          id="star"
-         magnitude="6"
+         magnitude="7"
          style="fill:yellow;"
          usecurrent="1"
-         proportion="0.958474419805525"
+         proportion="0.900968908991221"
          isflatsided="1" />
       <eventcontext
          id="spiral"
@@ -208,19 +209,19 @@
     <eventcontext
        id="calligraphic"
        style="fill:black;fill-opacity:1;fill-rule:nonzero;stroke:none;"
-       mass="2"
-       angle="30"
-       width="23.4330708661417"
-       thinning="10"
-       flatness="90"
+       mass="0"
+       angle="0"
+       width="50"
+       thinning="0"
+       flatness="0"
        cap_rounding="0"
        usecurrent="1"
-       tracebackground="0"
+       tracebackground="1"
        usepressure="1"
        usetilt="1"
        keep_selected="1"
        abs_width="1"
-       unit="mm"
+       unit="px"
        wiggle="0"
        tremor="0">
       <group
@@ -327,7 +328,7 @@
        id="lpetool"
        mode="drag"
        style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;"
-       unit="px"
+       unit="mm"
        show_bbox="1" />
     <eventcontext
        id="text"
@@ -430,7 +431,7 @@
        gradientdrag="0"
        changelayer="1"
        changepage="1"
-       lock_aspect_ratio="1" />
+       lock_aspect_ratio="0" />
     <eventcontext
        id="paintbucket"
        style="fill:#a0a0a0;stroke:none;"
@@ -633,7 +634,7 @@
        id="align"
        align-to="4"
        sel-as-groups="0"
-       objects-align-to="page" />
+       objects-align-to="smallest" />
     <group
        id="xml"
        h="500"
@@ -667,7 +668,7 @@
        defaultopts="1">
       <group
          id="exportarea"
-         value="drawing" />
+         value="page" />
       <group
          id="defaultxdpi"
          value="96" />
@@ -676,14 +677,14 @@
          value="layer" />
       <group
          id="defaultdpi"
-         value="96" />
+         value="300" />
     </group>
     <group
        id="save_as"
        default="org.inkscape.output.svg.inkscape"
        append_extension="1"
        enable_preview="1"
-       path="/Users/ryan/Downloads"
+       path="/Users/ryan/home/Dungeons and Dragons (DnD)/2025 Halica - Ryan/Discord Icon"
        use_current_dir="1"
        enable_svgexport="0" />
     <group
@@ -696,7 +697,7 @@
     <group
        id="open"
        enable_preview="1"
-       path="/Users/ryan/Downloads/" />
+       path="/Users/ryan/home/Dungeons and Dragons (DnD)/2025 Halica - Ryan/_Mapping - Feralin World Map/" />
     <group
        id="import"
        enable_preview="1"
@@ -934,7 +935,7 @@
        value="2" />
     <group
        id="transform"
-       stroke="0"
+       stroke="1"
        rectcorners="0"
        pattern="0"
        gradient="1" />
@@ -1084,7 +1085,7 @@
        shortcutfile="default.xml" />
     <group
        id="snapping"
-       snap-global-toggle="0"
+       snap-global-toggle="1"
        snap-bbox="1"
        snap-bbox-edge="1"
        snap-bbox-corner="1"
@@ -1194,14 +1195,14 @@
      org.inkscape.effect.filter.ColorDropShadow.yoffset="2.56797583081571"
      org.inkscape.effect.bitmap.emboss.__live_effect__="0"
      pelles.effect.hexmap.units="mm"
-     pelles.effect.hexmap.tab="page_2"
+     pelles.effect.hexmap.tab="page_1"
      pelles.effect.hexmap.rotate="1"
-     pelles.effect.hexmap.hexsize="25"
-     pelles.effect.hexmap.cols="9"
-     pelles.effect.hexmap.rows="9"
+     pelles.effect.hexmap.hexsize="6.9"
+     pelles.effect.hexmap.cols="44"
+     pelles.effect.hexmap.rows="60"
      pelles.effect.hexmap.__live_effect__="0"
-     pelles.effect.hexmap.strokewidth="2"
-     pelles.effect.hexmap.verticesize="5"
+     pelles.effect.hexmap.strokewidth="0.2"
+     pelles.effect.hexmap.verticesize="1"
      pelles.effect.hexmap.layersingroup="1"
      pelles.effect.hexmap.firstcoldown="0"
      pelles.effect.hexmap.halfhexes="0"
@@ -1210,11 +1211,11 @@
      pelles.effect.hexmap.layer_coordinates="0" />
   <group
      id="desktop"
-     style="fill:none;font-size:48px;line-height:1;-inkscape-font-specification:Sensei;font-family:Sensei;letter-spacing:-1px;word-spacing:1px;text-orientation:auto;text-anchor:middle;text-align:center;opacity:0.43197279;stroke:#000000;stroke-width:3">
+     style="fill:none;font-size:48px;line-height:1;-inkscape-font-specification:Sensei;font-family:Sensei;letter-spacing:-1px;word-spacing:1px;text-orientation:auto;text-anchor:middle;text-align:center;stroke-width:0.94488189;stroke:#000000">
     <group
-       width="992"
-       height="1011"
-       x="206"
+       width="1424"
+       height="831"
+       x="8"
        y="33"
        maximized="0"
        fullscreen="0"
