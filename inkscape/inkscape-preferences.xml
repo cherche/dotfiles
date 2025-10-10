@@ -125,8 +125,8 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="401.304383765994"
-         height="177.164489265502"
+         width="1322.83614511567"
+         height="1147.49803918553"
          rx="0"
          ry="0" />
       <eventcontext
@@ -634,7 +634,7 @@
        id="align"
        align-to="4"
        sel-as-groups="0"
-       objects-align-to="smallest" />
+       objects-align-to="page" />
     <group
        id="xml"
        h="500"
@@ -684,7 +684,7 @@
        default="org.inkscape.output.svg.inkscape"
        append_extension="1"
        enable_preview="1"
-       path="/Users/ryan/home/Dungeons and Dragons (DnD)/2025 Halica - Ryan/Discord Icon"
+       path="/Users/ryan/home/Dungeons and Dragons (DnD)/2025 Halica - Ryan/_OLD2 Mapping - Feralin World Map"
        use_current_dir="1"
        enable_svgexport="0" />
     <group
@@ -1211,10 +1211,10 @@
      pelles.effect.hexmap.layer_coordinates="0" />
   <group
      id="desktop"
-     style="fill:none;font-size:48px;line-height:1;-inkscape-font-specification:Sensei;font-family:Sensei;letter-spacing:-1px;word-spacing:1px;text-orientation:auto;text-anchor:middle;text-align:center;stroke-width:0.94488189;stroke:#000000">
+     style="fill:#000000;font-size:48px;line-height:1;-inkscape-font-specification:Sensei;font-family:Sensei;letter-spacing:-1px;word-spacing:1px;text-orientation:auto;text-anchor:middle;text-align:center;stroke-width:0.94488189;opacity:0.40327869">
     <group
-       width="1424"
-       height="831"
+       width="1904"
+       height="1011"
        x="8"
        y="33"
        maximized="0"
