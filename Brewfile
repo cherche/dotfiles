@@ -120,6 +120,7 @@ cask "transmission"
 cask "trilium-notes"
 cask "vlc"
 cask "vscodium"
+cask "xournal++"
 cask "zoom"
 mas "ColorSlurp", id: 1287239339
 mas "GarageBand", id: 682658836
