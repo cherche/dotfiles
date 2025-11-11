@@ -116,6 +116,7 @@ cask "standard-notes"
 cask "steam"
 cask "syntax-highlight"
 cask "thunderbird"
+cask "tiled"
 cask "transmission"
 cask "trilium-notes"
 cask "vlc"
@@ -124,6 +125,7 @@ cask "xournal++"
 cask "zoom"
 mas "ColorSlurp", id: 1287239339
 mas "GarageBand", id: 682658836
+mas "WhatsApp", id: 310633997
 mas "Xcode", id: 497799835
 vscode "janisdd.vscode-edit-csv"
 vscode "mathworks.language-matlab"
