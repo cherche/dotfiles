@@ -125,8 +125,8 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="8.72725088765287"
-         height="23.9999996395562"
+         width="577.302361435777"
+         height="373.075604776698"
          rx="0"
          ry="0" />
       <eventcontext
@@ -328,7 +328,7 @@
        id="lpetool"
        mode="drag"
        style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;"
-       unit="mm"
+       unit="in"
        show_bbox="1" />
     <eventcontext
        id="text"
@@ -339,7 +339,7 @@
        use_svg2="1"
        style="line-height:1.25;font-family:'Open Sans';font-size:21.33329964px;-inkscape-font-specification:'Open Sans, Normal';text-orientation:auto;text-anchor:middle;text-align:center"
        selcue="1"
-       align_mode="1"
+       align_mode="0"
        writing_mode="0"
        orientation_mode="0"
        direction_mode="0">
@@ -431,7 +431,7 @@
        gradientdrag="0"
        changelayer="1"
        changepage="1"
-       lock_aspect_ratio="1" />
+       lock_aspect_ratio="0" />
     <eventcontext
        id="paintbucket"
        style="fill:#a0a0a0;stroke:none;"
@@ -677,7 +677,7 @@
          value="layer" />
       <group
          id="defaultdpi"
-         value="300" />
+         value="600" />
     </group>
     <group
        id="save_as"
@@ -1211,12 +1211,12 @@
      pelles.effect.hexmap.layer_coordinates="0" />
   <group
      id="desktop"
-     style="fill:#000000;font-size:48px;line-height:1;-inkscape-font-specification:Sensei;font-family:Sensei;letter-spacing:-1px;word-spacing:1px;text-orientation:auto;text-anchor:middle;text-align:center;stroke-width:0.94488189;opacity:0.40327869">
+     style="fill:#ffffff;font-size:32px;line-height:1;-inkscape-font-specification:Sensei;font-family:Sensei;letter-spacing:-1px;word-spacing:1px;text-orientation:auto;stroke-width:1.88976378">
     <group
-       width="1424"
-       height="831"
-       x="8"
-       y="33"
+       width="1776"
+       height="867"
+       x="213"
+       y="96"
        maximized="0"
        fullscreen="0"
        id="geometry" />
