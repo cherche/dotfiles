@@ -125,8 +125,8 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="577.302361435777"
-         height="373.075604776698"
+         width="1440.00002151221"
+         height="1870.61599281972"
          rx="0"
          ry="0" />
       <eventcontext
@@ -337,7 +337,7 @@
        font_sample="AaBbCcIiPpQq12369$€¢?.;/()"
        show_sample_in_list="1"
        use_svg2="1"
-       style="line-height:1.25;font-family:'Open Sans';font-size:21.33329964px;-inkscape-font-specification:'Open Sans, Normal';text-orientation:auto;text-anchor:middle;text-align:center"
+       style="line-height:1.25;font-family:'Open Sans';font-size:21.33329964px;-inkscape-font-specification:'Open Sans, Normal';text-orientation:auto"
        selcue="1"
        align_mode="0"
        writing_mode="0"
@@ -431,7 +431,7 @@
        gradientdrag="0"
        changelayer="1"
        changepage="1"
-       lock_aspect_ratio="0" />
+       lock_aspect_ratio="1" />
     <eventcontext
        id="paintbucket"
        style="fill:#a0a0a0;stroke:none;"
@@ -668,7 +668,7 @@
        defaultopts="1">
       <group
          id="exportarea"
-         value="page" />
+         value="selection" />
       <group
          id="defaultxdpi"
          value="96" />
@@ -677,7 +677,7 @@
          value="layer" />
       <group
          id="defaultdpi"
-         value="600" />
+         value="137" />
     </group>
     <group
        id="save_as"
@@ -697,7 +697,7 @@
     <group
        id="open"
        enable_preview="1"
-       path="/Users/ryan/home/Dungeons and Dragons (DnD)/2025 Halica - Ryan/_Mapping - Feralin World Map/" />
+       path="/Users/ryan/" />
     <group
        id="import"
        enable_preview="1"
@@ -1172,7 +1172,7 @@
      org.inkscape.template.paper.max="11.0"
      org.inkscape.template.paper.min="8.5"
      org.inkscape.template.paper.unit="in"
-     org.inkscape.template.paper.orientation="land"
+     org.inkscape.template.paper.orientation="port"
      org.inkscape.template.video.height="4320.0"
      org.inkscape.template.video.unit="px"
      org.inkscape.template.video.width="7680.0"
@@ -1194,29 +1194,30 @@
      org.inkscape.effect.filter.ColorDropShadow.blur="1"
      org.inkscape.effect.filter.ColorDropShadow.yoffset="2.56797583081571"
      org.inkscape.effect.bitmap.emboss.__live_effect__="0"
-     pelles.effect.hexmap.units="mm"
+     pelles.effect.hexmap.units="px"
      pelles.effect.hexmap.tab="page_1"
      pelles.effect.hexmap.rotate="1"
-     pelles.effect.hexmap.hexsize="6.9"
-     pelles.effect.hexmap.cols="44"
-     pelles.effect.hexmap.rows="60"
+     pelles.effect.hexmap.hexsize="24"
+     pelles.effect.hexmap.cols="105"
+     pelles.effect.hexmap.rows="90"
      pelles.effect.hexmap.__live_effect__="0"
-     pelles.effect.hexmap.strokewidth="0.2"
+     pelles.effect.hexmap.strokewidth="1"
      pelles.effect.hexmap.verticesize="1"
      pelles.effect.hexmap.layersingroup="1"
      pelles.effect.hexmap.firstcoldown="0"
      pelles.effect.hexmap.halfhexes="0"
      hardpixel.eu.generate_palette.property="fill"
      hardpixel.eu.generate_palette.name="Mapping"
-     pelles.effect.hexmap.layer_coordinates="0" />
+     pelles.effect.hexmap.layer_coordinates="0"
+     pelles.effect.hexmap.coordrowfirst="1" />
   <group
      id="desktop"
-     style="fill:#ffffff;font-size:32px;line-height:1;-inkscape-font-specification:Sensei;font-family:Sensei;letter-spacing:-1px;word-spacing:1px;text-orientation:auto;stroke-width:1.88976378">
+     style="fill:#00ffff;font-size:32px;line-height:1;-inkscape-font-specification:Sensei;font-family:Sensei;letter-spacing:-1px;word-spacing:1px;text-orientation:auto;stroke-width:1.88976378;opacity:0.44918033">
     <group
-       width="1776"
-       height="867"
-       x="213"
-       y="96"
+       width="1424"
+       height="831"
+       x="8"
+       y="33"
        maximized="0"
        fullscreen="0"
        id="geometry" />
