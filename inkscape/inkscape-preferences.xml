@@ -125,8 +125,8 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="1440.00002151221"
-         height="1870.61599281972"
+         width="437.802205724041"
+         height="97.1519049697033"
          rx="0"
          ry="0" />
       <eventcontext
@@ -328,7 +328,7 @@
        id="lpetool"
        mode="drag"
        style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;"
-       unit="in"
+       unit="px"
        show_bbox="1" />
     <eventcontext
        id="text"
@@ -431,7 +431,7 @@
        gradientdrag="0"
        changelayer="1"
        changepage="1"
-       lock_aspect_ratio="1" />
+       lock_aspect_ratio="0" />
     <eventcontext
        id="paintbucket"
        style="fill:#a0a0a0;stroke:none;"
@@ -668,7 +668,7 @@
        defaultopts="1">
       <group
          id="exportarea"
-         value="selection" />
+         value="page" />
       <group
          id="defaultxdpi"
          value="96" />
@@ -684,7 +684,7 @@
        default="org.inkscape.output.svg.inkscape"
        append_extension="1"
        enable_preview="1"
-       path="/Users/ryan/home/Dungeons and Dragons (DnD)/2025 Halica - Ryan/_OLD2 Mapping - Feralin World Map"
+       path="/Users/ryan/Downloads"
        use_current_dir="1"
        enable_svgexport="0" />
     <group
@@ -697,7 +697,7 @@
     <group
        id="open"
        enable_preview="1"
-       path="/Users/ryan/" />
+       path="/Users/ryan/Downloads/" />
     <group
        id="import"
        enable_preview="1"
@@ -1169,10 +1169,10 @@
      org.inkscape.qr_code.__live_effect__="0"
      org.inkscape.qr_code.drawtype="smooth"
      org.inkscape.output.pdf.cairorenderer.resolution="300"
-     org.inkscape.template.paper.max="11.0"
-     org.inkscape.template.paper.min="8.5"
+     org.inkscape.template.paper.max="42.0"
+     org.inkscape.template.paper.min="30.0"
      org.inkscape.template.paper.unit="in"
-     org.inkscape.template.paper.orientation="port"
+     org.inkscape.template.paper.orientation="land"
      org.inkscape.template.video.height="4320.0"
      org.inkscape.template.video.unit="px"
      org.inkscape.template.video.width="7680.0"
@@ -1182,7 +1182,7 @@
      org.inkscape.template.digital.height="768.0"
      org.inkscape.template.digital.unit="px"
      org.inkscape.template.digital.width="1024.0"
-     org.inkscape.template.other.size="512.0"
+     org.inkscape.template.other.size="32.0"
      org.inkscape.template.other.unit="px"
      org.inkscape.generate.printing_marks.where="canvas"
      org.inkscape.generate.printing_marks.unit="px"
@@ -1212,7 +1212,7 @@
      pelles.effect.hexmap.coordrowfirst="1" />
   <group
      id="desktop"
-     style="fill:#00ffff;font-size:32px;line-height:1;-inkscape-font-specification:Sensei;font-family:Sensei;letter-spacing:-1px;word-spacing:1px;text-orientation:auto;stroke-width:1.88976378;opacity:0.44918033">
+     style="fill:#000000;font-size:96px;line-height:1;-inkscape-font-specification:Futura;font-family:Futura;letter-spacing:-2.49px;word-spacing:1px;text-orientation:auto;stroke-width:1.88976378">
     <group
        width="1424"
        height="831"
