@@ -431,7 +431,7 @@
        gradientdrag="0"
        changelayer="1"
        changepage="1"
-       lock_aspect_ratio="0" />
+       lock_aspect_ratio="1" />
     <eventcontext
        id="paintbucket"
        style="fill:#a0a0a0;stroke:none;"
@@ -782,7 +782,9 @@
      rotationlock="1"
      onimport="0"
      onungroup="0"
-     displaymode="0">
+     displaymode="0"
+     dpifixbackup="1"
+     dpiupdatemethod="1">
     <group
        id="renderingcache"
        size="512" />
@@ -1212,12 +1214,12 @@
      pelles.effect.hexmap.coordrowfirst="1" />
   <group
      id="desktop"
-     style="fill:#000000;font-size:96px;line-height:1;-inkscape-font-specification:Futura;font-family:Futura;letter-spacing:-2.49px;word-spacing:1px;text-orientation:auto;stroke-width:1.88976378">
+     style="fill:#000000;font-size:96px;line-height:1;-inkscape-font-specification:Futura;font-family:Futura;letter-spacing:-2.49px;word-spacing:1px;text-orientation:auto;stroke-width:1.333">
     <group
-       width="1424"
-       height="831"
-       x="8"
-       y="33"
+       width="1320"
+       height="710"
+       x="63"
+       y="93"
        maximized="0"
        fullscreen="0"
        id="geometry" />
