@@ -125,8 +125,8 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="437.802205724041"
-         height="97.1519049697033"
+         width="509.689441590797"
+         height="738.117291307825"
          rx="0"
          ry="0" />
       <eventcontext
@@ -165,14 +165,14 @@
          end="0"
          start="0"
          usecurrent="1"
-         rx="43.8406207640327"
-         ry="43.8406207640327" />
+         rx="3.1132953373466"
+         ry="3.1132953373466" />
       <eventcontext
          id="star"
-         magnitude="7"
+         magnitude="5"
          style="fill:yellow;"
          usecurrent="1"
-         proportion="0.900968908991221"
+         proportion="0.809017009470333"
          isflatsided="1" />
       <eventcontext
          id="spiral"
@@ -328,7 +328,7 @@
        id="lpetool"
        mode="drag"
        style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;"
-       unit="px"
+       unit="in"
        show_bbox="1" />
     <eventcontext
        id="text"
@@ -601,7 +601,7 @@
        panel_mode="1"
        panel_ratio="100"
        panel_wrap="0"
-       palette="/Applications/Inkscape.app/Contents/Resources/share/inkscape/palettes/inkscape.gpl"
+       palette="/Applications/Inkscape.app/Contents/Resources/share/inkscape/palettes/echo-palette.gpl"
        panel_border="0">
       <group
          id="pinned"
@@ -677,7 +677,7 @@
          value="layer" />
       <group
          id="defaultdpi"
-         value="137" />
+         value="300" />
     </group>
     <group
        id="save_as"
@@ -692,7 +692,7 @@
        default="org.inkscape.output.svg.inkscape"
        append_extension="1"
        enable_preview="1"
-       path="/Users/ryan/Downloads"
+       path="/Users/ryan/work/Innis Residence Don 2025/Birthday Cards/mariam"
        enable_svgexport="0" />
     <group
        id="open"
@@ -937,7 +937,7 @@
        value="2" />
     <group
        id="transform"
-       stroke="1"
+       stroke="0"
        rectcorners="0"
        pattern="0"
        gradient="1" />
@@ -1091,15 +1091,15 @@
        snap-bbox="1"
        snap-bbox-edge="1"
        snap-bbox-corner="1"
-       snap-bbox-edge-midpoint="1"
-       snap-bbox-center="1"
+       snap-bbox-edge-midpoint="0"
+       snap-bbox-center="0"
        simple-snap-bbox="1"
        snap-node-category="1"
        snap-path="1"
        snap-path-intersection="1"
        snap-node-cusp="1"
        snap-node-smooth="1"
-       snap-line-midpoint="1"
+       snap-line-midpoint="0"
        snap-line-tangential="1"
        snap-line-perpendicular="1"
        simple-snap-nodes="1"
@@ -1108,7 +1108,7 @@
        snap-distribution="0"
        simple-snap-alignment="0"
        snap-others="1"
-       snap-object-midpoint="1"
+       snap-object-midpoint="0"
        snap-rotation-center="0"
        snap-text-baseline="0"
        snap-path-mask="1"
@@ -1184,7 +1184,7 @@
      org.inkscape.template.digital.height="768.0"
      org.inkscape.template.digital.unit="px"
      org.inkscape.template.digital.width="1024.0"
-     org.inkscape.template.other.size="32.0"
+     org.inkscape.template.other.size="512.0"
      org.inkscape.template.other.unit="px"
      org.inkscape.generate.printing_marks.where="canvas"
      org.inkscape.generate.printing_marks.unit="px"
@@ -1214,12 +1214,12 @@
      pelles.effect.hexmap.coordrowfirst="1" />
   <group
      id="desktop"
-     style="fill:#000000;font-size:96px;line-height:1;-inkscape-font-specification:Futura;font-family:Futura;letter-spacing:-2.49px;word-spacing:1px;text-orientation:auto;stroke-width:1.333">
+     style="fill:#000000;font-size:20px;line-height:1.25;-inkscape-font-specification:'Open Sans';font-family:'Open Sans';letter-spacing:-2.49px;word-spacing:1px;text-orientation:auto;stroke-width:14;paint-order:markers fill stroke">
     <group
-       width="1320"
-       height="710"
-       x="63"
-       y="93"
+       width="1424"
+       height="831"
+       x="8"
+       y="33"
        maximized="0"
        fullscreen="0"
        id="geometry" />
