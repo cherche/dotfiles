@@ -19,7 +19,7 @@ brew "libidn2"
 brew "lame"
 brew "libvorbis"
 brew "libsndfile"
-brew "ffmpeg", args: ["HEAD"]
+brew "ffmpeg"
 brew "fzf"
 brew "git"
 brew "git-filter-repo"

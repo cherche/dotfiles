@@ -351,6 +351,8 @@
        id="nodes"
        selcue="1"
        gradientdrag="1"
+       changelayer="0"
+       changepage="0"
        pathflash_enabled="1"
        pathflash_unselected="0"
        pathflash_timeout="500"
@@ -1065,7 +1067,9 @@
     <group
        id="boot"
        theme="custom"
-       enabled="0">
+       enabled="0"
+       showsplash="0"
+       showwelcome="0">
       <group
          id="shown"
          ver1.1="1"
@@ -1216,8 +1220,8 @@
      id="desktop"
      style="fill:#000000;font-size:20px;line-height:1.25;-inkscape-font-specification:'Open Sans';font-family:'Open Sans';letter-spacing:-2.49px;word-spacing:1px;text-orientation:auto;stroke-width:14;paint-order:markers fill stroke">
     <group
-       width="1424"
-       height="831"
+       width="1904"
+       height="1011"
        x="8"
        y="33"
        maximized="0"
@@ -1252,6 +1256,7 @@
        width="26">
       <group
          id="buttons"
+         showLPETool="0"
          showRect="1"
          showArc="1"
          showMeasure="1"
