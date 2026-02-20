@@ -125,8 +125,8 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="509.689441590797"
-         height="738.117291307825"
+         width="674.818970687745"
+         height="557.459092027558"
          rx="0"
          ry="0" />
       <eventcontext
@@ -165,8 +165,8 @@
          end="0"
          start="0"
          usecurrent="1"
-         rx="3.1132953373466"
-         ry="3.1132953373466" />
+         rx="17.2641856276144"
+         ry="17.2641856276144" />
       <eventcontext
          id="star"
          magnitude="5"
@@ -209,16 +209,16 @@
     <eventcontext
        id="calligraphic"
        style="fill:black;fill-opacity:1;fill-rule:nonzero;stroke:none;"
-       mass="0"
-       angle="0"
-       width="50"
+       mass="2"
+       angle="90"
+       width="2"
        thinning="0"
        flatness="0"
-       cap_rounding="0"
+       cap_rounding="1"
        usecurrent="1"
-       tracebackground="1"
-       usepressure="1"
-       usetilt="1"
+       tracebackground="0"
+       usepressure="0"
+       usetilt="0"
        keep_selected="1"
        abs_width="1"
        unit="px"
@@ -328,7 +328,7 @@
        id="lpetool"
        mode="drag"
        style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;"
-       unit="in"
+       unit="px"
        show_bbox="1" />
     <eventcontext
        id="text"
@@ -657,7 +657,7 @@
     <group
        id="preferences"
        state="1"
-       page="30" />
+       page="18" />
     <group
        id="gradienteditor" />
     <group
@@ -1112,7 +1112,7 @@
        snap-distribution="0"
        simple-snap-alignment="0"
        snap-others="1"
-       snap-object-midpoint="0"
+       snap-object-midpoint="1"
        snap-rotation-center="0"
        snap-text-baseline="0"
        snap-path-mask="1"
@@ -1203,9 +1203,9 @@
      pelles.effect.hexmap.units="px"
      pelles.effect.hexmap.tab="page_1"
      pelles.effect.hexmap.rotate="1"
-     pelles.effect.hexmap.hexsize="24"
-     pelles.effect.hexmap.cols="105"
-     pelles.effect.hexmap.rows="90"
+     pelles.effect.hexmap.hexsize="240"
+     pelles.effect.hexmap.cols="9"
+     pelles.effect.hexmap.rows="9"
      pelles.effect.hexmap.__live_effect__="0"
      pelles.effect.hexmap.strokewidth="1"
      pelles.effect.hexmap.verticesize="1"
@@ -1218,7 +1218,7 @@
      pelles.effect.hexmap.coordrowfirst="1" />
   <group
      id="desktop"
-     style="fill:#000000;font-size:20px;line-height:1.25;-inkscape-font-specification:'Open Sans';font-family:'Open Sans';letter-spacing:-2.49px;word-spacing:1px;text-orientation:auto;stroke-width:14;paint-order:markers fill stroke">
+     style="fill:#ffffff;font-size:20px;line-height:1.25;-inkscape-font-specification:'Open Sans';font-family:'Open Sans';letter-spacing:-2.49px;word-spacing:1px;text-orientation:auto;stroke-width:14;paint-order:markers fill stroke">
     <group
        width="1904"
        height="1011"
