@@ -165,8 +165,8 @@
          end="0"
          start="0"
          usecurrent="1"
-         rx="17.2641856276144"
-         ry="17.2641856276144" />
+         rx="52.8000010092427"
+         ry="52.8000010092427" />
       <eventcontext
          id="star"
          magnitude="5"
@@ -603,7 +603,7 @@
        panel_mode="1"
        panel_ratio="100"
        panel_wrap="0"
-       palette="/Applications/Inkscape.app/Contents/Resources/share/inkscape/palettes/echo-palette.gpl"
+       palette="/Applications/Inkscape.app/Contents/Resources/share/inkscape/palettes/inkscape.gpl"
        panel_border="0">
       <group
          id="pinned"
@@ -636,7 +636,7 @@
        id="align"
        align-to="4"
        sel-as-groups="0"
-       objects-align-to="page" />
+       objects-align-to="biggest" />
     <group
        id="xml"
        h="500"
@@ -1218,10 +1218,10 @@
      pelles.effect.hexmap.coordrowfirst="1" />
   <group
      id="desktop"
-     style="fill:#ffffff;font-size:20px;line-height:1.25;-inkscape-font-specification:'Open Sans';font-family:'Open Sans';letter-spacing:-2.49px;word-spacing:1px;text-orientation:auto;stroke-width:14;paint-order:markers fill stroke">
+     style="fill:#ffccaa;font-size:20px;line-height:1.25;-inkscape-font-specification:'Open Sans';font-family:'Open Sans';letter-spacing:-2.49px;word-spacing:1px;text-orientation:auto;stroke-width:1.152;paint-order:markers fill stroke;stroke:#ba00ff">
     <group
-       width="1904"
-       height="1011"
+       width="1424"
+       height="831"
        x="8"
        y="33"
        maximized="0"
