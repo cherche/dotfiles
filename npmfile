@@ -1,11 +1,3 @@
-cli
-gulp-cli
-n8n
-npm-check
+corepack
 npm
-postcss-cli
-postcss
-pug-cli
-standard
-typescript
-update
+pnpm
