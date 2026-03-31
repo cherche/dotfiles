@@ -165,8 +165,8 @@
          end="0"
          start="0"
          usecurrent="1"
-         rx="50.4000001441775"
-         ry="50.4000001441775" />
+         rx="209.678455262672"
+         ry="209.678455262672" />
       <eventcontext
          id="star"
          magnitude="5"
@@ -339,7 +339,7 @@
        use_svg2="1"
        style="line-height:1.25;font-family:'Open Sans';font-size:21.33329964px;-inkscape-font-specification:'Open Sans, Normal';text-orientation:auto"
        selcue="1"
-       align_mode="0"
+       align_mode="1"
        writing_mode="0"
        orientation_mode="0"
        direction_mode="0">
@@ -603,7 +603,7 @@
        panel_mode="1"
        panel_ratio="100"
        panel_wrap="0"
-       palette="/Applications/Inkscape.app/Contents/Resources/share/inkscape/palettes/inkscape.gpl"
+       palette="/Applications/Inkscape.app/Contents/Resources/share/inkscape/palettes/Tango-Palette.gpl"
        panel_border="0">
       <group
          id="pinned"
@@ -670,7 +670,7 @@
        defaultopts="1">
       <group
          id="exportarea"
-         value="custom" />
+         value="selection" />
       <group
          id="defaultxdpi"
          value="96" />
@@ -1218,7 +1218,7 @@
      pelles.effect.hexmap.coordrowfirst="1" />
   <group
      id="desktop"
-     style="fill:#ffccaa;font-size:20px;line-height:1.25;-inkscape-font-specification:'Open Sans';font-family:'Open Sans';letter-spacing:-2.49px;word-spacing:1px;text-orientation:auto;stroke-width:1.152;paint-order:markers fill stroke;stroke:#ba00ff">
+     style="fill:#ef2929;font-size:18.66666667px;line-height:1.25;-inkscape-font-specification:'Open Sans';font-family:'Open Sans';letter-spacing:-2.49px;word-spacing:1px;text-orientation:auto;stroke-width:1.152;paint-order:markers fill stroke">
     <group
        width="1424"
        height="831"

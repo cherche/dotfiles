@@ -46,7 +46,7 @@ brew "mas"
 brew "mp3splt"
 brew "mp3wrap"
 brew "mupdf"
-brew "node", link: false
+brew "node"
 brew "ocrmypdf"
 brew "openjdk"
 brew "pandoc"
