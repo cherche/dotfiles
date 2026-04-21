@@ -125,8 +125,8 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="674.818970687745"
-         height="557.459092027558"
+         width="10.6740485964797"
+         height="0.448489423811904"
          rx="0"
          ry="0" />
       <eventcontext
@@ -165,8 +165,8 @@
          end="0"
          start="0"
          usecurrent="1"
-         rx="209.678455262672"
-         ry="209.678455262672" />
+         rx="6.29195401049036"
+         ry="10.5819227564053" />
       <eventcontext
          id="star"
          magnitude="5"
@@ -1091,7 +1091,7 @@
        shortcutfile="default.xml" />
     <group
        id="snapping"
-       snap-global-toggle="1"
+       snap-global-toggle="0"
        snap-bbox="1"
        snap-bbox-edge="1"
        snap-bbox-corner="1"
@@ -1218,12 +1218,12 @@
      pelles.effect.hexmap.coordrowfirst="1" />
   <group
      id="desktop"
-     style="fill:#ef2929;font-size:18.66666667px;line-height:1.25;-inkscape-font-specification:'Open Sans';font-family:'Open Sans';letter-spacing:-2.49px;word-spacing:1px;text-orientation:auto;stroke-width:1.152;paint-order:markers fill stroke">
+     style="fill:#d8e9f3;font-size:18.66666667px;line-height:1.25;-inkscape-font-specification:'Open Sans';font-family:'Open Sans';letter-spacing:-2.49px;word-spacing:1px;text-orientation:auto;paint-order:markers fill stroke;stroke-width:0.25">
     <group
-       width="1314"
-       height="710"
-       x="63"
-       y="94"
+       width="1027"
+       height="487"
+       x="8"
+       y="557"
        maximized="0"
        fullscreen="0"
        id="geometry" />
