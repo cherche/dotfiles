@@ -125,8 +125,8 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="10.6740485964797"
-         height="0.448489423811904"
+         width="177.794862281619"
+         height="142.818819781927"
          rx="0"
          ry="0" />
       <eventcontext
@@ -172,7 +172,7 @@
          magnitude="5"
          style="fill:yellow;"
          usecurrent="1"
-         proportion="0.809017009470333"
+         proportion="0.809016988947483"
          isflatsided="1" />
       <eventcontext
          id="spiral"
@@ -328,7 +328,7 @@
        id="lpetool"
        mode="drag"
        style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;"
-       unit="px"
+       unit="in"
        show_bbox="1" />
     <eventcontext
        id="text"
@@ -636,7 +636,7 @@
        id="align"
        align-to="4"
        sel-as-groups="0"
-       objects-align-to="page" />
+       objects-align-to="last" />
     <group
        id="xml"
        h="500"
@@ -657,7 +657,7 @@
     <group
        id="preferences"
        state="1"
-       page="18" />
+       page="30" />
     <group
        id="gradienteditor" />
     <group
@@ -1091,7 +1091,7 @@
        shortcutfile="default.xml" />
     <group
        id="snapping"
-       snap-global-toggle="0"
+       snap-global-toggle="1"
        snap-bbox="1"
        snap-bbox-edge="1"
        snap-bbox-corner="1"

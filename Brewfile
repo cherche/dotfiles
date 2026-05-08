@@ -130,6 +130,7 @@ cask "trilium-notes"
 cask "ungoogled-chromium"
 cask "vlc"
 cask "vscodium"
+cask "xournal++"
 cask "zoom"
 mas "GarageBand", id: 682658836
 mas "WhatsApp", id: 310633997
