@@ -125,8 +125,8 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="177.794862281619"
-         height="142.818819781927"
+         width="5"
+         height="5"
          rx="0"
          ry="0" />
       <eventcontext
@@ -165,14 +165,14 @@
          end="0"
          start="0"
          usecurrent="1"
-         rx="6.29195401049036"
-         ry="10.5819227564053" />
+         rx="6.21554446247436"
+         ry="3.10777223123718" />
       <eventcontext
          id="star"
          magnitude="5"
          style="fill:yellow;"
          usecurrent="1"
-         proportion="0.809016988947483"
+         proportion="0.00213324395325602"
          isflatsided="1" />
       <eventcontext
          id="spiral"
@@ -328,7 +328,7 @@
        id="lpetool"
        mode="drag"
        style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;"
-       unit="in"
+       unit="px"
        show_bbox="1" />
     <eventcontext
        id="text"
@@ -433,7 +433,7 @@
        gradientdrag="0"
        changelayer="1"
        changepage="1"
-       lock_aspect_ratio="1" />
+       lock_aspect_ratio="0" />
     <eventcontext
        id="paintbucket"
        style="fill:#a0a0a0;stroke:none;"
@@ -1103,7 +1103,7 @@
        snap-path-intersection="1"
        snap-node-cusp="1"
        snap-node-smooth="1"
-       snap-line-midpoint="0"
+       snap-line-midpoint="1"
        snap-line-tangential="1"
        snap-line-perpendicular="1"
        simple-snap-nodes="1"
@@ -1203,9 +1203,9 @@
      pelles.effect.hexmap.units="px"
      pelles.effect.hexmap.tab="page_1"
      pelles.effect.hexmap.rotate="1"
-     pelles.effect.hexmap.hexsize="240"
-     pelles.effect.hexmap.cols="9"
-     pelles.effect.hexmap.rows="9"
+     pelles.effect.hexmap.hexsize="24"
+     pelles.effect.hexmap.cols="21"
+     pelles.effect.hexmap.rows="16"
      pelles.effect.hexmap.__live_effect__="0"
      pelles.effect.hexmap.strokewidth="1"
      pelles.effect.hexmap.verticesize="1"
@@ -1215,15 +1215,16 @@
      hardpixel.eu.generate_palette.property="fill"
      hardpixel.eu.generate_palette.name="Mapping"
      pelles.effect.hexmap.layer_coordinates="0"
-     pelles.effect.hexmap.coordrowfirst="1" />
+     pelles.effect.hexmap.coordrowfirst="1"
+     pelles.effect.hexmap.xshift="0" />
   <group
      id="desktop"
-     style="fill:#d8e9f3;font-size:18.66666667px;line-height:1.25;-inkscape-font-specification:'Open Sans';font-family:'Open Sans';letter-spacing:-2.49px;word-spacing:1px;text-orientation:auto;paint-order:markers fill stroke;stroke-width:0.25">
+     style="fill:#fce94f;font-size:18.66666667px;line-height:1.25;-inkscape-font-specification:'Open Sans';font-family:'Open Sans';letter-spacing:-2.49px;word-spacing:1px;text-orientation:auto;paint-order:markers fill stroke">
     <group
-       width="1424"
-       height="831"
-       x="8"
-       y="33"
+       width="1314"
+       height="710"
+       x="63"
+       y="94"
        maximized="0"
        fullscreen="0"
        id="geometry" />
