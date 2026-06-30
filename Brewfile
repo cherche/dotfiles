@@ -5,10 +5,10 @@ tap "homebrew/cask"
 tap "homebrew/core"
 tap "jackielii/tap", trusted: true
 tap "local/yabai", trusted: true
-# Easily download, build, install, upgrade, and uninstall Python packages
-brew "python-setuptools"
 # Message bus system, providing inter-application communication
 brew "dbus"
+# Easily download, build, install, upgrade, and uninstall Python packages
+brew "python-setuptools"
 # Cross-platform make
 brew "cmake"
 # PDF Command-line Tools

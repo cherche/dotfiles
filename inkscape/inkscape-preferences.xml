@@ -328,7 +328,7 @@
        id="lpetool"
        mode="drag"
        style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;"
-       unit="px"
+       unit="in"
        show_bbox="1" />
     <eventcontext
        id="text"
@@ -670,7 +670,7 @@
        defaultopts="1">
       <group
          id="exportarea"
-         value="selection" />
+         value="page" />
       <group
          id="defaultxdpi"
          value="96" />
@@ -1221,10 +1221,10 @@
      id="desktop"
      style="fill:#fce94f;font-size:18.66666667px;line-height:1.25;-inkscape-font-specification:'Open Sans';font-family:'Open Sans';letter-spacing:-2.49px;word-spacing:1px;text-orientation:auto;paint-order:markers fill stroke">
     <group
-       width="1314"
-       height="710"
-       x="63"
-       y="94"
+       width="1040"
+       height="203"
+       x="0"
+       y="25"
        maximized="0"
        fullscreen="0"
        id="geometry" />
