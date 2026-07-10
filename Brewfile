@@ -1,14 +1,18 @@
-tap "asmvik/formulae", "https://github.com/asmvik/homebrew-formulae.git"
+tap "asmvik/formulae", "https://github.com/asmvik/homebrew-formulae.git", trusted: true
 tap "felixkratz/formulae", "https://github.com/FelixKratz/homebrew-formulae", trusted: true
-tap "homebrew-zathura/zathura", "https://github.com/homebrew-zathura/homebrew-zathura.git"
+tap "homebrew-zathura/zathura", "https://github.com/homebrew-zathura/homebrew-zathura.git", trusted: true
 tap "homebrew/cask"
 tap "homebrew/core"
 tap "jackielii/tap", trusted: true
 tap "local/yabai", trusted: true
-# Message bus system, providing inter-application communication
-brew "dbus"
 # Easily download, build, install, upgrade, and uninstall Python packages
 brew "python-setuptools"
+# Library to render SVG files using Cairo
+brew "librsvg"
+# Icons for the GNOME project
+brew "adwaita-icon-theme"
+# Message bus system, providing inter-application communication
+brew "dbus"
 # Cross-platform make
 brew "cmake"
 # PDF Command-line Tools
@@ -17,6 +21,8 @@ brew "cpdf"
 brew "openssl@3"
 # AV1 decoder targeted to be small and fast
 brew "dav1d"
+# Command-line utilities for working with desktop entries
+brew "desktop-file-utils"
 # Good-lookin' diffs with diff-highlight and more
 brew "diff-so-fancy"
 # Viewer for the DjVu image format
@@ -49,6 +55,8 @@ brew "ffmpeg"
 brew "libogg"
 # Command-line fuzzy finder written in Go
 brew "fzf"
+# Common components for zathura
+brew "girara"
 # Distributed revision control system
 brew "git"
 # Quickly rewrite git repository history
@@ -67,14 +75,20 @@ brew "htop"
 brew "imagemagick"
 # Tools for and transforming and inspecting PDF files
 brew "qpdf"
+# String tool
+brew "intltool"
 # Duplicate file finder and an enhanced fork of 'fdupes'
 brew "jdupes"
 # Regular expressions library
 brew "oniguruma"
 # Lightweight and flexible command-line JSON processor
 brew "jq"
+# Library for JSON, based on GLib
+brew "json-glib"
 # Convert ebooks from epub to kepub
 brew "kepubify"
+# Implementation of the file(1) command
+brew "libmagic"
 # Vorbis general audio compression codec
 brew "libvorbis"
 # C library for files containing sampled sound
@@ -101,6 +115,8 @@ brew "poppler"
 brew "pdf2svg"
 # Port of pdftk in java
 brew "pdftk-java"
+# Execute binaries from Python packages in isolated environments
+brew "pipx"
 # Utility for encoding or decoding QR code
 brew "qrtool"
 # Perl-powered file rename script with many helpful built-ins
@@ -131,8 +147,18 @@ brew "yt-dlp"
 brew "z"
 # Additional completion definitions for zsh
 brew "zsh-completions"
+# Simple hotkey-daemon for macOS.
+brew "asmvik/formulae/skhd", args: ["HEAD"]
 # A window border system for macOS
 brew "felixkratz/formulae/borders"
+# PDF viewer
+brew "homebrew-zathura/zathura/zathura"
+# Comic book plugin for zathura
+brew "homebrew-zathura/zathura/zathura-cb"
+# DJVU plugin for zathura
+brew "homebrew-zathura/zathura/zathura-djvu"
+# Poppler backend plugin for zathura
+brew "homebrew-zathura/zathura/zathura-pdf-poppler"
 # A tiling window manager for macOS based on binary space partitioning.
 brew "local/yabai/yabai"
 # View, print, and comment on PDF documents
@@ -255,9 +281,6 @@ cask "vscodium"
 cask "xournal++"
 # Video communication and virtual meeting platform
 cask "zoom"
-mas "GarageBand", id: 682658836
-mas "WhatsApp", id: 310633997
-mas "Xcode", id: 497799835
 vscode "janisdd.vscode-edit-csv"
 vscode "mathworks.language-matlab"
 vscode "ms-ceintl.vscode-language-pack-fr"
