@@ -1088,7 +1088,8 @@
        scaleLineHeightFromFontSIze="1" />
     <group
        id="kbshortcuts"
-       shortcutfile="default.xml" />
+       shortcutfile="default.xml"
+       value="masquer" />
     <group
        id="snapping"
        snap-global-toggle="1"
@@ -1221,10 +1222,10 @@
      id="desktop"
      style="fill:#fce94f;font-size:18.66666667px;line-height:1.25;-inkscape-font-specification:'Open Sans';font-family:'Open Sans';letter-spacing:-2.49px;word-spacing:1px;text-orientation:auto;paint-order:markers fill stroke">
     <group
-       width="1040"
-       height="203"
-       x="0"
-       y="25"
+       width="1762"
+       height="867"
+       x="79"
+       y="105"
        maximized="0"
        fullscreen="0"
        id="geometry" />

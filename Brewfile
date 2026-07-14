@@ -126,7 +126,7 @@ brew "ripgrep-all"
 # Utility that provides fast incremental file transfer
 brew "rsync"
 # Powerful, clean, object-oriented scripting language
-brew "ruby", link: false
+brew "ruby"
 # SOund eXchange: universal sound sample translator
 brew "sox"
 # Scriptable music downloader for Qobuz, Tidal, SoundCloud, and Deezer
@@ -281,6 +281,9 @@ cask "vscodium"
 cask "xournal++"
 # Video communication and virtual meeting platform
 cask "zoom"
+mas "GarageBand", id: 682658836
+mas "WhatsApp", id: 310633997
+mas "Xcode", id: 497799835
 vscode "janisdd.vscode-edit-csv"
 vscode "mathworks.language-matlab"
 vscode "ms-ceintl.vscode-language-pack-fr"
