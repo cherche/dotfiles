@@ -223,8 +223,6 @@ cask "microsoft-word"
 cask "minecraft"
 # Tool to control external monitor brightness & volume
 cask "monitorcontrol"
-# Tool for editing metadata of audio files including MP3, FLAC, OGG, and more
-cask "mp3tag"
 # Open-source music notation software
 cask "musescore"
 # Reverse proxy, secure introspectable tunnels to localhost
