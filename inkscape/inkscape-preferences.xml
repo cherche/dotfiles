@@ -433,7 +433,7 @@
        gradientdrag="0"
        changelayer="1"
        changepage="1"
-       lock_aspect_ratio="0" />
+       lock_aspect_ratio="1" />
     <eventcontext
        id="paintbucket"
        style="fill:#a0a0a0;stroke:none;"
@@ -636,7 +636,7 @@
        id="align"
        align-to="4"
        sel-as-groups="0"
-       objects-align-to="last" />
+       objects-align-to="page" />
     <group
        id="xml"
        h="500"
@@ -670,7 +670,7 @@
        defaultopts="1">
       <group
          id="exportarea"
-         value="page" />
+         value="drawing" />
       <group
          id="defaultxdpi"
          value="96" />
@@ -686,7 +686,7 @@
        default="org.inkscape.output.svg.inkscape"
        append_extension="1"
        enable_preview="1"
-       path="/Users/ryan/Downloads"
+       path="/Users/ryan/Downloads/jamie"
        use_current_dir="1"
        enable_svgexport="0" />
     <group
@@ -1220,12 +1220,12 @@
      pelles.effect.hexmap.xshift="0" />
   <group
      id="desktop"
-     style="fill:#fce94f;font-size:18.66666667px;line-height:1.25;-inkscape-font-specification:'Open Sans';font-family:'Open Sans';letter-spacing:-2.49px;word-spacing:1px;text-orientation:auto;paint-order:markers fill stroke">
+     style="fill:#141414;font-size:96px;line-height:1.25;-inkscape-font-specification:'Star Jedi';font-family:'Star Jedi';letter-spacing:-2.49px;word-spacing:1px;text-orientation:auto;paint-order:markers fill stroke">
     <group
        width="1762"
        height="867"
-       x="79"
-       y="105"
+       x="290"
+       y="131"
        maximized="0"
        fullscreen="0"
        id="geometry" />
