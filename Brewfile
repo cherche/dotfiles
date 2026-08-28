@@ -201,6 +201,8 @@ cask "inkscape"
 cask "keepassxc"
 # Desktop reader for Kobo eBooks
 cask "kobo"
+# Free and open-source painting and sketching program
+cask "krita"
 # Free cross-platform office suite, fresh version
 cask "libreoffice"
 # Open-source cross-platform alternative to AirDrop

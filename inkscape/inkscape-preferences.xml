@@ -125,8 +125,8 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="5"
-         height="5"
+         width="2504.33802223823"
+         height="1082.31300626552"
          rx="0"
          ry="0" />
       <eventcontext
@@ -328,7 +328,7 @@
        id="lpetool"
        mode="drag"
        style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;"
-       unit="in"
+       unit="px"
        show_bbox="1" />
     <eventcontext
        id="text"
@@ -437,7 +437,8 @@
     <eventcontext
        id="paintbucket"
        style="fill:#a0a0a0;stroke:none;"
-       usecurrent="1" />
+       usecurrent="1"
+       threshold="5" />
     <group
        id="geometric"
        mode="drag" />
@@ -1217,15 +1218,34 @@
      hardpixel.eu.generate_palette.name="Mapping"
      pelles.effect.hexmap.layer_coordinates="0"
      pelles.effect.hexmap.coordrowfirst="1"
-     pelles.effect.hexmap.xshift="0" />
+     pelles.effect.hexmap.xshift="0"
+     org.inkscape.filter.fractalize.__live_effect__="0"
+     org.inkscape.filter.fractalize.subdivs="2"
+     org.inkscape.filter.fractalize.smooth="5"
+     org.cutlings.clean_up_path.__live_effect__="0"
+     org.cutlings.clean_up_path.minlength="1.5"
+     org.cutlings.clean_up_path.minUse="1"
+     org.inkscape.filter.add_nodes.method="bymax"
+     org.inkscape.filter.add_nodes.unit="px"
+     org.inkscape.filter.jitter_nodes.dist="Uniform"
+     org.inkscape.filter.jitter_nodes.__live_effect__="0"
+     org.inkscape.filter.jitter_nodes.radiusx="0.3"
+     org.inkscape.filter.jitter_nodes.radiusy="0.3"
+     org.inkscape.filter.jitter_nodes.ctrl="1"
+     org.cutlings.clean_up_path.minUseSub="1"
+     org.cutlings.clean_up_path.closeSub="1"
+     org.cutlings.clean_up_path.joinEndSub="0"
+     org.cutlings.clean_up_path.maxdistClose="0.2"
+     org.cutlings.clean_up_path.minlengthSub="0.5"
+     org.inkscape.filter.jitter_nodes.end="1" />
   <group
      id="desktop"
-     style="fill:#141414;font-size:96px;line-height:1.25;-inkscape-font-specification:'Star Jedi';font-family:'Star Jedi';letter-spacing:-2.49px;word-spacing:1px;text-orientation:auto;paint-order:markers fill stroke">
+     style="fill:none;font-size:96px;line-height:1.25;-inkscape-font-specification:'Star Jedi';font-family:'Star Jedi';letter-spacing:-2.49px;word-spacing:1px;text-orientation:auto;paint-order:markers fill stroke;stroke-dasharray:3.77952737, 3.77952737">
     <group
-       width="1762"
-       height="867"
-       x="290"
-       y="131"
+       width="1040"
+       height="203"
+       x="0"
+       y="25"
        maximized="0"
        fullscreen="0"
        id="geometry" />
