@@ -53,6 +53,8 @@ brew "x265"
 brew "ffmpeg"
 # Ogg Bitstream Library
 brew "libogg"
+# Minimalistic plugin API for video effects
+brew "frei0r"
 # Command-line fuzzy finder written in Go
 brew "fzf"
 # Common components for zathura
@@ -73,6 +75,8 @@ brew "gtk-mac-integration"
 brew "htop"
 # Tools and libraries to manipulate images in select formats
 brew "imagemagick"
+# Library of 2D and 3D vector, matrix, and math operations
+brew "imath"
 # Tools for and transforming and inspecting PDF files
 brew "qpdf"
 # String tool
@@ -87,8 +91,12 @@ brew "jq"
 brew "json-glib"
 # Convert ebooks from epub to kepub
 brew "kepubify"
+# Heavily optimized DEFLATE/zlib/gzip compression and decompression
+brew "libdeflate"
 # Implementation of the file(1) command
 brew "libmagic"
+# Light HTTP/1.1 server library
+brew "libmicrohttpd"
 # Vorbis general audio compression codec
 brew "libvorbis"
 # C library for files containing sampled sound
@@ -105,6 +113,8 @@ brew "mupdf"
 brew "node"
 # Adds an OCR text layer to scanned PDF files
 brew "ocrmypdf"
+# High dynamic-range image file format
+brew "openexr"
 # Development kit for the Java programming language
 brew "openjdk"
 # Swiss-army knife of markup format conversion
@@ -129,6 +139,8 @@ brew "rsync"
 brew "ruby"
 # SOund eXchange: universal sound sample translator
 brew "sox"
+# Secure Reliable Transport
+brew "srt"
 # Scriptable music downloader for Qobuz, Tidal, SoundCloud, and Deezer
 brew "streamrip"
 # Terminal multiplexer

@@ -328,7 +328,7 @@
        id="lpetool"
        mode="drag"
        style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;"
-       unit="px"
+       unit="in"
        show_bbox="1" />
     <eventcontext
        id="text"
@@ -1242,10 +1242,10 @@
      id="desktop"
      style="fill:none;font-size:96px;line-height:1.25;-inkscape-font-specification:'Star Jedi';font-family:'Star Jedi';letter-spacing:-2.49px;word-spacing:1px;text-orientation:auto;paint-order:markers fill stroke;stroke-dasharray:3.77952737, 3.77952737">
     <group
-       width="1040"
-       height="203"
-       x="0"
-       y="25"
+       width="1762"
+       height="867"
+       x="458"
+       y="132"
        maximized="0"
        fullscreen="0"
        id="geometry" />
