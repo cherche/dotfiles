@@ -328,7 +328,7 @@
        id="lpetool"
        mode="drag"
        style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;"
-       unit="in"
+       unit="pt"
        show_bbox="1" />
     <eventcontext
        id="text"
@@ -1240,7 +1240,7 @@
      org.inkscape.filter.jitter_nodes.end="1" />
   <group
      id="desktop"
-     style="fill:none;font-size:96px;line-height:1.25;-inkscape-font-specification:'Star Jedi';font-family:'Star Jedi';letter-spacing:-2.49px;word-spacing:1px;text-orientation:auto;paint-order:markers fill stroke;stroke-dasharray:3.77952737, 3.77952737">
+     style="fill:#ffffff;font-size:96px;line-height:1.25;-inkscape-font-specification:'Star Jedi';font-family:'Star Jedi';letter-spacing:-2.49px;word-spacing:1px;text-orientation:auto;paint-order:markers fill stroke;stroke-dasharray:3.77952737, 3.77952737">
     <group
        width="1314"
        height="710"

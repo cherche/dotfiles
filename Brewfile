@@ -203,8 +203,6 @@ cask "discord"
 cask "firefox"
 # Audio converter and CD ripper
 cask "freac"
-# Free and open-source image editor
-cask "gimp"
 # Utility to hide menu bar items
 cask "hiddenbar"
 # Vector graphics editor
@@ -233,8 +231,6 @@ cask "microsoft-powerpoint"
 cask "microsoft-teams"
 # Word processor
 cask "microsoft-word"
-# Sandbox construction video game
-cask "minecraft"
 # Tool to control external monitor brightness & volume
 cask "monitorcontrol"
 # Open-source music notation software
@@ -259,8 +255,6 @@ cask "protonvpn"
 cask "r-app"
 # Data science software focusing on R and Python
 cask "rstudio"
-# Mathematics software system
-cask "sage"
 # Free and open-source page layout program
 cask "scribus"
 # Instant messaging application focusing on security
@@ -277,8 +271,6 @@ cask "steam"
 cask "syntax-highlight"
 # Customizable email client
 cask "thunderbird"
-# Flexible level editor
-cask "tiled"
 # Open-source BitTorrent client
 cask "transmission"
 # Hierarchical note taking application
@@ -289,8 +281,6 @@ cask "ungoogled-chromium"
 cask "vlc"
 # Binary releases of VS Code without MS branding/telemetry/licensing
 cask "vscodium"
-# Handwriting notetaking software
-cask "xournal++"
 # Video communication and virtual meeting platform
 cask "zoom"
 mas "GarageBand", id: 682658836
