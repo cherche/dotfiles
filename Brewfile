@@ -5,8 +5,6 @@ tap "homebrew/cask"
 tap "homebrew/core"
 tap "jackielii/tap", trusted: true
 tap "local/yabai", trusted: true
-# Easily download, build, install, upgrade, and uninstall Python packages
-brew "python-setuptools"
 # Library to render SVG files using Cairo
 brew "librsvg"
 # Icons for the GNOME project
@@ -18,7 +16,7 @@ brew "cmake"
 # PDF Command-line Tools
 brew "cpdf"
 # Cryptography and SSL/TLS Toolkit
-brew "openssl@3"
+brew "openssl@3", link: true
 # AV1 decoder targeted to be small and fast
 brew "dav1d"
 # Command-line utilities for working with desktop entries
@@ -121,6 +119,8 @@ brew "openjdk"
 brew "pandoc"
 # PDF rendering library (based on the xpdf-3.0 code base)
 brew "poppler"
+# Easily download, build, install, upgrade, and uninstall Python packages
+brew "python-setuptools"
 # PDF converter to SVG
 brew "pdf2svg"
 # Port of pdftk in java
