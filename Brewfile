@@ -16,7 +16,7 @@ brew "cmake"
 # PDF Command-line Tools
 brew "cpdf"
 # Cryptography and SSL/TLS Toolkit
-brew "openssl@3", link: true
+brew "openssl@3"
 # AV1 decoder targeted to be small and fast
 brew "dav1d"
 # Command-line utilities for working with desktop entries
@@ -143,6 +143,8 @@ brew "sox"
 brew "srt"
 # Scriptable music downloader for Qobuz, Tidal, SoundCloud, and Deezer
 brew "streamrip"
+# Granddaddy of HTML tools, with support for modern standards
+brew "tidy-html5"
 # Terminal multiplexer
 brew "tmux"
 # CLI tool that moves files or folder to the trash
