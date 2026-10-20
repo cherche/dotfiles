@@ -15,14 +15,14 @@ brew "dbus"
 brew "cmake"
 # PDF Command-line Tools
 brew "cpdf"
-# Cryptography and SSL/TLS Toolkit
-brew "openssl@3"
 # AV1 decoder targeted to be small and fast
 brew "dav1d"
 # Command-line utilities for working with desktop entries
 brew "desktop-file-utils"
 # Good-lookin' diffs with diff-highlight and more
 brew "diff-so-fancy"
+# Cryptography and SSL/TLS Toolkit
+brew "openssl@3"
 # Viewer for the DjVu image format
 brew "djview4"
 # Interpreted, interactive, object-oriented programming language
