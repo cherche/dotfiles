@@ -251,8 +251,6 @@ cask "pika"
 cask "praat"
 # Minecraft launcher
 cask "prismlauncher"
-# VPN client focusing on security
-cask "protonvpn"
 # Environment for statistical computing and graphics
 cask "r-app"
 # Data science software focusing on R and Python
