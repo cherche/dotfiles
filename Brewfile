@@ -1,6 +1,5 @@
 tap "asmvik/formulae", "https://github.com/asmvik/homebrew-formulae.git", trusted: true
 tap "felixkratz/formulae", "https://github.com/FelixKratz/homebrew-formulae", trusted: true
-tap "homebrew-zathura/zathura", "https://github.com/homebrew-zathura/homebrew-zathura.git", trusted: true
 tap "homebrew/cask"
 tap "homebrew/core"
 tap "jackielii/tap", trusted: true
@@ -25,10 +24,6 @@ brew "diff-so-fancy"
 brew "openssl@3"
 # Viewer for the DjVu image format
 brew "djview4"
-# Interpreted, interactive, object-oriented programming language
-brew "python@3.13"
-# Small tool to convert Djvu files to PDF files
-brew "djvu2pdf"
 # Perl lib for reading and writing EXIF metadata
 brew "exiftool"
 # EXIF and IPTC metadata manipulation library and tools
@@ -59,6 +54,8 @@ brew "fzf"
 brew "girara"
 # Distributed revision control system
 brew "git"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.13"
 # Quickly rewrite git repository history
 brew "git-filter-repo"
 # Git extension for versioning large files
@@ -165,14 +162,6 @@ brew "zsh-completions"
 brew "asmvik/formulae/skhd", args: ["HEAD"]
 # A window border system for macOS
 brew "felixkratz/formulae/borders"
-# PDF viewer
-brew "homebrew-zathura/zathura/zathura"
-# Comic book plugin for zathura
-brew "homebrew-zathura/zathura/zathura-cb"
-# DJVU plugin for zathura
-brew "homebrew-zathura/zathura/zathura-djvu"
-# Poppler backend plugin for zathura
-brew "homebrew-zathura/zathura/zathura-pdf-poppler"
 # A tiling window manager for macOS based on binary space partitioning.
 brew "local/yabai/yabai"
 # View, print, and comment on PDF documents
@@ -253,6 +242,8 @@ cask "praat"
 cask "prismlauncher"
 # Environment for statistical computing and graphics
 cask "r-app"
+# Ebook reader
+cask "readest"
 # Data science software focusing on R and Python
 cask "rstudio"
 # Free and open-source page layout program

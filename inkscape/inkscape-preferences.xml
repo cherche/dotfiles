@@ -125,8 +125,8 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="938.813806067117"
-         height="1108.40597636948"
+         width="714.744313737106"
+         height="132.210369753353"
          rx="0"
          ry="0" />
       <eventcontext
@@ -328,7 +328,7 @@
        id="lpetool"
        mode="drag"
        style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;"
-       unit="px"
+       unit="in"
        show_bbox="1" />
     <eventcontext
        id="text"
@@ -1240,7 +1240,7 @@
      org.inkscape.filter.jitter_nodes.end="1" />
   <group
      id="desktop"
-     style="fill:#000000;font-size:16px;line-height:1.25;-inkscape-font-specification:Aladin;font-family:Aladin;letter-spacing:-2.49px;word-spacing:1px;text-orientation:auto;paint-order:markers fill stroke;stroke-width:2;fill-opacity:0">
+     style="fill:#fce94f;font-size:16px;line-height:1.25;-inkscape-font-specification:Aladin;font-family:Aladin;letter-spacing:-2.49px;word-spacing:1px;text-orientation:auto;paint-order:markers fill stroke;stroke-width:2">
     <group
        width="1314"
        height="710"
