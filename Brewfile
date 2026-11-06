@@ -163,7 +163,7 @@ brew "asmvik/formulae/skhd", args: ["HEAD"]
 # A window border system for macOS
 brew "felixkratz/formulae/borders"
 # A tiling window manager for macOS based on binary space partitioning.
-brew "local/yabai/yabai"
+brew "local/yabai/yabai", pin: true
 # View, print, and comment on PDF documents
 cask "adobe-acrobat-reader"
 # E-book reader
