@@ -146,6 +146,8 @@ brew "tidy-html5"
 brew "tmux"
 # CLI tool that moves files or folder to the trash
 brew "trash", link: true
+# Display directories as trees (with optional color/HTML output)
+brew "tree"
 # Command-line unarchiving tools supporting multiple formats
 brew "unar"
 # Vi 'workalike' with many additional features
