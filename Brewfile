@@ -9,7 +9,7 @@ brew "librsvg"
 # Icons for the GNOME project
 brew "adwaita-icon-theme"
 # Message bus system, providing inter-application communication
-brew "dbus"
+brew "dbus", restart_service: :changed
 # Cross-platform make
 brew "cmake"
 # PDF Command-line Tools
