@@ -1093,7 +1093,7 @@
        value="masquer" />
     <group
        id="snapping"
-       snap-global-toggle="1"
+       snap-global-toggle="0"
        snap-bbox="1"
        snap-bbox-edge="1"
        snap-bbox-corner="1"
@@ -1240,12 +1240,12 @@
      org.inkscape.filter.jitter_nodes.end="1" />
   <group
      id="desktop"
-     style="fill:#fce94f;font-size:16px;line-height:1.25;-inkscape-font-specification:Aladin;font-family:Aladin;letter-spacing:-2.49px;word-spacing:1px;text-orientation:auto;paint-order:markers fill stroke;stroke-width:2">
+     style="fill:#4e9a06;font-size:16px;line-height:1.25;-inkscape-font-specification:Aladin;font-family:Aladin;letter-spacing:-2.49px;word-spacing:1px;text-orientation:auto;paint-order:markers fill stroke;stroke-width:2">
     <group
-       width="1314"
-       height="710"
-       x="63"
-       y="94"
+       width="1190"
+       height="1011"
+       x="1448"
+       y="33"
        maximized="0"
        fullscreen="0"
        id="geometry" />

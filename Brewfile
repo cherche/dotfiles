@@ -150,6 +150,8 @@ brew "trash", link: true
 brew "tree"
 # Command-line unarchiving tools supporting multiple formats
 brew "unar"
+# Extremely fast Python package installer and resolver, written in Rust
+brew "uv"
 # Vi 'workalike' with many additional features
 brew "vim"
 # Internet file retriever
@@ -284,6 +286,7 @@ vscode "mathworks.language-matlab"
 vscode "ms-ceintl.vscode-language-pack-fr"
 vscode "redhat.vscode-yaml"
 go "github.com/Lofter1/anyflip-downloader"
+uv "kokoro-tts"
 npm "@dice-roller/cli"
 npm "gulp-cli"
 npm "n"
