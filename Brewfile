@@ -278,6 +278,8 @@ cask "vlc"
 cask "vscodium"
 # Video communication and virtual meeting platform
 cask "zoom"
+# Collect, organise, cite, and share research sources
+cask "zotero"
 mas "GarageBand", id: 682658836
 mas "WhatsApp", id: 310633997
 mas "Xcode", id: 497799835
